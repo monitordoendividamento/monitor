@@ -162,3 +162,4 @@ cython_debug/
 /csvs
 *.zip
 /py_files/planilha*
+token
