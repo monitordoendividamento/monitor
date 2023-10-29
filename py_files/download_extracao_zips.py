@@ -8,6 +8,9 @@ import subprocess
 import shutil
 import pandas
 
+token = os.getenv('GIT_TOKEN')
+if not token:
+    raise ValueError("Token do GIT não encontrado")
 
 #cron
 #*/1 * * * * cd ~/Projects/monitor/py_files/ && ~/Projects/monitor/venv/bin/python3 ~/Projects/monitor/py_files/download_extracao_zips.py >> ~/Projects/monitor/py_files/log.txt 2>&1
@@ -51,7 +54,12 @@ def copiar_csv(arquivo):
 
 
 def git_add_commit_push(message):
+    url_repositorio_original = "https://github.com/monitordoendividamento/monitor.git"
+    url_com_token = url_repositorio_original.replace('https://', f'https://{token}@')
     try:
+         # Configura a URL do repositório remoto com o token
+        subprocess.run(["git", "-C", diretorio_git, "remote", "set-url", "origin", url_com_token], check=True)
+
         # Navega até o diretório do repositório
         subprocess.run(["git", "-C", diretorio_streamlit, "add", "."], check=True)
 
