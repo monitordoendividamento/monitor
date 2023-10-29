@@ -59,7 +59,7 @@ def git_add_commit_push(message):
         subprocess.run(["git", "-C", diretorio_streamlit, "commit", "-am", message], check=True)
 
         # Push para o repositório remoto
-        subprocess.run(["git", "-C", diretorio_streamlit, "push"], check=True)
+        subprocess.run(["git", "-C", diretorio_streamlit, "push", "origin" , "main"], check=True)
         print("Git add, commit e push realizados com sucesso.")
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar comandos do Git: {e}")
