@@ -96,19 +96,19 @@ df_total.head(3)
 # In[16]:
 
 
-fig = px.line(df_total, 
-             x='data_base',
-             y='carteira_ativa_deflacionada', 
-             color='modalidade', 
-             animation_frame='ocupacao')
+# fig = px.line(df_total, 
+#              x='data_base',
+#              y='carteira_ativa_deflacionada', 
+#              color='modalidade', 
+#              animation_frame='ocupacao')
 
-fig.update_layout(title_text='Pessoa Física - Carteira Ativa por Modalidade de Crédito e Ocupação',
-             xaxis_title='Ocupação',
-             yaxis_title='Carteira Ativa',
-             height=500, 
-             width=800)
+# fig.update_layout(title_text='Pessoa Física - Carteira Ativa por Modalidade de Crédito e Ocupação',
+#              xaxis_title='Ocupação',
+#              yaxis_title='Carteira Ativa',
+#              height=500, 
+#              width=800)
 
-fig.show()
+# fig.show()
 
 
 # In[18]:

@@ -146,35 +146,35 @@ df_acumulado_corte.to_csv("pj_cnaesecao_cnaesubclasse_endividamento.csv")
 df_acumulado_corte.head(5)
 
 
-# In[35]:
+# # In[35]:
 
 
-import plotly.express as px
-import numpy as np
+# import plotly.express as px
+# import numpy as np
 
 
-# In[106]:
+# # In[106]:
 
 
-fig = px.treemap(df_acumulado_corte, 
-                 path=['cnae_secao', 'cnae_subclasse'],
-                 values='valor_deflacionado')
+# fig = px.treemap(df_acumulado_corte, 
+#                  path=['cnae_secao', 'cnae_subclasse'],
+#                  values='valor_deflacionado')
 
-fig.update_layout(title='Endividamento do Agro por subsetor - Ano 2022',
-                  margin=dict(t=50, l=25, r=25, b=25),
-                 template = "seaborn")
+# fig.update_layout(title='Endividamento do Agro por subsetor - Ano 2022',
+#                   margin=dict(t=50, l=25, r=25, b=25),
+#                  template = "seaborn")
 
-fig.update_traces(textinfo='label+percent entry',
-                 marker_line_width = 1,
-                  hovertemplate='%{label} <br> $%{value:,.2f} <br> %{percentRoot}',
-                 textposition="top left",
-                 textfont_size = 12,
-                 textfont_color = 'white')
+# fig.update_traces(textinfo='label+percent entry',
+#                  marker_line_width = 1,
+#                   hovertemplate='%{label} <br> $%{value:,.2f} <br> %{percentRoot}',
+#                  textposition="top left",
+#                  textfont_size = 12,
+#                  textfont_color = 'white')
 
-fig.show()
+# fig.show()
 
 
-# In[ ]:
+# # In[ ]:
 
 
 

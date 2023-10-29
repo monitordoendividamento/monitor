@@ -213,41 +213,41 @@ df_micro_peq_problematico.head(5)
 # In[29]:
 
 
-# Criar a figura
-fig = go.Figure()
+# # Criar a figura
+# fig = go.Figure()
 
-# Adicionar as barras empilhadas
-fig.add_trace(go.Bar(x=df_total_micro['data_base'], y=df_total_micro['curto_prazo_deflacionado'], name='curto_prazo_deflacionado'))
-fig.add_trace(go.Bar(x=df_total_micro['data_base'], y=df_total_micro['ativo_problematico_deflacionado'], name='ativo_problematico_deflacionado'))
+# # Adicionar as barras empilhadas
+# fig.add_trace(go.Bar(x=df_total_micro['data_base'], y=df_total_micro['curto_prazo_deflacionado'], name='curto_prazo_deflacionado'))
+# fig.add_trace(go.Bar(x=df_total_micro['data_base'], y=df_total_micro['ativo_problematico_deflacionado'], name='ativo_problematico_deflacionado'))
 
-# Atualizar as configurações das barras para empilhamento
-fig.update_traces(marker_line_width=0, opacity=0.7)
+# # Atualizar as configurações das barras para empilhamento
+# fig.update_traces(marker_line_width=0, opacity=0.7)
 
-# Configurar o layout do gráfico
-fig.update_layout(barmode='group', xaxis_title='Ano', yaxis_title='Valores em reais', title='Endividamento das Micro Empresas X Ativo Problemático - Anos 2012 a 2023')
+# # Configurar o layout do gráfico
+# fig.update_layout(barmode='group', xaxis_title='Ano', yaxis_title='Valores em reais', title='Endividamento das Micro Empresas X Ativo Problemático - Anos 2012 a 2023')
 
-# Mostrar o gráfico
-fig.show()
-
-
-# In[22]:
+# # Mostrar o gráfico
+# fig.show()
 
 
-# Criar a figura
-fig = go.Figure()
+# # In[22]:
 
-# Adicionar as barras empilhadas
-fig.add_trace(go.Bar(x=df_total_pequeno['data_base'], y=df_total_pequeno['curto_prazo_deflacionado'], name='curto_prazo_deflacionado'))
-fig.add_trace(go.Bar(x=df_total_pequeno['data_base'], y=df_total_pequeno['ativo_problematico_deflacionado'], name='ativo_problematico_deflacionado'))
 
-# Atualizar as configurações das barras para empilhamento
-fig.update_traces(marker_line_width=0, opacity=0.7)
+# # Criar a figura
+# fig = go.Figure()
 
-# Configurar o layout do gráfico
-fig.update_layout(barmode='group', xaxis_title='Ano', yaxis_title='Valores em reais', title='Endividamento das Pequenas Empresas X Ativo Problemático - Anos 2012 a 2023')
+# # Adicionar as barras empilhadas
+# fig.add_trace(go.Bar(x=df_total_pequeno['data_base'], y=df_total_pequeno['curto_prazo_deflacionado'], name='curto_prazo_deflacionado'))
+# fig.add_trace(go.Bar(x=df_total_pequeno['data_base'], y=df_total_pequeno['ativo_problematico_deflacionado'], name='ativo_problematico_deflacionado'))
 
-# Mostrar o gráfico
-fig.show()
+# # Atualizar as configurações das barras para empilhamento
+# fig.update_traces(marker_line_width=0, opacity=0.7)
+
+# # Configurar o layout do gráfico
+# fig.update_layout(barmode='group', xaxis_title='Ano', yaxis_title='Valores em reais', title='Endividamento das Pequenas Empresas X Ativo Problemático - Anos 2012 a 2023')
+
+# # Mostrar o gráfico
+# fig.show()
 
 
 # In[30]:
@@ -262,23 +262,23 @@ df_micro_peq_problematico = df_micro_peq_problematico.rename(columns={
 # In[31]:
 
 
-fig = px.bar(df_micro_peq_problematico, 
-             x='data_base', 
-             y=['Endividamento de Curto Prazo', 'Ativo Problemático'],
-             facet_col='porte', 
-             labels={'data_base': ''},
-             template="seaborn")
+# fig = px.bar(df_micro_peq_problematico, 
+#              x='data_base', 
+#              y=['Endividamento de Curto Prazo', 'Ativo Problemático'],
+#              facet_col='porte', 
+#              labels={'data_base': ''},
+#              template="seaborn")
 
-fig.update_layout(
-    barmode='group',
-    yaxis_title="Endividamento de curto prazo e ativo problemático, em que há pouca expectativa de pagamento",
-    legend_title_text='tipo de endividamento',
-    legend=dict(x=0.5, y=-0.15, xanchor='center', yanchor='top', orientation = 'h'),
-        xaxis=dict(dtick="M24"),
-        xaxis2=dict(dtick="M24")
-)
+# fig.update_layout(
+#     barmode='group',
+#     yaxis_title="Endividamento de curto prazo e ativo problemático, em que há pouca expectativa de pagamento",
+#     legend_title_text='tipo de endividamento',
+#     legend=dict(x=0.5, y=-0.15, xanchor='center', yanchor='top', orientation = 'h'),
+#         xaxis=dict(dtick="M24"),
+#         xaxis2=dict(dtick="M24")
+# )
 
-fig.show()
+# fig.show()
 
 
 # In[32]:

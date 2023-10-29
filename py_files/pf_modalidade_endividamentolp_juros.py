@@ -134,43 +134,43 @@ df_juros_divida = df_juros_divida.drop(columns = ['data_base', 'longo_prazo'])
 # In[15]:
 
 
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 
 
 # In[16]:
 
 
-fig = go.Figure()
+# fig = go.Figure()
 
-for modalidade in df_juros_divida['modalidade'].unique():
-    subset = df_juros_divida[df_juros_divida['modalidade'] == modalidade]
-    fig.add_trace(go.Scatter(x=subset['data'],
-                             y=subset['longo_prazo_deflacionado'],
-                             mode='lines',
-                             name=f'{modalidade}'))
+# for modalidade in df_juros_divida['modalidade'].unique():
+#     subset = df_juros_divida[df_juros_divida['modalidade'] == modalidade]
+#     fig.add_trace(go.Scatter(x=subset['data'],
+#                              y=subset['longo_prazo_deflacionado'],
+#                              mode='lines',
+#                              name=f'{modalidade}'))
 
-# Adicionando a coluna 'valor' ao segundo eixo y
-fig.add_trace(go.Scatter(x=df_juros_divida['data'],
-                         y=df_juros_divida['valor'], 
-                         mode='lines',
-                         name='taxa de juros média PF',
-                         yaxis='y2', opacity=1,
-                        line=dict(color='dimgray', width=2, dash='dot')))
+# # Adicionando a coluna 'valor' ao segundo eixo y
+# fig.add_trace(go.Scatter(x=df_juros_divida['data'],
+#                          y=df_juros_divida['valor'], 
+#                          mode='lines',
+#                          name='taxa de juros média PF',
+#                          yaxis='y2', opacity=1,
+#                         line=dict(color='dimgray', width=2, dash='dot')))
 
-fig.update_layout(yaxis2=dict(overlaying='y',
-                              side='right',
-                             showgrid=False,
-                             title = "Endividamento de longo prazo"),
-                 template="seaborn",
-                  legend=dict(x = 0.5,
-                              y = -0.3,
-                              orientation='h',
-                              xanchor='center'),
-                 xaxis=dict(showgrid=False),
-                 yaxis=dict(showgrid=False,
-                           title = "Taxa de juros média PF"))
+# fig.update_layout(yaxis2=dict(overlaying='y',
+#                               side='right',
+#                              showgrid=False,
+#                              title = "Endividamento de longo prazo"),
+#                  template="seaborn",
+#                   legend=dict(x = 0.5,
+#                               y = -0.3,
+#                               orientation='h',
+#                               xanchor='center'),
+#                  xaxis=dict(showgrid=False),
+#                  yaxis=dict(showgrid=False,
+#                            title = "Taxa de juros média PF"))
 
-fig.show()
+# fig.show()
 
 
 # In[17]:

@@ -114,118 +114,118 @@ df_total = df_total.sort_values(by='data_base')
 df_total.to_csv("pf_rendimento_modalidade_noperacoes_endividamento.csv")
 
 
-# In[10]:
+# # In[10]:
 
 
-import dash
-from dash import Dash, dcc, html, Input, Output
-import plotly.express as px
+# import dash
+# from dash import Dash, dcc, html, Input, Output
+# import plotly.express as px
 
 
-# In[18]:
+# # In[18]:
 
 
-import pandas as pd
-import plotly.express as px
-from dash import Dash, dcc, html, Input, Output
+# import pandas as pd
+# import plotly.express as px
+# from dash import Dash, dcc, html, Input, Output
 
-# Inicializando o aplicativo Dash
-app = Dash(__name__)
+# # Inicializando o aplicativo Dash
+# app = Dash(__name__)
 
-# Layout do aplicativo
-app.layout = html.Div([
-    dcc.Dropdown(
-        id='porte-dropdown',
-        options=[{'label': porte, 'value': porte} for porte in df_total['porte'].unique()],
-        value=df_total['porte'].unique()[0]
-    ),
-    dcc.Graph(id='line-chart')
-])
+# # Layout do aplicativo
+# app.layout = html.Div([
+#     dcc.Dropdown(
+#         id='porte-dropdown',
+#         options=[{'label': porte, 'value': porte} for porte in df_total['porte'].unique()],
+#         value=df_total['porte'].unique()[0]
+#     ),
+#     dcc.Graph(id='line-chart')
+# ])
 
-# Callback para atualizar o gráfico com base na seleção do dropdown
-@app.callback(
-    Output('line-chart', 'figure'),
-    [Input('porte-dropdown', 'value')]
-)
-def update_graph(selected_porte):
-    filtered_df = df_total[df_total['porte'] == selected_porte]
+# # Callback para atualizar o gráfico com base na seleção do dropdown
+# @app.callback(
+#     Output('line-chart', 'figure'),
+#     [Input('porte-dropdown', 'value')]
+# )
+# def update_graph(selected_porte):
+#     filtered_df = df_total[df_total['porte'] == selected_porte]
     
-    fig = px.line(filtered_df, 
-                  x='data_base', 
-                  y='longo_prazo_deflacionado', 
-                  color='modalidade')
+#     fig = px.line(filtered_df, 
+#                   x='data_base', 
+#                   y='longo_prazo_deflacionado', 
+#                   color='modalidade')
     
-    fig.update_layout(
-        title_text='Endividamento de Longo Prazo por Modalidade',
-        xaxis_title='Data',
-        yaxis_title='Endividamento de Longo Prazo Deflacionado',
-        template="seaborn",
-        legend=dict(
-            x=0.5,
-            y=-0.3,
-            orientation='h',
-            xanchor='center'
-        ),
-        xaxis=dict(showgrid=False),
-        yaxis=dict(showgrid=False)
-    )
-    return fig
+#     fig.update_layout(
+#         title_text='Endividamento de Longo Prazo por Modalidade',
+#         xaxis_title='Data',
+#         yaxis_title='Endividamento de Longo Prazo Deflacionado',
+#         template="seaborn",
+#         legend=dict(
+#             x=0.5,
+#             y=-0.3,
+#             orientation='h',
+#             xanchor='center'
+#         ),
+#         xaxis=dict(showgrid=False),
+#         yaxis=dict(showgrid=False)
+#     )
+#     return fig
 
-# Executando o aplicativo
-if __name__ == '__main__':
-    app.run_server(debug=True)
-
-
-# In[20]:
+# # Executando o aplicativo
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
 
 
-import pandas as pd
-import plotly.express as px
-from dash import Dash, dcc, html, Input, Output
+# # In[20]:
 
-# Inicializando o aplicativo Dash
-app = Dash(__name__)
 
-# Layout do aplicativo
-app.layout = html.Div([
-    dcc.Dropdown(
-        id='porte-dropdown',
-        options=[{'label': porte, 'value': porte} for porte in df_total['porte'].unique()],
-        value=df_total['porte'].unique()[0]
-    ),
-    dcc.Graph(id='line-chart')
-])
+# import pandas as pd
+# import plotly.express as px
+# from dash import Dash, dcc, html, Input, Output
 
-# Callback para atualizar o gráfico com base na seleção do dropdown
-@app.callback(
-    Output('line-chart', 'figure'),
-    [Input('porte-dropdown', 'value')]
-)
-def update_graph(selected_porte):
-    filtered_df = df_total[df_total['porte'] == selected_porte]
+# # Inicializando o aplicativo Dash
+# app = Dash(__name__)
+
+# # Layout do aplicativo
+# app.layout = html.Div([
+#     dcc.Dropdown(
+#         id='porte-dropdown',
+#         options=[{'label': porte, 'value': porte} for porte in df_total['porte'].unique()],
+#         value=df_total['porte'].unique()[0]
+#     ),
+#     dcc.Graph(id='line-chart')
+# ])
+
+# # Callback para atualizar o gráfico com base na seleção do dropdown
+# @app.callback(
+#     Output('line-chart', 'figure'),
+#     [Input('porte-dropdown', 'value')]
+# )
+# def update_graph(selected_porte):
+#     filtered_df = df_total[df_total['porte'] == selected_porte]
     
-    fig = px.line(filtered_df, 
-                  x='data_base', 
-                  y='numero_de_operacoes', 
-                  color='modalidade')
+#     fig = px.line(filtered_df, 
+#                   x='data_base', 
+#                   y='numero_de_operacoes', 
+#                   color='modalidade')
     
-    fig.update_layout(
-        title_text='Endividamento de Longo Prazo por Modalidade',
-        xaxis_title='Data',
-        yaxis_title='Endividamento de Longo Prazo Deflacionado',
-        template="seaborn",
-        legend=dict(
-            x=0.5,
-            y=-0.3,
-            orientation='h',
-            xanchor='center'
-        ),
-        xaxis=dict(showgrid=False),
-        yaxis=dict(showgrid=False)
-    )
-    return fig
+#     fig.update_layout(
+#         title_text='Endividamento de Longo Prazo por Modalidade',
+#         xaxis_title='Data',
+#         yaxis_title='Endividamento de Longo Prazo Deflacionado',
+#         template="seaborn",
+#         legend=dict(
+#             x=0.5,
+#             y=-0.3,
+#             orientation='h',
+#             xanchor='center'
+#         ),
+#         xaxis=dict(showgrid=False),
+#         yaxis=dict(showgrid=False)
+#     )
+#     return fig
 
-# Executando o aplicativo
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# # Executando o aplicativo
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
 

@@ -131,18 +131,18 @@ df_total_micro=df_total[df_total['porte']=='Micro']
 # In[28]:
 
 
-fig = px.line(df_total_micro, 
-             x='data_base',
-             y='curto_prazo_deflacionado', 
-             color='modalidade')
+# fig = px.line(df_total_micro, 
+#              x='data_base',
+#              y='curto_prazo_deflacionado', 
+#              color='modalidade')
 
-fig.update_layout(title_text='Endividamento de Curto Prazo de Microempresas por Modalidade de Crédito',
-             xaxis_title='Ano',
-             yaxis_title='Endividamento de Curto Prazo',
-             legend_orientation="h",
-             legend=dict(y=-0.2, x=0.5, xanchor='center'))
+# fig.update_layout(title_text='Endividamento de Curto Prazo de Microempresas por Modalidade de Crédito',
+#              xaxis_title='Ano',
+#              yaxis_title='Endividamento de Curto Prazo',
+#              legend_orientation="h",
+#              legend=dict(y=-0.2, x=0.5, xanchor='center'))
 
-fig.show()
+# fig.show()
 
 
 # In[22]:
@@ -151,44 +151,44 @@ fig.show()
 df_total_pequeno=df_total[df_total['porte']=='Pequeno']
 
 
-# In[27]:
+# # In[27]:
 
 
-fig = px.line(df_total_pequeno, 
-             x='data_base',
-             y='curto_prazo_deflacionado', 
-             color='modalidade')
+# fig = px.line(df_total_pequeno, 
+#              x='data_base',
+#              y='curto_prazo_deflacionado', 
+#              color='modalidade')
 
-fig.update_layout(title_text='Endividamento de Curto Prazo de Pequenas Empresas por Modalidade de Crédito',
-             xaxis_title='Ano',
-             yaxis_title='Endividamento de Curto Prazo',
-             legend_orientation="h",
-             legend=dict(y=-0.2, x=0.5, xanchor='center'))
+# fig.update_layout(title_text='Endividamento de Curto Prazo de Pequenas Empresas por Modalidade de Crédito',
+#              xaxis_title='Ano',
+#              yaxis_title='Endividamento de Curto Prazo',
+#              legend_orientation="h",
+#              legend=dict(y=-0.2, x=0.5, xanchor='center'))
 
-fig.show()
+# fig.show()
 
 
 # In[56]:
 
 
-fig = px.line(df_total, 
-             x='data_base', 
-             y='curto_prazo_deflacionado',
-              color = 'modalidade',
-             facet_col='porte',
-             title='Curto Prazo Deflacionado por Porte ao Longo do Tempo',
-             labels={'data_base': '', 'curto_prazo_deflacionado': 'Endividamento de curto prazo deflacionado'},
-              height=600,
-             width=1000,
-             template="seaborn",
-             category_orders={"porte": ["Empresa de pequeno porte", "Microempresa"]})
+# fig = px.line(df_total, 
+#              x='data_base', 
+#              y='curto_prazo_deflacionado',
+#               color = 'modalidade',
+#              facet_col='porte',
+#              title='Curto Prazo Deflacionado por Porte ao Longo do Tempo',
+#              labels={'data_base': '', 'curto_prazo_deflacionado': 'Endividamento de curto prazo deflacionado'},
+#               height=600,
+#              width=1000,
+#              template="seaborn",
+#              category_orders={"porte": ["Empresa de pequeno porte", "Microempresa"]})
 
-fig.update_layout(
-    yaxis_title="",
-    legend_title_text='',
-    legend=dict(x=0.5, y=-0.17, xanchor='center', yanchor='top', orientation = 'h'),
-    yaxis_title_standoff=0
-)
+# fig.update_layout(
+#     yaxis_title="",
+#     legend_title_text='',
+#     legend=dict(x=0.5, y=-0.17, xanchor='center', yanchor='top', orientation = 'h'),
+#     yaxis_title_standoff=0
+# )
 
-fig.show()
+# fig.show()
 

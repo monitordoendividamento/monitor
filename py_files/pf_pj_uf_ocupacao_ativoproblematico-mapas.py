@@ -250,7 +250,7 @@ df_ocupacao_pf_ativoproblematico['ocupacao']=df_ocupacao_pf_ativoproblematico['o
 # In[29]:
 
 
-df_ocupacao_pf_ativoproblematico.head(3)
+#df_ocupacao_pf_ativoproblematico.head(3)
 
 
 # In[36]:
@@ -338,7 +338,7 @@ df_cnae_pj_ativoproblematico = df_cnae_pj_ativoproblematico.drop(columns = ['cli
 # In[41]:
 
 
-df_cnae_pj_ativoproblematico.head(5)
+#df_cnae_pj_ativoproblematico.head(5)
 
 
 # In[42]:
@@ -362,7 +362,7 @@ df_cnae_pj_ativoproblematico['cnae_secao']=df_cnae_pj_ativoproblematico['cnae_se
 # In[45]:
 
 
-df_cnae_pj_ativoproblematico.head(5)
+#df_cnae_pj_ativoproblematico.head(5)
 
 
 # In[46]:

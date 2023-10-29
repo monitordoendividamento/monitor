@@ -146,32 +146,32 @@ import plotly.graph_objects as go
 # In[17]:
 
 
-fig = go.Figure()
+# fig = go.Figure()
 
-for porte in df_desemprego_divida['porte'].unique():
-    subset = df_desemprego_divida[df_desemprego_divida['porte'] == porte]
-    fig.add_trace(go.Scatter(x=subset['data'],
-                             y=subset['longo_prazo_deflacionado'],
-                             mode='lines',
-                             name=f'{porte}'))
+# for porte in df_desemprego_divida['porte'].unique():
+#     subset = df_desemprego_divida[df_desemprego_divida['porte'] == porte]
+#     fig.add_trace(go.Scatter(x=subset['data'],
+#                              y=subset['longo_prazo_deflacionado'],
+#                              mode='lines',
+#                              name=f'{porte}'))
 
-# Adicionando a coluna 'valor' ao segundo eixo y
-fig.add_trace(go.Scatter(x=df_desemprego_divida['data'],
-                         y=df_desemprego_divida['valor'], 
-                         mode='lines',
-                         name='Taxa de desocupação',
-                         yaxis='y2'))
+# # Adicionando a coluna 'valor' ao segundo eixo y
+# fig.add_trace(go.Scatter(x=df_desemprego_divida['data'],
+#                          y=df_desemprego_divida['valor'], 
+#                          mode='lines',
+#                          name='Taxa de desocupação',
+#                          yaxis='y2'))
 
-fig.update_layout(yaxis2=dict(overlaying='y',
-                              side='right'))
+# fig.update_layout(yaxis2=dict(overlaying='y',
+#                               side='right'))
 
-fig.show()
+# fig.show()
 
 
 # In[18]:
 
 
-df_desemprego_divida['porte'].unique()
+#df_desemprego_divida['porte'].unique()
 
 
 # In[19]:
@@ -225,62 +225,62 @@ df_desemprego_divida_grupo.head(4)
 # In[27]:
 
 
-fig = go.Figure()
+# fig = go.Figure()
 
-for categoria_renda in df_desemprego_divida_grupo['categoria_renda'].unique():
-    subset = df_desemprego_divida_grupo[df_desemprego_divida_grupo['categoria_renda'] == categoria_renda]
-    fig.add_trace(go.Scatter(x=subset['data'],
-                             y=subset['longo_prazo_deflacionado'],
-                             mode='lines',
-                             name=f'{categoria_renda}',
-                             yaxis='y2',
-                             opacity=0.7))
+# for categoria_renda in df_desemprego_divida_grupo['categoria_renda'].unique():
+#     subset = df_desemprego_divida_grupo[df_desemprego_divida_grupo['categoria_renda'] == categoria_renda]
+#     fig.add_trace(go.Scatter(x=subset['data'],
+#                              y=subset['longo_prazo_deflacionado'],
+#                              mode='lines',
+#                              name=f'{categoria_renda}',
+#                              yaxis='y2',
+#                              opacity=0.7))
 
-fig.add_trace(go.Scatter(x=df_desemprego_divida_grupo['data'],
-                         y=df_desemprego_divida_grupo['valor'], 
-                         mode='lines',
-                         name='taxa de desocupação',
-                         opacity=1,
-                        line=dict(color='dimgray', width=2, dash='dot')))
+# fig.add_trace(go.Scatter(x=df_desemprego_divida_grupo['data'],
+#                          y=df_desemprego_divida_grupo['valor'], 
+#                          mode='lines',
+#                          name='taxa de desocupação',
+#                          opacity=1,
+#                         line=dict(color='dimgray', width=2, dash='dot')))
 
-fig.add_shape(
-    go.layout.Shape(
-        type="line",
-        x0="2017-07-01",
-        x1="2017-07-01",
-        y0=0,
-        y1=1,
-        yref='paper',
-        line=dict(color="black", width=2)
-    )
-)
+# fig.add_shape(
+#     go.layout.Shape(
+#         type="line",
+#         x0="2017-07-01",
+#         x1="2017-07-01",
+#         y0=0,
+#         y1=1,
+#         yref='paper',
+#         line=dict(color="black", width=2)
+#     )
+# )
 
-fig.add_annotation(
-    go.layout.Annotation(
-        text="Reforma Trabalhista",
-        x="2017-06-01",
-        y=0.45,
-        yref='paper',
-        showarrow=False,
-        font=dict(color="black", size=12),
-        textangle = 90
-    )
-)
+# fig.add_annotation(
+#     go.layout.Annotation(
+#         text="Reforma Trabalhista",
+#         x="2017-06-01",
+#         y=0.45,
+#         yref='paper',
+#         showarrow=False,
+#         font=dict(color="black", size=12),
+#         textangle = 90
+#     )
+# )
 
-fig.update_layout(yaxis2=dict(overlaying='y',
-                              side='right',
-                             showgrid=False,
-                             title = "Endividamento de longo prazo"),
-                 template="seaborn",
-                  legend=dict(x = 0.5,
-                              y = -0.3,
-                              orientation='h',
-                              xanchor='center'),
-                 xaxis=dict(showgrid=False),
-                 yaxis=dict(showgrid=False,
-                           title = "Taxa de desocupação"))
+# fig.update_layout(yaxis2=dict(overlaying='y',
+#                               side='right',
+#                              showgrid=False,
+#                              title = "Endividamento de longo prazo"),
+#                  template="seaborn",
+#                   legend=dict(x = 0.5,
+#                               y = -0.3,
+#                               orientation='h',
+#                               xanchor='center'),
+#                  xaxis=dict(showgrid=False),
+#                  yaxis=dict(showgrid=False,
+#                            title = "Taxa de desocupação"))
 
-fig.show()
+# fig.show()
 
 
 # In[29]:

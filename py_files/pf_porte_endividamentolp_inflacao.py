@@ -391,53 +391,53 @@ df_inflaco_porte_agrupado.to_csv("pf_porte_endividamentolp_inflacao.csv")
 # In[44]:
 
 
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 
-fig = go.Figure()
+# fig = go.Figure()
 
-for porte in df_inflaco_porte_agrupado['porte'].unique():
-    subset = df_inflaco_porte_agrupado[df_inflaco_porte_agrupado['porte'] == porte]
+# for porte in df_inflaco_porte_agrupado['porte'].unique():
+#     subset = df_inflaco_porte_agrupado[df_inflaco_porte_agrupado['porte'] == porte]
     
-    fig.add_trace(go.Scatter(
-        x=subset['data_divida'],
-        y=subset['valor_deflacionado'],
-        mode='lines',
-        opacity=0.7,
-        name=f'{porte}',
-        yaxis='y2'
-    ))
+#     fig.add_trace(go.Scatter(
+#         x=subset['data_divida'],
+#         y=subset['valor_deflacionado'],
+#         mode='lines',
+#         opacity=0.7,
+#         name=f'{porte}',
+#         yaxis='y2'
+#     ))
 
-fig.add_trace(go.Scatter(
-    x=df_inflaco_porte_agrupado['data_divida'],
-    y=df_inflaco_porte_agrupado['valor'],
-    opacity=1,
-    line=dict(color='dimgray', width=2, dash='dot'),
-    mode='lines',
-    name='IPCA'
-))
+# fig.add_trace(go.Scatter(
+#     x=df_inflaco_porte_agrupado['data_divida'],
+#     y=df_inflaco_porte_agrupado['valor'],
+#     opacity=1,
+#     line=dict(color='dimgray', width=2, dash='dot'),
+#     mode='lines',
+#     name='IPCA'
+# ))
 
-fig.update_layout(
-    yaxis=dict(
-        title="IPCA",
-        showgrid=False
-    ),
-    yaxis2=dict(
-        title="Endividamento de longo prazo",
-        overlaying='y',
-        side='right',
-        showgrid=False
-    ),
-    xaxis=dict(
-        showgrid=False
-    ),
-    legend=dict(
-        y=-0.2,
-        traceorder='normal',
-        orientation='h',
-        font=dict(size=12)
-    ),
-    template="seaborn"
-)
+# fig.update_layout(
+#     yaxis=dict(
+#         title="IPCA",
+#         showgrid=False
+#     ),
+#     yaxis2=dict(
+#         title="Endividamento de longo prazo",
+#         overlaying='y',
+#         side='right',
+#         showgrid=False
+#     ),
+#     xaxis=dict(
+#         showgrid=False
+#     ),
+#     legend=dict(
+#         y=-0.2,
+#         traceorder='normal',
+#         orientation='h',
+#         font=dict(size=12)
+#     ),
+#     template="seaborn"
+# )
 
-fig.show()
+# fig.show()
 

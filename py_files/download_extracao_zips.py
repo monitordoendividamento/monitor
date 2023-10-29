@@ -75,13 +75,13 @@ def git_add_commit_push(message):
 
 
 def rodar_geradores_csv():
-    scripts = ['teste1.py', 'teste2.py', 'teste3.py']
-    # scripts = ["df_corr_ibge_scr_pj.py", "df_corr_porte_pf.py", "pf_juros_inflacao_modalidade_endividamentolp.py",
-    #            "pf_ocupacao_modalidade_endividamento.py", "pf_porte_endividamentolp_desemprego.py",
-    #            "pf_rendimento_modalidade_noperacoes_endividamento.py", "PJ_agro.py", "PJ_micro_peq_problematico.py",
-    #            "pj_porte_modalidade_endividamentocp.py", "pf_modalidade_endividamentolp_inflacao.py",
-    #            "pf_modalidade_endividamentolp_juros.py", "pf_porte_endividamentolp_inflacao.py",
-    #            "pf_pj_uf_ocupacao_ativoproblematico-mapas.py"]
+    #scripts = ['teste1.py', 'teste2.py', 'teste3.py']
+    scripts = ["df_corr_ibge_scr_pj.py", "df_corr_porte_pf.py", "pf_juros_inflacao_modalidade_endividamentolp.py",
+               "pf_ocupacao_modalidade_endividamento.py", "pf_porte_endividamentolp_desemprego.py",
+               "pf_rendimento_modalidade_noperacoes_endividamento.py", "PJ_agro.py", "PJ_micro_peq_problematico.py",
+               "pj_porte_modalidade_endividamentocp.py", "pf_modalidade_endividamentolp_inflacao.py",
+               "pf_modalidade_endividamentolp_juros.py", "pf_porte_endividamentolp_inflacao.py",
+               "pf_pj_uf_ocupacao_ativoproblematico-mapas.py"]
     # scripts = [scripts[0]]
     for script in scripts:
         script = diretorio_gerador_csv + script

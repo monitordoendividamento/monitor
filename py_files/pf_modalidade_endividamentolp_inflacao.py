@@ -112,7 +112,7 @@ inflacao_mensal = requests.get(url).json()
 #response é o nome da 'variável'. Pode ser qualquer outro nome
 
 # visualizando os primeiros elementos da base
-inflacao_mensal[500:505]
+#inflacao_mensal[500:505]
 
 
 # In[15]:
@@ -182,55 +182,55 @@ df_inflacao_modalidade_agrupado.to_csv("pf_modalidade_endividamentolp_inflacao.c
 # In[24]:
 
 
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 
 
 # In[42]:
 
 
-fig = go.Figure()
+# fig = go.Figure()
 
-for modalidade in df_inflacao_modalidade_agrupado['modalidade'].unique():
-    subset = df_inflacao_modalidade_agrupado[df_inflacao_modalidade_agrupado['modalidade'] == modalidade]
-    fig.add_trace(go.Scatter(x=subset['data'],
-                             y=subset['valor_deflacionado'],
-                             mode='lines',
-                             name=f'{modalidade}',
-                             yaxis='y2',
-                            line = dict(width=2)))
+# for modalidade in df_inflacao_modalidade_agrupado['modalidade'].unique():
+#     subset = df_inflacao_modalidade_agrupado[df_inflacao_modalidade_agrupado['modalidade'] == modalidade]
+#     fig.add_trace(go.Scatter(x=subset['data'],
+#                              y=subset['valor_deflacionado'],
+#                              mode='lines',
+#                              name=f'{modalidade}',
+#                              yaxis='y2',
+#                             line = dict(width=2)))
     
-# Adicionando a coluna 'valor' ao segundo eixo y
-fig.add_trace(go.Scatter(x=df_inflacao_modalidade_agrupado['data'],
-                         y=df_inflacao_modalidade_agrupado['valor'], 
-                         mode='lines',
-                         name='Taxa de inflação',
-                        opacity=1,
-                        line=dict(color='dimgray', width=2, dash='dot')))
+# # Adicionando a coluna 'valor' ao segundo eixo y
+# fig.add_trace(go.Scatter(x=df_inflacao_modalidade_agrupado['data'],
+#                          y=df_inflacao_modalidade_agrupado['valor'], 
+#                          mode='lines',
+#                          name='Taxa de inflação',
+#                         opacity=1,
+#                         line=dict(color='dimgray', width=2, dash='dot')))
 
-fig.update_layout(
-    yaxis2=dict(
-        overlaying='y',
-        side='right',
-        showgrid=False,
-        title="Endividamento de longo prazo"
-    ),
-    template="seaborn",
-    legend=dict(
-        x=0.5,
-        y=-0.3,
-        orientation='h',
-        xanchor='center'
-    ),
-    xaxis=dict(showgrid=False),
-    yaxis=dict(
-        showgrid=False,
-        title="Taxa de inflação"
-    ),
-    height=600,
-    width=700,
-)
+# fig.update_layout(
+#     yaxis2=dict(
+#         overlaying='y',
+#         side='right',
+#         showgrid=False,
+#         title="Endividamento de longo prazo"
+#     ),
+#     template="seaborn",
+#     legend=dict(
+#         x=0.5,
+#         y=-0.3,
+#         orientation='h',
+#         xanchor='center'
+#     ),
+#     xaxis=dict(showgrid=False),
+#     yaxis=dict(
+#         showgrid=False,
+#         title="Taxa de inflação"
+#     ),
+#     height=600,
+#     width=700,
+# )
 
-fig.show()
+# fig.show()
 
 
 # In[ ]:

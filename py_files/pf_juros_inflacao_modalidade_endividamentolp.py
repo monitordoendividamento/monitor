@@ -116,7 +116,7 @@ df_modalidade_endividamentolp.to_csv("df_juros_inflacao_modalidade.csv")
 # In[68]:
 
 
-df_modalidade_endividamentolp.info()
+#df_modalidade_endividamentolp.info()
 
 
 # In[69]:
