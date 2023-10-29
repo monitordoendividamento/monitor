@@ -1,0 +1,40 @@
+[main 78a753a] teste
+ Committer: Bruna Moura <brunamoura@MacBook-Air-de-Bruna-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 2 insertions(+), 2 deletions(-)
+ delete mode 100644 py_files/2023-10-29_12-12-29.txt
+ create mode 100644 py_files/2023-10-29_12-18-27.txt
+fatal: could not read Username for 'https://github.com': Device not configured
+Arquivo planilha_2023.zip baixado com sucesso!
+Arquivo extraído: planilha_202308.csv
+Arquivo extraído: planilha_202302.csv
+Arquivo extraído: planilha_202303.csv
+Arquivo extraído: planilha_202301.csv
+Arquivo extraído: planilha_202304.csv
+Arquivo extraído: planilha_202305.csv
+Arquivo extraído: planilha_202307.csv
+Arquivo extraído: planilha_202306.csv
+['planilha_202308.csv', 'planilha_202302.csv', 'planilha_202303.csv', 'planilha_202301.csv', 'planilha_202304.csv', 'planilha_202305.csv', 'planilha_202307.csv', 'planilha_202306.csv']
+planilha_202308.csv
+planilha_202307.csv planilha_202308.csv
+O arquivo /Users/brunamoura/monitor/py_files/2023-10-29_12-18-27.txt foi criado com sucesso.
+/Users/brunamoura/monitor/py_files/teste1.py
+ARQUIVO 1
+
+/Users/brunamoura/monitor/py_files/teste2.py
+ARQUIVO 2
+
+/Users/brunamoura/monitor/py_files/teste3.py
+ARQUIVO 3
+
+Erro ao executar comandos do Git: Command '['git', '-C', '/Users/brunamoura/monitor/', 'push', 'origin', 'main']' returned non-zero exit status 128.
