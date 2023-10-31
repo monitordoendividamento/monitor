@@ -147,23 +147,6 @@ def baixar_novo_arquivo():
             atualizar_arquivo_se_diferente(ultimo_arquivo)
             break
 
-
-def baixar_todos_arquivos():
-    # Criar uma lista de anos para os quais você deseja baixar os arquivos
-    anos = list(range(2012, 2024))
-    for ano in anos:
-        # Construir o URL dinamicamente com base no ano
-        url = f'https://www.bcb.gov.br/pda/desig/planilha_{ano}.zip'
-        # Baixar o arquivo ZIP
-        r = requests.get(url, allow_redirects=True)
-        # Especificar o nome do arquivo ZIP para salvar
-        arquivo_zip = f'planilha_{ano}.zip'
-        # Salvar o arquivo ZIP
-        with open(arquivo_zip, 'wb') as f:
-            f.write(r.content)
-        print(f"Arquivo {arquivo_zip} baixado com sucesso!")
-
-
 def extrair_zip_por_ano(ano):
     zip_file_name = f'planilha_{ano}.zip'
     extracao_dir = f'planilha_{ano}'
@@ -183,7 +166,21 @@ def extrair_zip_por_ano(ano):
 
     return arquivo_mais_recente
 
-
+def baixar_todos_arquivos():
+    # Criar uma lista de anos para os quais você deseja baixar os arquivos
+    anos = list(2012, 2024)
+    for ano in anos:
+        # Construir o URL dinamicamente com base no ano
+        url = f'https://www.bcb.gov.br/pda/desig/planilha_{ano}.zip'
+        # Baixar o arquivo ZIP
+        r = requests.get(url, allow_redirects=True)
+        # Especificar o nome do arquivo ZIP para salvar
+        arquivo_zip = f'planilha_{ano}.zip'
+        # Salvar o arquivo ZIP
+        with open(arquivo_zip, 'wb') as f:
+            f.write(r.content)
+        print(f"Arquivo {arquivo_zip} baixado com sucesso!")
+        
 if __name__ == '__main__':
     baixar_novo_arquivo()
     # baixar_arquivos()
