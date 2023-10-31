@@ -84,18 +84,6 @@ df_total['longo_prazo_deflacionado'] = dbr.deflate(nominal_values=df_total['long
            index='ipca')
 
 
-# In[7]:
-
-
-df_total.info()
-
-
-# In[8]:
-
-
-df_total['data_base']
-
-
 # In[9]:
 
 

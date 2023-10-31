@@ -56,12 +56,6 @@ for ano in anos:
 df_total = pd.concat(dataframes, ignore_index=False)
 
 
-# In[4]:
-
-
-df_total.head(5)
-
-
 # In[5]:
 
 
@@ -78,12 +72,6 @@ df_total_group['data_base'] = df_total_group['data_base'].dt.strftime('%Y') #Con
 
 
 df_total_group['Seção CNAE e ano'] = df_total_group['cnae_secao'] + ' (' + df_total_group['data_base'] + ')'
-
-
-# In[12]:
-
-
-df_total_group.info()
 
 
 # In[13]:
@@ -152,18 +140,6 @@ empresas_pivot = empresas.pivot_table(index=['Ano', 'cnae_secao'],
 empresas_pivot['cnae_secao'] = empresas_pivot['cnae_secao'].str.slice(start=2)
 
 
-# In[20]:
-
-
-empresas_pivot.head(3)
-
-
-# In[21]:
-
-
-df_total_group.head(3)
-
-
 # In[22]:
 
 
@@ -177,12 +153,6 @@ df_corr_ibge_scr_pj = pd.merge(empresas_pivot,
 
 
 df_corr_ibge_scr_pj['Saída de atividade/Total'] = df_corr_ibge_scr_pj['Saída de atividade'] / df_corr_ibge_scr_pj['Total de empresas ativas']
-
-
-# In[24]:
-
-
-df_corr_ibge_scr_pj.head(5)
 
 
 # In[25]:
@@ -218,24 +188,15 @@ sns_heatmap = sns.heatmap(corr, mask=mask, cmap="Spectral", #possíveis parâmet
 df_scatter_plot = df_corr_ibge_scr_pj.drop(columns = ['Ano'], axis=1)
 
 
-# In[37]:
-
-
-df_scatter_plot.head(5)
-
-
 # In[44]:
 
 
-import warnings
-warnings.filterwarnings('ignore')
+# palette = sns.color_palette("tab20", 19) #possíveis palettes
 
-palette = sns.color_palette("tab20", 19) #possíveis palettes
-
-sns.scatterplot(data = df_scatter_plot, x="ativo_problematico", y="Saída de atividade/Total", hue = 'Seção CNAE e ano', palette=palette)
-plt.legend(title='cnae_secao', loc='right', bbox_to_anchor=(3, 3), ncol=3)
-plt.tight_layout()
-plt.show()
+# sns.scatterplot(data = df_scatter_plot, x="ativo_problematico", y="Saída de atividade/Total", hue = 'Seção CNAE e ano', palette=palette)
+# plt.legend(title='cnae_secao', loc='right', bbox_to_anchor=(3, 3), ncol=3)
+# plt.tight_layout()
+# plt.show()
 
 
 # In[45]:

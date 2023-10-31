@@ -94,7 +94,6 @@ df_total['valor_deflacionado'] = dbr.deflate(nominal_values=nominal_values, nomi
 
 #agrupar o valor total das dívidas, somando os valores da coluna valor_deflacionado
 df_total = df_total.groupby(['data_base','modalidade','porte'])['valor_deflacionado'].sum().reset_index()
-df_total.info()
 
 
 # In[10]:
@@ -102,7 +101,6 @@ df_total.info()
 
 #formatar os valores float
 pd.set_option('display.float_format', '{:.2f}'.format)
-df_total.info()
 
 
 # In[16]:
@@ -131,12 +129,6 @@ df_total['mes'] = df_total['data_base'].dt.month
 df_total['data_divida'] = df_total['data_base'].dt.strftime('%Y-%m')
 
 
-# In[20]:
-
-
-df_total.columns
-
-
 # *Agregando dados de Inflação no DataFrame*
 
 # In[21]:
@@ -151,9 +143,6 @@ url = 'https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json'
 # fazendo a requisição à url e trazendo em formato json
 inflacao_mensal = requests.get(url).json() 
 #response é o nome da 'variável'. Pode ser qualquer outro nome
-
-# visualizando os primeiros elementos da base
-inflacao_mensal[500:505]
 
 
 # In[22]:
@@ -172,13 +161,6 @@ inflacao_df['data'] = pd.to_datetime(inflacao_df['data'], format = "%d/%m/%Y")
 
 
 inflacao_df['data'] = inflacao_df['data'].dt.strftime('%Y-%m')
-
-
-# In[25]:
-
-
-#inflacao_df.head(5)
-
 
 # In[26]:
 
@@ -202,17 +184,10 @@ df_inflacao_divida = df_inflacao_divida.drop(columns=['data'])
 df_inflacao_divida = df_inflacao_divida.rename(columns={'valor': 'inflacao'})
 
 
-# In[29]:
-
-
-#df_inflacao_divida.head()
-
-
 # In[30]:
 
 
 df_inflacao_dezembro = df_inflacao_divida[df_inflacao_divida['mes'] == 12]
-#df_inflacao_dezembro.head(-1)
 
 
 # In[26]:
@@ -261,22 +236,10 @@ for porte_sem_espaco, porte_com_espaco in portes.items():
     df_inflacao_divida['porte'] = df_inflacao_divida['porte'].str.replace(porte_sem_espaco, porte_com_espaco)
 
 
-# In[33]:
-
-
-df_inflacao_divida['porte'].unique()
-
-
 # In[36]:
 
 
 pf_porte_endividamentolp = df_inflacao_divida.drop(columns = ["inflacao", "ano", "mes", "data_divida"])       
-
-
-# In[37]:
-
-
-pf_porte_endividamentolp.head(4)
 
 
 # In[35]:
@@ -326,23 +289,10 @@ pf_porte_endividamentolp.head(4)
 # if __name__ == '__main__':
 #     app.run_server(debug=True)
 
-
-# In[38]:
-
-
-df_inflacao_divida.info()
-
-
 # In[39]:
 
 
 df_inflaco_porte_agrupado = df_inflacao_divida.groupby(['data_divida', 'porte'])['valor_deflacionado'].sum().reset_index()
-
-
-# In[40]:
-
-
-df_inflaco_porte_agrupado
 
 
 # In[41]:

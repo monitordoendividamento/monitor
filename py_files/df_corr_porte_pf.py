@@ -55,12 +55,6 @@ for ano in anos:
 df_total = pd.concat(dataframes, ignore_index=False)
 
 
-# In[4]:
-
-
-df_total.info()
-
-
 # In[5]:
 
 
@@ -102,12 +96,6 @@ df_total['categoria_renda'] = df_total['porte'].apply(categoria_renda)
 df_total_group = df_total.groupby(['data_base', 'categoria_renda'])[['carteira_ativa', 'ativo_problematico']].sum().reset_index()
 
 
-# In[193]:
-
-
-df_total_group.head(5)
-
-
 # In[194]:
 
 
@@ -117,12 +105,6 @@ df_pivot = df_total_group.pivot_table(index="data_base",
                                       aggfunc='sum').reset_index()
 
 df_pivot.columns = ['_'.join(col).rstrip('_') for col in df_pivot.columns.values] #para que as colunas não sejam multinível
-
-
-# In[195]:
-
-
-df_pivot.head(5)
 
 
 # In[ ]:
@@ -177,17 +159,6 @@ for col in series_bacen_limpo.columns[1:]:
     series_bacen_limpo[col] = series_bacen_limpo[col].astype(float)
 
 
-# In[16]:
-
-
-series_bacen_limpo.head(5)
-
-
-# In[74]:
-
-
-df_pivot.info()
-
 
 # In[197]:
 
@@ -218,12 +189,6 @@ df_analise_porte_pf = df_analise_porte_pf.rename(columns={
 df_analise_porte_pf = df_analise_porte_pf.drop(columns = ["data_base"])
 
 
-# In[200]:
-
-
-df_analise_porte_pf.info()
-
-
 # In[215]:
 
 
@@ -243,101 +208,71 @@ df_analise_porte_pf_num.to_csv("df_corr_porte_pf.csv", index=False)
 # In[216]:
 
 
-sns.set_theme(style="white")
+# sns.set_theme(style="white")
 
-corr = df_analise_porte_pf_num.corr()
+# corr = df_analise_porte_pf_num.corr()
 
-# Generate a mask for the upper triangle
-mask = np.triu(np.ones_like(corr, dtype=bool))
+# # Generate a mask for the upper triangle
+# mask = np.triu(np.ones_like(corr, dtype=bool))
 
-# Set up the matplotlib figure
-f, ax = plt.subplots(figsize=(11, 9))
+# # Set up the matplotlib figure
+# f, ax = plt.subplots(figsize=(11, 9))
 
-# Generate a custom diverging colormap
-cmap = sns.diverging_palette(230, 20, as_cmap=True)
+# # Generate a custom diverging colormap
+# cmap = sns.diverging_palette(230, 20, as_cmap=True)
 
-# Draw the heatmap with the mask and correct aspect ratio
-sns_heatmap = sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
-            square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot = True)
-
-
-# In[203]:
-
-
-df_analise_porte_pf_num.columns
-
-
-# In[204]:
-
-
-df_total.head(3)
-
-
-# In[205]:
-
-
-series_bacen_limpo.head(3)
+# # Draw the heatmap with the mask and correct aspect ratio
+# sns_heatmap = sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
+#             square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot = True)
 
 
 # In[206]:
 
 
-df_scatter_plot = pd.merge(series_bacen_limpo,
-                              df_total,
-                              left_on="data",
-                              right_on="data_base",
-                              how = "inner")
-
-
-# In[207]:
-
-
-df_scatter_plot
+# df_scatter_plot = pd.merge(series_bacen_limpo,
+#                               df_total,
+#                               left_on="data",
+#                               right_on="data_base",
+#                               how = "inner")
 
 
 # In[208]:
 
 
-df_scatter_plot = df_scatter_plot.rename(columns={
-    'data': "ano",
-    'valor_24868': "Pontos atendimento",
-    'valor_24881': "Bancos autorizados",
-    'valor_25149': "Cart. créd. ativos",
-    'valor_20716': "Tx. juros PF",
-    'valor_29404': "Retorno sobre ativos IF"
-})
+# df_scatter_plot = df_scatter_plot.rename(columns={
+#     'data': "ano",
+#     'valor_24868': "Pontos atendimento",
+#     'valor_24881': "Bancos autorizados",
+#     'valor_25149': "Cart. créd. ativos",
+#     'valor_20716': "Tx. juros PF",
+#     'valor_29404': "Retorno sobre ativos IF"
+# })
 
 
 # In[209]:
 
 
-df_scatter_plot = df_scatter_plot.drop(columns = ['ano', 'data_base', 'mes'])
-
-
-# In[210]:
-
-
-df_scatter_plot
+# df_scatter_plot = df_scatter_plot.drop(columns = ['ano', 'data_base', 'mes'])
 
 
 # In[218]:
 
 
-valores_excluir = ['ativo_problematico_renda indisponivel', 
-                   'ativo_problematico_renda média', 
-                   'carteira_ativa_renda indisponível', 
-                   'carteira_ativa_renda indisponível']
+# # valores_excluir = ['ativo_problematico_renda indisponivel', 
+#                    'ativo_problematico_renda média', 
+#                    'carteira_ativa_renda indisponível', 
+#                    'carteira_ativa_renda indisponível']
 
-df_scatter_plot = df_scatter_plot[~df_scatter_plot['categoria_renda'].isin(valores_excluir)]
+# df_scatter_plot = df_scatter_plot[~df_scatter_plot['categoria_renda'].isin(valores_excluir)]
 
 
 # In[219]:
 
 
-import warnings
-warnings.filterwarnings('ignore')
+# import warnings
+# warnings.filterwarnings('ignore')
 
-g = sns.FacetGrid(df_scatter_plot, col = 'categoria_renda')
-g.map_dataframe(sns.scatterplot, x="carteira_ativa", y="ativo_problematico", hue = "porte")
-g.add_legend()
+# g = sns.FacetGrid(df_scatter_plot, col = 'categoria_renda')
+# g.map_dataframe(sns.scatterplot, x="carteira_ativa", y="ativo_problematico", hue = "porte")
+# g.add_legend()
 

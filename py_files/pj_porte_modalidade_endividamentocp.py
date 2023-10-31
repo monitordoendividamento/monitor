@@ -8,7 +8,7 @@ import zipfile
 import os
 import pandas as pd
 import plotly.express as px
-
+import deflatebr as dbr
 
 # In[2]:
 
@@ -64,41 +64,10 @@ for ano in anos:
 df_total = pd.concat(dataframes, ignore_index=False)
 
 
-# In[4]:
-
-
-df_total.head()
-
-
-# In[5]:
-
-
-df_total.info()
-
-
-# In[6]:
-
-
-import deflatebr as dbr
-
-
 # In[7]:
 
 
 df_total['curto_prazo_deflacionado'] = dbr.deflate(nominal_values=df_total['curto_prazo'], nominal_dates=df_total['data_base'], real_date='2022-12') 
-
-
-# In[8]:
-
-
-df_total.head(3)
-
-
-# In[9]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total.head(3)
 
 
 # In[43]:
@@ -114,12 +83,6 @@ df_total['porte'] = df_total['porte'].replace({
 
 
 df_total.to_csv("pj_porte_modalidade_endividamentocp.csv")
-
-
-# In[11]:
-
-
-df_total.info()
 
 
 # In[11]:

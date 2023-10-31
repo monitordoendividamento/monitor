@@ -8,7 +8,8 @@ import zipfile
 import os
 import pandas as pd
 import deflatebr as dbr
-
+import plotly.express as px
+import numpy as np
 
 # In[2]:
 
@@ -56,46 +57,16 @@ for ano in anos:
 df_total = pd.concat(dataframes, ignore_index=False)
 
 
-# In[5]:
-
-
-# df_total.to_csv("pj_cnaesecao_cnaesubclasse_endividamento.csv")
-
-
-# In[6]:
-
-
-#pip install deflateBR
-
-
 # In[8]:
 
 
 df_total['valor_deflacionado'] = dbr.deflate(nominal_values=df_total['carteira_ativa'], nominal_dates=df_total['data_base'], real_date='2022-12')
 
 
-# In[9]:
-
-
-df_total.head(3)
-
-
-# In[15]:
-
-
-#df_total['data_base'].unique()
-
-
 # In[41]:
 
 
 df_total_2022 = df_total[df_total['data_base'] == '2022-12']
-
-
-# In[42]:
-
-
-df_total_2022.head(5)
 
 
 # In[43]:
@@ -111,12 +82,6 @@ df_total_2022['perc'] = df_total_2022['valor_deflacionado']/soma_valor_deflacion
 
 df_total_2022 = df_total_2022.sort_values(by='perc', ascending=False)
 df_total_2022['cumperc'] = df_total_2022['perc'].cumsum()
-
-
-# In[50]:
-
-
-df_total_2022.head(13)
 
 
 # In[100]:
@@ -135,22 +100,7 @@ df_acumulado_corte['cnae_subclasse'] = df_acumulado_corte['cnae_subclasse'].str.
 
 # In[78]:
 
-
-pd.set_option('display.float_format', '{:.2f}'.format)
 df_acumulado_corte.to_csv("pj_cnaesecao_cnaesubclasse_endividamento.csv")
-
-
-# In[73]:
-
-
-df_acumulado_corte.head(5)
-
-
-# # In[35]:
-
-
-# import plotly.express as px
-# import numpy as np
 
 
 # # In[106]:

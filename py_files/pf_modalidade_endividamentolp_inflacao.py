@@ -7,7 +7,7 @@
 import zipfile
 import os
 import pandas as pd
-
+import plotly.graph_objects as go
 
 # In[2]:
 
@@ -66,12 +66,6 @@ df_total = pd.concat(dataframes, ignore_index=False)
 df_total['data_base'] = pd.to_datetime(df_total['data_base'])
 
 
-# In[5]:
-
-
-df_total.info()
-
-
 # In[11]:
 
 
@@ -82,14 +76,7 @@ real_date = '2023-01'
 
 #criar uma coluna com o valor deflacionado
 df_total['valor_deflacionado'] = dbr.deflate(nominal_values=nominal_values, nominal_dates=nominal_dates, real_date=real_date,
-           index='ipca', progress_bar=True, on_jupyter=True)
-
-
-# In[12]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total.head(3)
+           index='ipca', progress_bar=False, on_jupyter=True)
 
 
 # In[13]:
@@ -133,12 +120,6 @@ inflacao['data'] = pd.to_datetime(inflacao['data'], format = "%d/%m/%Y")
 inflacao['data'] = inflacao['data'].dt.strftime('%Y-%m')
 
 
-# In[18]:
-
-
-inflacao.head()
-
-
 # In[36]:
 
 
@@ -177,12 +158,6 @@ df_inflacao_modalidade_agrupado['modalidade']=df_inflacao_modalidade_agrupado['m
 
 
 df_inflacao_modalidade_agrupado.to_csv("pf_modalidade_endividamentolp_inflacao.csv")
-
-
-# In[24]:
-
-
-# import plotly.graph_objects as go
 
 
 # In[42]:

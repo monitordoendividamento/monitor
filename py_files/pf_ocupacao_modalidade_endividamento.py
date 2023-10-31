@@ -8,6 +8,7 @@ import zipfile
 import os
 import pandas as pd
 import plotly.express as px
+import deflatebr as dbr
 
 
 # In[2]:
@@ -29,7 +30,7 @@ def concatenar_csvs(diretorio):
              
             #Filtros:
             df = df[df['cliente'] == 'PF']
-            df = df[df['mes'] == 12]
+            #df = df[df['mes'] == 12]
             df = df[['data_base', 'ocupacao', 'modalidade', 'carteira_ativa']]
             
             #Agrupamentos para análise
@@ -44,7 +45,6 @@ def concatenar_csvs(diretorio):
 
 # In[3]:
 
-
 anos = list(range(2012, 2024))
 dataframes = []
 
@@ -55,70 +55,8 @@ for ano in anos:
 
 df_total = pd.concat(dataframes, ignore_index=False)
 
-
-# In[4]:
-
-
-df_total.head()
-
-
-# In[5]:
-
-
-df_total.info()
-
-
-# In[7]:
-
-
-import deflatebr as dbr
-
-
-# In[13]:
-
-
 df_total['carteira_ativa_deflacionada'] = dbr.deflate(nominal_values=df_total['carteira_ativa'], nominal_dates=df_total['data_base'], real_date='2022-12') #corrigir para 12/2022
 
+df_total = df_total.sort_values(by='data_base')
 
-# In[14]:
-
-
-df_total.head(3)
-
-
-# In[15]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total.head(3)
-
-
-# In[16]:
-
-
-# fig = px.line(df_total, 
-#              x='data_base',
-#              y='carteira_ativa_deflacionada', 
-#              color='modalidade', 
-#              animation_frame='ocupacao')
-
-# fig.update_layout(title_text='Pessoa Física - Carteira Ativa por Modalidade de Crédito e Ocupação',
-#              xaxis_title='Ocupação',
-#              yaxis_title='Carteira Ativa',
-#              height=500, 
-#              width=800)
-
-# fig.show()
-
-
-# In[18]:
-
-
-df_total.to_csv("pf_ocupacao_modalidade_endividamento_final.csv")
-
-
-# In[ ]:
-
-
-
-
+df_total.to_csv("pf_ocupacao_modalidade_endividamento.csv")

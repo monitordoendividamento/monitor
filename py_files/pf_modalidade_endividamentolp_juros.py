@@ -56,29 +56,10 @@ for ano in anos:
 df_total = pd.concat(dataframes, ignore_index=False)
 
 
-# In[4]:
-
-
-df_total.columns
-
-
-# In[5]:
-
-
-df_total.head(3)
-
-
 # In[6]:
 
 
 df_total['longo_prazo_deflacionado'] = dbr.deflate(nominal_values=df_total['longo_prazo'], nominal_dates=df_total['data_base'], real_date='2023-01')
-
-
-# In[7]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total.head(3)
 
 
 # In[8]:
@@ -87,8 +68,6 @@ df_total.head(3)
 url = 'https://api.bcb.gov.br/dados/serie/bcdata.sgs.25435/dados?formato=json' #Taxa média mensal de juros - Pessoas físicas - Total
 
 tx_juros = requests.get(url).json() 
-
-tx_juros[5]
 
 
 # In[9]:
@@ -109,12 +88,6 @@ juros_df['data'] = pd.to_datetime(juros_df['data'], format = "%d/%m/%Y")
 juros_df['data'] = juros_df['data'].dt.strftime('%Y-%m')
 
 
-# In[12]:
-
-
-juros_df.head(3)
-
-
 # In[13]:
 
 
@@ -129,12 +102,6 @@ df_juros_divida = pd.merge(juros_df,
 
 
 df_juros_divida = df_juros_divida.drop(columns = ['data_base', 'longo_prazo'])
-
-
-# In[15]:
-
-
-# import plotly.graph_objects as go
 
 
 # In[16]:
@@ -177,4 +144,3 @@ df_juros_divida = df_juros_divida.drop(columns = ['data_base', 'longo_prazo'])
 
 
 df_juros_divida.to_csv("df_juros_divida_modalidade.csv")
-

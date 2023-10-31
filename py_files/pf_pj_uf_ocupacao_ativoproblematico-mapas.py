@@ -76,19 +76,6 @@ populacao_estados = populacao_estados.drop(columns = ["NC", "NN", "MC", "MN","D1
 
 populacao_estados.columns = populacao_estados.iloc[0]
 
-
-# In[7]:
-
-
-populacao_estados.head(2)
-
-
-# In[8]:
-
-
-df_total.info()
-
-
 # In[9]:
 
 
@@ -129,29 +116,12 @@ uf_to_state = {
 df_uf_to_state = pd.DataFrame(list(uf_to_state.items()), columns=['uf', 'Estado'])
 
 
-# In[11]:
-
-
-df_uf_to_state.head(5)
-
-
 # In[12]:
 
 
 df_total = pd.merge(df_total,
                     df_uf_to_state)
 
-
-# In[13]:
-
-
-df_total.head(5)
-
-
-# In[14]:
-
-
-populacao_estados.head(5)
 
 
 # In[15]:
@@ -163,11 +133,6 @@ df_total = pd.merge(df_total,
                    left_on = "Estado",
                    how = "inner")
 
-
-# In[16]:
-
-
-df_total.head(5)
 
 
 # In[17]:
@@ -189,23 +154,10 @@ df_total['data'] = pd.to_datetime(df_total['ano'], format="%Y")
 df_total['ativo_problematico_deflacionado'] = dbr.deflate(nominal_values=df_total['ativo_problematico'], nominal_dates=df_total['data'], real_date='2022-12')
 
 
-# In[20]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total.head(5)
-
-
 # In[21]:
 
 
 df_ocupacao_pf_ativoproblematico = df_total[df_total['cliente'] == "PF"]
-
-
-# In[22]:
-
-
-df_ocupacao_pf_ativoproblematico.head(3)
 
 
 # In[23]:
@@ -214,12 +166,6 @@ df_ocupacao_pf_ativoproblematico.head(3)
 url = "https://raw.githubusercontent.com/jonates/opendata/master/arquivos_geoespaciais/unidades_da_federacao.json" #Temos que dar os créditos
 response = requests.get(url)
 geojson_data = response.json()
-
-
-# In[24]:
-
-
-df_ocupacao_pf_ativoproblematico.columns
 
 
 # In[25]:
@@ -245,12 +191,6 @@ df_ocupacao_pf_ativoproblematico['ativo_problematico/pop'] = df_ocupacao_pf_ativ
 
 
 df_ocupacao_pf_ativoproblematico['ocupacao']=df_ocupacao_pf_ativoproblematico['ocupacao'].str.replace('PF - ','')
-
-
-# In[29]:
-
-
-#df_ocupacao_pf_ativoproblematico.head(3)
 
 
 # In[36]:
@@ -316,30 +256,11 @@ df_ocupacao_pf_ativoproblematico.to_csv("df_ocupacao_pf_ativoproblematico.csv")
 df_cnae_pj_ativoproblematico = df_total[df_total['cliente'] == "PJ"]
 
 
-# In[38]:
-
-
-df_cnae_pj_ativoproblematico.head(3)
-
-
-# In[39]:
-
-
-df_cnae_pj_ativoproblematico.columns
-
-
 # In[40]:
 
 
 df_cnae_pj_ativoproblematico = df_cnae_pj_ativoproblematico.drop(columns = ['cliente', 'uf', 'ocupacao', 'ativo_problematico', 'Unidade da Federação', 'Ano',
                                                  'data'])
-
-
-# In[41]:
-
-
-#df_cnae_pj_ativoproblematico.head(5)
-
 
 # In[42]:
 
@@ -357,12 +278,6 @@ df_cnae_pj_ativoproblematico['ativo_problematico/pop'] = df_cnae_pj_ativoproblem
 
 
 df_cnae_pj_ativoproblematico['cnae_secao']=df_cnae_pj_ativoproblematico['cnae_secao'].str.replace('PJ - ','')
-
-
-# In[45]:
-
-
-#df_cnae_pj_ativoproblematico.head(5)
 
 
 # In[46]:

@@ -56,30 +56,7 @@ for ano in anos:
 df_total = pd.concat(dataframes, ignore_index=False)
 
 
-# In[4]:
-
-
-df_total.columns
-
-
-# In[5]:
-
-
-df_total.head(3)
-
-
-# In[6]:
-
-
 df_total['longo_prazo_deflacionado'] = dbr.deflate(nominal_values=df_total['longo_prazo'], nominal_dates=df_total['data_base'], real_date='2022-01')
-
-
-# In[7]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total.head(3)
-
 
 # In[8]:
 
@@ -87,8 +64,6 @@ df_total.head(3)
 url = 'https://api.bcb.gov.br/dados/serie/bcdata.sgs.24369/dados?formato=json'
 
 taxa_desocupacao = requests.get(url).json() 
-
-taxa_desocupacao[100]
 
 
 # In[9]:
@@ -108,13 +83,6 @@ desocupacao_df['data'] = pd.to_datetime(desocupacao_df['data'], format = "%d/%m/
 
 desocupacao_df['data'] = desocupacao_df['data'].dt.strftime('%Y-%m')
 
-
-# In[12]:
-
-
-desocupacao_df.head(3)
-
-
 # In[13]:
 
 
@@ -129,18 +97,6 @@ df_desemprego_divida = pd.merge(desocupacao_df,
 
 
 df_desemprego_divida = df_desemprego_divida.drop(columns = ['data_base', 'longo_prazo'])
-
-
-# In[15]:
-
-
-df_desemprego_divida.head(3)
-
-
-# In[16]:
-
-
-import plotly.graph_objects as go
 
 
 # In[17]:
@@ -168,12 +124,6 @@ import plotly.graph_objects as go
 # fig.show()
 
 
-# In[18]:
-
-
-#df_desemprego_divida['porte'].unique()
-
-
 # In[19]:
 
 
@@ -190,22 +140,10 @@ def categoria_renda(dados_porte):
 df_desemprego_divida['categoria_renda'] = df_desemprego_divida['porte'].apply(categoria_renda)
 
 
-# In[20]:
-
-
-df_desemprego_divida['categoria_renda'].unique()
-
-
 # In[21]:
 
 
 df_desemprego_divida_grupo = df_desemprego_divida.groupby(['data','categoria_renda'])['longo_prazo_deflacionado'].sum().reset_index()
-
-
-# In[22]:
-
-
-desocupacao_df.head(5)
 
 
 # In[23]:
@@ -214,12 +152,6 @@ desocupacao_df.head(5)
 df_desemprego_divida_grupo = pd.merge(df_desemprego_divida_grupo,
                               desocupacao_df,
                               how = "inner")
-
-
-# In[24]:
-
-
-df_desemprego_divida_grupo.head(4)
 
 
 # In[27]:

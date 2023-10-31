@@ -87,13 +87,6 @@ df_total_micro['curto_prazo_deflacionado'] = dbr.deflate(nominal_values=df_total
 df_total_micro['ativo_problematico_deflacionado'] = dbr.deflate(nominal_values=df_total_micro['ativo_problematico'], nominal_dates=df_total_micro['data_base'], real_date='2022-12')
 
 
-# In[8]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total_micro.head(3)
-
-
 # In[9]:
 
 
@@ -163,52 +156,11 @@ df_total_pequeno['curto_prazo_deflacionado'] = dbr.deflate(nominal_values=df_tot
 df_total_pequeno['ativo_problematico_deflacionado'] = dbr.deflate(nominal_values=df_total_pequeno['ativo_problematico'], nominal_dates=df_total_micro['data_base'], real_date='2022-12')
 
 
-# In[15]:
-
-
-pd.set_option('display.float_format', '{:.2f}'.format)
-df_total_pequeno.head(3)
-
-
-# In[16]:
-
-
-df_total_micro.columns
-
-
-# In[17]:
-
-
-df_total_pequeno.columns
-
-
-# In[18]:
-
-
-df_total_micro.head(3)
-
-
-# In[19]:
-
-
-df_total_pequeno.head(3)
-
-
 # In[24]:
 
 
 df_micro_peq_problematico = pd.concat([df_total_micro, df_total_pequeno])
 
-
-# In[26]:
-
-
-df_micro_peq_problematico.head(5)
-
-
-# A análise do endividamento das Micro e Pequenas Empresas brasileiras com relação ao capital de giro no período de junho de 2012 a agosto de 2023 revela tendências interessantes. Apesar de uma trajetória ascendente no endividamento de curto prazo desde 2020, observa-se que o ativo problemático não aumentou proporcionalmente. Uma hipótese que merece consideração é a criteriosa análise de concessão de crédito por parte das instituições financeiras, visto que, apesar do crescimento no endividamento, as empresas têm mantido seus compromissos em dia.
-# 
-# Além disso, é notável que as Pequenas Empresas desfrutam de maior acesso ao crédito em comparação com as Microempresas. Em 2023, quase 80% dos recursos alocados para o capital de giro foram direcionados para as Pequenas Empresas, o que pode estar relacionado às garantias oferecidas no momento da contratação.
 
 # In[29]:
 

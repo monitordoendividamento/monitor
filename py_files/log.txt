@@ -293,3 +293,104 @@ memory usage: 327.4+ KB
 /Users/brunamoura/monitor/py_files/pf_porte_endividamentolp_inflacao.py
 /Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
   df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+[main 3b5ddc5] teste
+ Committer: Bruna Moura <brunamoura@MacBook-Air-de-Bruna-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 44 files changed, 42985 insertions(+), 420 deletions(-)
+ create mode 100644 df_cnae_pj_ativoproblematico.csv
+ create mode 100644 df_corr_ibge_scr_pj.csv
+ create mode 100644 df_corr_porte_pf.csv
+ create mode 100644 df_desemprego_divida_grupo.csv
+ create mode 100644 df_juros_divida_modalidade.csv
+ create mode 100644 df_juros_inflacao_modalidade.csv
+ create mode 100644 df_micro_peq_problematico.csv
+ create mode 100644 df_ocupacao_pf_ativoproblematico.csv
+ create mode 100644 pf_ocupacao_modalidade_endividamento_final.csv
+ create mode 100644 pf_porte_endividamentolp_inflacao.csv
+ create mode 100644 pf_rendimento_modalidade_noperacoes_endividamento.csv
+ create mode 100644 pj_cnaesecao_cnaesubclasse_endividamento.csv
+ create mode 100644 pj_porte_modalidade_endividamentocp.csv
+ delete mode 100644 py_files/1.txt
+ delete mode 100644 py_files/2.txt
+ delete mode 100644 py_files/2023-10-29_13-21-34.txt
+ create mode 100644 py_files/2023-10-29_13-25-27.txt
+ delete mode 100644 py_files/3.txt
+ create mode 100644 py_files/df_cnae_pj_ativoproblematico.csv
+ create mode 100644 py_files/df_corr_ibge_scr_pj.csv
+ create mode 100644 py_files/df_corr_porte_pf.csv
+ create mode 100644 py_files/df_desemprego_divida_grupo.csv
+ create mode 100644 py_files/df_juros_divida_modalidade.csv
+ create mode 100644 py_files/df_juros_inflacao_modalidade.csv
+ create mode 100644 py_files/df_micro_peq_problematico.csv
+ create mode 100644 py_files/df_ocupacao_pf_ativoproblematico.csv
+ create mode 100644 py_files/pf_ocupacao_modalidade_endividamento_final.csv
+ create mode 100644 py_files/pf_porte_endividamentolp_inflacao.csv
+ create mode 100644 py_files/pf_rendimento_modalidade_noperacoes_endividamento.csv
+ create mode 100644 py_files/pj_cnaesecao_cnaesubclasse_endividamento.csv
+ create mode 100644 py_files/pj_porte_modalidade_endividamentocp.csv
+To https://github.com/monitordoendividamento/monitor.git
+   0bd4ab4..3b5ddc5  main -> main
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 8381 entries, 0 to 8380
+Data columns (total 4 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   data_base           8381 non-null   object 
+ 1   modalidade          8381 non-null   object 
+ 2   porte               8381 non-null   object 
+ 3   valor_deflacionado  8381 non-null   float64
+dtypes: float64(1), object(3)
+memory usage: 262.0+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 8381 entries, 0 to 8380
+Data columns (total 4 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   data_base           8381 non-null   object 
+ 1   modalidade          8381 non-null   object 
+ 2   porte               8381 non-null   object 
+ 3   valor_deflacionado  8381 non-null   float64
+dtypes: float64(1), object(3)
+memory usage: 262.0+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 8381 entries, 0 to 8380
+Data columns (total 8 columns):
+ #   Column              Non-Null Count  Dtype         
+---  ------              --------------  -----         
+ 0   inflacao            8381 non-null   object        
+ 1   data_base           8381 non-null   datetime64[ns]
+ 2   modalidade          8381 non-null   object        
+ 3   porte               8381 non-null   object        
+ 4   valor_deflacionado  8381 non-null   float64       
+ 5   ano                 8381 non-null   int32         
+ 6   mes                 8381 non-null   int32         
+ 7   data_divida         8381 non-null   object        
+dtypes: datetime64[ns](1), float64(1), int32(2), object(4)
+memory usage: 458.5+ KB
+
+/Users/brunamoura/monitor/py_files/pf_pj_uf_ocupacao_ativoproblematico-mapas.py
+<class 'pandas.core.frame.DataFrame'>
+Index: 8200 entries, 0 to 759
+Data columns (total 6 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   ano                 8200 non-null   int32  
+ 1   cliente             8200 non-null   object 
+ 2   uf                  8200 non-null   object 
+ 3   ocupacao            8200 non-null   object 
+ 4   cnae_secao          8200 non-null   object 
+ 5   ativo_problematico  8200 non-null   float64
+dtypes: float64(1), int32(1), object(4)
+memory usage: 416.4+ KB
+
+Git add, commit e push realizados com sucesso.
