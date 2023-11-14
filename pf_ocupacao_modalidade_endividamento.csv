@@ -4106,8 +4106,9 @@
 24,2018-08-31,Empregado de entidades sem fins lucrativos,Habitacional,675793588.1999999,864464220.5819945
 26,2018-08-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,186568028.38,238654802.3762918
 54,2018-08-31,Servidor ou empregado público,Rural e agroindustrial,5625525075.05,7196080629.176299
-74,2018-09-30,Empregado de empresa privada,Outros créditos,17503343960.11,22410141301.34094
+102,2018-09-30,Outros,Outros créditos,27885825063.63,35703193709.99184
 111,2018-09-30,Servidor ou empregado público,Veículos,21750381228.45,27847771134.386986
+85,2018-09-30,Empresário,Empréstimo com consignação em folha,7110086100.04,9103291035.685913
 86,2018-09-30,Empresário,Empréstimo sem consignação em folha,18136721851.96,23221077090.85934
 87,2018-09-30,Empresário,Habitacional,93081633932.85,119175660019.52411
 88,2018-09-30,Empresário,Outros créditos,34615740029.22,44319738392.45908
@@ -4118,79 +4119,78 @@
 93,2018-09-30,MEI,Empréstimo sem consignação em folha,683054869.43,874538955.2636709
 94,2018-09-30,MEI,Habitacional,8024995334.190001,10274681214.724266
 95,2018-09-30,MEI,Outros créditos,1184270621.37,1516262950.9202504
-97,2018-09-30,MEI,Veículos,2985893520.66,3822943539.3171835
-85,2018-09-30,Empresário,Empréstimo com consignação em folha,7110086100.04,9103291035.685913
+84,2018-09-30,Empresário,Cartão de crédito,31600416456.41,40459114531.67359
+96,2018-09-30,MEI,Rural e agroindustrial,224108220.37,286933565.19357294
 98,2018-09-30,Outros,Cartão de crédito,61868241817.93,79212066240.89151
+99,2018-09-30,Outros,Empréstimo com consignação em folha,92060788648.24,117868636222.98244
 100,2018-09-30,Outros,Empréstimo sem consignação em folha,24173552321.9,30950241538.059387
 101,2018-09-30,Outros,Habitacional,119147894434.18,152549201804.6617
-102,2018-09-30,Outros,Outros créditos,27885825063.63,35703193709.99184
 103,2018-09-30,Outros,Rural e agroindustrial,74797883819.31,95766337521.1125
 104,2018-09-30,Outros,Veículos,48309746863.71,61852652608.27049
 105,2018-09-30,Servidor ou empregado público,Cartão de crédito,30660564879.54,39255789801.95649
 106,2018-09-30,Servidor ou empregado público,Empréstimo com consignação em folha,116829053880.24,149580309426.86786
 107,2018-09-30,Servidor ou empregado público,Empréstimo sem consignação em folha,17417100935.19,22299721350.780807
 108,2018-09-30,Servidor ou empregado público,Habitacional,107054586119.01,137065717690.92453
-109,2018-09-30,Servidor ou empregado público,Outros créditos,11074478384.12,14179040644.5978
 110,2018-09-30,Servidor ou empregado público,Rural e agroindustrial,5729575336.21,7335774990.982762
-99,2018-09-30,Outros,Empréstimo com consignação em folha,92060788648.24,117868636222.98244
-84,2018-09-30,Empresário,Cartão de crédito,31600416456.41,40459114531.67359
-96,2018-09-30,MEI,Rural e agroindustrial,224108220.37,286933565.19357294
-82,2018-09-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,199237819.82999998,255091124.59521976
+97,2018-09-30,MEI,Veículos,2985893520.66,3822943539.3171835
 83,2018-09-30,Empregado de entidades sem fins lucrativos,Veículos,201552704.74,258054952.4242146
+109,2018-09-30,Servidor ou empregado público,Outros créditos,11074478384.12,14179040644.5978
+81,2018-09-30,Empregado de entidades sem fins lucrativos,Outros créditos,111440773.46,142681506.2116639
+82,2018-09-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,199237819.82999998,255091124.59521976
 57,2018-09-30,Aposentado/pensionista,Empréstimo com consignação em folha,87347751425.97,111834370407.81837
 58,2018-09-30,Aposentado/pensionista,Empréstimo sem consignação em folha,15801067768.64,20230657765.41256
 59,2018-09-30,Aposentado/pensionista,Habitacional,21180236047.78,27117794388.788425
 60,2018-09-30,Aposentado/pensionista,Outros créditos,9295640382.27,11901532354.496017
 61,2018-09-30,Aposentado/pensionista,Rural e agroindustrial,6354789113.33,8136257979.875373
 62,2018-09-30,Aposentado/pensionista,Veículos,13018819413.16,16668448228.547672
-63,2018-09-30,Autônomo,Cartão de crédito,13610037293.95,17425405086.538822
+56,2018-09-30,Aposentado/pensionista,Cartão de crédito,24657568808.81,31569944715.266647
 64,2018-09-30,Autônomo,Empréstimo com consignação em folha,5470116959.8,7003581388.98215
 65,2018-09-30,Autônomo,Empréstimo sem consignação em folha,7740221921.33,9910075889.273209
 66,2018-09-30,Autônomo,Habitacional,39901401013.46,51087154367.24398
 67,2018-09-30,Autônomo,Outros créditos,12002884844.69,15367711793.02907
-68,2018-09-30,Autônomo,Rural e agroindustrial,46054240284.16,58964848925.21347
-56,2018-09-30,Aposentado/pensionista,Cartão de crédito,24657568808.81,31569944715.266647
-78,2018-09-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,211975943.06,271400187.71760154
-70,2018-09-30,Empregado de empresa privada,Cartão de crédito,38097910727.38,48778082898.45736
-71,2018-09-30,Empregado de empresa privada,Empréstimo com consignação em folha,21023278750.82,26916836491.190895
-72,2018-09-30,Empregado de empresa privada,Empréstimo sem consignação em folha,15297148181.66,19585471955.519794
-73,2018-09-30,Empregado de empresa privada,Habitacional,195708991765.72,250573043037.26843
-75,2018-09-30,Empregado de empresa privada,Rural e agroindustrial,6486642745.48,8305074780.499907
-76,2018-09-30,Empregado de empresa privada,Veículos,38682175514.64,49526137468.47178
-77,2018-09-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,270236930.01,345993759.8304857
+63,2018-09-30,Autônomo,Cartão de crédito,13610037293.95,17425405086.538822
 69,2018-09-30,Autônomo,Veículos,13185766771.13,16882196749.431433
-79,2018-09-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,107554039.99,137705185.88899547
 80,2018-09-30,Empregado de entidades sem fins lucrativos,Habitacional,701785221.46,898520077.7607645
-81,2018-09-30,Empregado de entidades sem fins lucrativos,Outros créditos,111440773.46,142681506.2116639
-148,2018-10-31,MEI,Empréstimo com consignação em folha,394146025.53,502228345.058488
-112,2018-10-31,Aposentado/pensionista,Cartão de crédito,25300360043.77,32238198868.250057
-150,2018-10-31,MEI,Habitacional,8055422085.11,10264371680.80605
-149,2018-10-31,MEI,Empréstimo sem consignação em folha,704479707.64,897661411.7053804
-147,2018-10-31,MEI,Cartão de crédito,2795069725.58,3561530883.670625
-141,2018-10-31,Empresário,Empréstimo com consignação em folha,7177664610.34,9145916450.09892
-145,2018-10-31,Empresário,Rural e agroindustrial,93443576690.08,119067578606.9363
-144,2018-10-31,Empresário,Outros créditos,34505693107.18,43967808938.35515
-143,2018-10-31,Empresário,Habitacional,93161799878.07,118708533246.06694
-142,2018-10-31,Empresário,Empréstimo sem consignação em folha,18423417973.44,23475468785.152855
+68,2018-09-30,Autônomo,Rural e agroindustrial,46054240284.16,58964848925.21347
+78,2018-09-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,211975943.06,271400187.71760154
+77,2018-09-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,270236930.01,345993759.8304857
+76,2018-09-30,Empregado de empresa privada,Veículos,38682175514.64,49526137468.47178
+75,2018-09-30,Empregado de empresa privada,Rural e agroindustrial,6486642745.48,8305074780.499907
+79,2018-09-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,107554039.99,137705185.88899547
+73,2018-09-30,Empregado de empresa privada,Habitacional,195708991765.72,250573043037.26843
+72,2018-09-30,Empregado de empresa privada,Empréstimo sem consignação em folha,15297148181.66,19585471955.519794
+71,2018-09-30,Empregado de empresa privada,Empréstimo com consignação em folha,21023278750.82,26916836491.190895
+70,2018-09-30,Empregado de empresa privada,Cartão de crédito,38097910727.38,48778082898.45736
+74,2018-09-30,Empregado de empresa privada,Outros créditos,17503343960.11,22410141301.34094
 151,2018-10-31,MEI,Outros créditos,1197471013.73,1525840288.94477
+142,2018-10-31,Empresário,Empréstimo sem consignação em folha,18423417973.44,23475468785.152855
+143,2018-10-31,Empresário,Habitacional,93161799878.07,118708533246.06694
+144,2018-10-31,Empresário,Outros créditos,34505693107.18,43967808938.35515
+145,2018-10-31,Empresário,Rural e agroindustrial,93443576690.08,119067578606.9363
 146,2018-10-31,Empresário,Veículos,25008427756.29,31866213207.82619
+147,2018-10-31,MEI,Cartão de crédito,2795069725.58,3561530883.670625
+148,2018-10-31,MEI,Empréstimo com consignação em folha,394146025.53,502228345.058488
+149,2018-10-31,MEI,Empréstimo sem consignação em folha,704479707.64,897661411.7053804
+150,2018-10-31,MEI,Habitacional,8055422085.11,10264371680.80605
 152,2018-10-31,MEI,Rural e agroindustrial,227414752.01,289776192.44108164
-158,2018-10-31,Outros,Outros créditos,28280538792.12,36035599181.369225
+164,2018-10-31,Servidor ou empregado público,Habitacional,107460217467.81,136927848266.16402
 154,2018-10-31,Outros,Cartão de crédito,63873929575.62,81389373139.0788
 155,2018-10-31,Outros,Empréstimo com consignação em folha,92722044968.21,118148189195.11946
 156,2018-10-31,Outros,Empréstimo sem consignação em folha,24780122023.55,31575301710.83166
 157,2018-10-31,Outros,Habitacional,120311750965.19,153303516119.65506
+158,2018-10-31,Outros,Outros créditos,28280538792.12,36035599181.369225
 159,2018-10-31,Outros,Rural e agroindustrial,75398034819.09,96073606722.11478
 160,2018-10-31,Outros,Veículos,49099673984.13,62563736307.634026
 161,2018-10-31,Servidor ou empregado público,Cartão de crédito,31639363731.68,40315477656.53096
 162,2018-10-31,Servidor ou empregado público,Empréstimo com consignação em folha,117909008856.45,150241896530.18393
 163,2018-10-31,Servidor ou empregado público,Empréstimo sem consignação em folha,17734239474.53,22597304463.967487
-164,2018-10-31,Servidor ou empregado público,Habitacional,107460217467.81,136927848266.16402
+141,2018-10-31,Empresário,Empréstimo com consignação em folha,7177664610.34,9145916450.09892
 165,2018-10-31,Servidor ou empregado público,Outros créditos,11273755284.49,14365232914.65447
 153,2018-10-31,MEI,Veículos,3038979437.95,3872325267.611338
 140,2018-10-31,Empresário,Cartão de crédito,32583851412.96,41518961782.64776
-113,2018-10-31,Aposentado/pensionista,Empréstimo com consignação em folha,88003775097.54,112136080191.86487
+127,2018-10-31,Empregado de empresa privada,Empréstimo com consignação em folha,21306564469.6,27149228761.24426
 138,2018-10-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,201509368.55,256767061.2549268
+113,2018-10-31,Aposentado/pensionista,Empréstimo com consignação em folha,88003775097.54,112136080191.86487
 166,2018-10-31,Servidor ou empregado público,Rural e agroindustrial,5779991668.61,7364975065.458068
 114,2018-10-31,Aposentado/pensionista,Empréstimo sem consignação em folha,15949874557.35,20323632826.32839
 115,2018-10-31,Aposentado/pensionista,Habitacional,21093984026.03,26878354726.113758
@@ -4205,7 +4205,6 @@
 124,2018-10-31,Autônomo,Rural e agroindustrial,46681405868.78,59482333185.91843
 125,2018-10-31,Autônomo,Veículos,13363888137.01,17028519857.766365
 126,2018-10-31,Empregado de empresa privada,Cartão de crédito,39577262594.62,50430099017.52341
-127,2018-10-31,Empregado de empresa privada,Empréstimo com consignação em folha,21306564469.6,27149228761.24426
 128,2018-10-31,Empregado de empresa privada,Empréstimo sem consignação em folha,15699497741.22,20004597936.056705
 129,2018-10-31,Empregado de empresa privada,Habitacional,197139374056.18,251198731345.73965
 130,2018-10-31,Empregado de empresa privada,Outros créditos,17961770660.83,22887229019.190353
@@ -4218,7 +4217,7 @@
 137,2018-10-31,Empregado de entidades sem fins lucrativos,Outros créditos,113068191.24,144073634.86378637
 139,2018-10-31,Empregado de entidades sem fins lucrativos,Veículos,204419353.61,260475019.4383526
 167,2018-10-31,Servidor ou empregado público,Veículos,21973115071.69,27998560186.913853
-307,2018-11-30,Empregado de entidades sem fins lucrativos,Veículos,207586969.39,263326479.98959678
+112,2018-10-31,Aposentado/pensionista,Cartão de crédito,25300360043.77,32238198868.250057
 281,2018-11-30,Aposentado/pensionista,Empréstimo com consignação em folha,88439625886.23,112186691894.25352
 312,2018-11-30,Empresário,Outros créditos,35084990633.17,44505717825.396835
 313,2018-11-30,Empresário,Rural e agroindustrial,94732474243.21,120169243071.82127
@@ -4245,8 +4244,8 @@
 334,2018-11-30,Servidor ou empregado público,Rural e agroindustrial,5821602553.85,7384770406.873214
 335,2018-11-30,Servidor ou empregado público,Veículos,22294950863.92,28281403932.957493
 324,2018-11-30,Outros,Empréstimo sem consignação em folha,25182344871.5,31944096743.557983
+280,2018-11-30,Aposentado/pensionista,Cartão de crédito,26559234770.12,33690697560.56622
 310,2018-11-30,Empresário,Empréstimo sem consignação em folha,18754268061.34,23790006703.628296
-309,2018-11-30,Empresário,Empréstimo com consignação em folha,7225726404.47,9165917808.079094
 308,2018-11-30,Empresário,Cartão de crédito,34551026423.85,43828378028.52114
 282,2018-11-30,Aposentado/pensionista,Empréstimo sem consignação em folha,16030659881.51,20335078116.47751
 283,2018-11-30,Aposentado/pensionista,Habitacional,21207635581.0,26902131876.857
@@ -4259,8 +4258,8 @@
 290,2018-11-30,Autônomo,Habitacional,40143395213.29,50922362744.68251
 291,2018-11-30,Autônomo,Outros créditos,12340213368.63,15653703882.428947
 292,2018-11-30,Autônomo,Rural e agroindustrial,47339698975.02,60050957588.95764
+309,2018-11-30,Empresário,Empréstimo com consignação em folha,7225726404.47,9165917808.079094
 293,2018-11-30,Autônomo,Veículos,13576554115.35,17222016468.995235
-294,2018-11-30,Empregado de empresa privada,Cartão de crédito,42752870074.38,54232511892.34511
 295,2018-11-30,Empregado de empresa privada,Empréstimo com consignação em folha,21520037483.14,27298417315.5544
 296,2018-11-30,Empregado de empresa privada,Empréstimo sem consignação em folha,15881865315.47,20146330482.50015
 297,2018-11-30,Empregado de empresa privada,Habitacional,199258636770.03,252761893399.9682
@@ -4273,22 +4272,23 @@
 304,2018-11-30,Empregado de entidades sem fins lucrativos,Habitacional,715456369.0,907564707.8837489
 305,2018-11-30,Empregado de entidades sem fins lucrativos,Outros créditos,108878548.41,138113702.3360935
 306,2018-11-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,204267970.47,259116291.33825183
-280,2018-11-30,Aposentado/pensionista,Cartão de crédito,26559234770.12,33690697560.56622
-446,2018-12-31,Servidor ou empregado público,Rural e agroindustrial,5879802614.94,7474297180.497215
+294,2018-11-30,Empregado de empresa privada,Cartão de crédito,42752870074.38,54232511892.34511
+307,2018-11-30,Empregado de entidades sem fins lucrativos,Veículos,207586969.39,263326479.98959678
 447,2018-12-31,Servidor ou empregado público,Veículos,22710162385.54,28868741657.34349
-393,2018-12-31,Aposentado/pensionista,Empréstimo com consignação em folha,88779122396.4,112854391153.94539
+446,2018-12-31,Servidor ou empregado público,Rural e agroindustrial,5879802614.94,7474297180.497215
+392,2018-12-31,Aposentado/pensionista,Cartão de crédito,27582003162.23,35061736246.74043
+421,2018-12-31,Empresário,Empréstimo com consignação em folha,7273823186.78,9246350548.952877
 422,2018-12-31,Empresário,Empréstimo sem consignação em folha,19311626068.39,24548584659.462555
 423,2018-12-31,Empresário,Habitacional,93500723637.89,118856404003.32759
 424,2018-12-31,Empresário,Outros créditos,35799658083.74,45507868376.0871
 425,2018-12-31,Empresário,Rural e agroindustrial,96360585175.2,122491807506.60431
 426,2018-12-31,Empresário,Veículos,25923021492.94,32952869193.658695
 427,2018-12-31,MEI,Cartão de crédito,3160074702.02,4017028968.8729095
-392,2018-12-31,Aposentado/pensionista,Cartão de crédito,27582003162.23,35061736246.74043
 428,2018-12-31,MEI,Empréstimo com consignação em folha,398021105.76,505957125.3295736
 429,2018-12-31,MEI,Empréstimo sem consignação em folha,735482296.19,934931597.6612306
 430,2018-12-31,MEI,Habitacional,8143983762.7,10352482704.248884
 431,2018-12-31,MEI,Outros créditos,1201628876.82,1527488576.4360666
-421,2018-12-31,Empresário,Empréstimo com consignação em folha,7273823186.78,9246350548.952877
+420,2018-12-31,Empresário,Cartão de crédito,36220880747.79,46043318896.52988
 432,2018-12-31,MEI,Rural e agroindustrial,232169669.33,295129822.9741506
 434,2018-12-31,Outros,Cartão de crédito,71972695946.51,91490370275.17165
 435,2018-12-31,Outros,Empréstimo com consignação em folha,93349681714.24,118664402281.84029
@@ -4302,22 +4302,23 @@
 443,2018-12-31,Servidor ou empregado público,Empréstimo sem consignação em folha,17846937323.5,22686699206.297726
 444,2018-12-31,Servidor ou empregado público,Habitacional,108638899471.42,138099775313.60394
 433,2018-12-31,MEI,Veículos,3173284018.41,4033820409.4561715
-420,2018-12-31,Empresário,Cartão de crédito,36220880747.79,46043318896.52988
+419,2018-12-31,Empregado de entidades sem fins lucrativos,Veículos,210791693.01,267954531.7956145
 445,2018-12-31,Servidor ou empregado público,Outros créditos,10775361303.57,13697441544.291348
-418,2018-12-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,207027608.97,263169697.24082163
+417,2018-12-31,Empregado de entidades sem fins lucrativos,Outros créditos,108703102.65,138181389.2159857
+393,2018-12-31,Aposentado/pensionista,Empréstimo com consignação em folha,88779122396.4,112854391153.94539
 394,2018-12-31,Aposentado/pensionista,Empréstimo sem consignação em folha,16062011283.09,20417733979.925297
 395,2018-12-31,Aposentado/pensionista,Habitacional,21126562079.59,26855698009.973125
 396,2018-12-31,Aposentado/pensionista,Outros créditos,9117763279.59,11590333355.735617
 397,2018-12-31,Aposentado/pensionista,Rural e agroindustrial,6328864241.69,8045136079.435537
 398,2018-12-31,Aposentado/pensionista,Veículos,13438153642.69,17082334299.358313
-399,2018-12-31,Autônomo,Cartão de crédito,15549509639.56,19766251295.880203
-419,2018-12-31,Empregado de entidades sem fins lucrativos,Veículos,210791693.01,267954531.7956145
+418,2018-12-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,207027608.97,263169697.24082163
+400,2018-12-31,Autônomo,Empréstimo com consignação em folha,5593588484.96,7110467030.945537
 401,2018-12-31,Autônomo,Empréstimo sem consignação em folha,8248741444.5199995,10485648746.910444
 402,2018-12-31,Autônomo,Habitacional,40199821267.76,51101275065.70672
 403,2018-12-31,Autônomo,Outros créditos,12663476203.89,16097578555.703688
 404,2018-12-31,Autônomo,Rural e agroindustrial,48105491383.3,61150817835.11561
-405,2018-12-31,Autônomo,Veículos,13847103553.74,17602183921.41179
-400,2018-12-31,Autônomo,Empréstimo com consignação em folha,5593588484.96,7110467030.945537
+399,2018-12-31,Autônomo,Cartão de crédito,15549509639.56,19766251295.880203
+406,2018-12-31,Empregado de empresa privada,Cartão de crédito,44654004702.4,56763351306.55803
 407,2018-12-31,Empregado de empresa privada,Empréstimo com consignação em folha,21641007014.82,27509650970.7648
 408,2018-12-31,Empregado de empresa privada,Empréstimo sem consignação em folha,15750488971.75,20021732534.67367
 409,2018-12-31,Empregado de empresa privada,Habitacional,200805827214.7,255260682452.95325
@@ -4328,8 +4329,7 @@
 414,2018-12-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,215901830.16,274450444.36165035
 415,2018-12-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,109948173.67,139764100.6476006
 416,2018-12-31,Empregado de entidades sem fins lucrativos,Habitacional,719901195.22,915125188.0458456
-417,2018-12-31,Empregado de entidades sem fins lucrativos,Outros créditos,108703102.65,138181389.2159857
-406,2018-12-31,Empregado de empresa privada,Cartão de crédito,44654004702.4,56763351306.55803
+405,2018-12-31,Autônomo,Veículos,13847103553.74,17602183921.41179
 543,2019-01-31,MEI,Outros créditos,1355364184.6,1720333394.216969
 542,2019-01-31,MEI,Habitacional,9426993509.13,11965471660.747135
 541,2019-01-31,MEI,Empréstimo sem consignação em folha,858634571.63,1089845625.1005404
@@ -5395,77 +5395,75 @@
 644,2020-07-31,Empresário,Cartão de crédito,33887203178.19,41196216519.11536
 671,2020-07-31,Servidor ou empregado público,Veículos,25810165500.45,31377070593.865757
 83,2020-08-31,Empregado de entidades sem fins lucrativos,Veículos,246583538.11,298693084.1316555
+111,2020-08-31,Servidor ou empregado público,Veículos,25972430775.43,31461084183.35855
+87,2020-08-31,Empresário,Habitacional,102513922944.75,124177794046.99232
+88,2020-08-31,Empresário,Outros créditos,45709231488.65,55368786705.22639
+89,2020-08-31,Empresário,Rural e agroindustrial,107864175930.86,130658695317.02315
+90,2020-08-31,Empresário,Veículos,29953507187.7,36283466086.29909
+91,2020-08-31,MEI,Cartão de crédito,3832927867.45,4642925698.762939
+92,2020-08-31,MEI,Empréstimo com consignação em folha,487598690.14,590641036.6757797
+93,2020-08-31,MEI,Empréstimo sem consignação em folha,946651980.87,1146704285.0170467
+94,2020-08-31,MEI,Habitacional,9753097266.03,11814181613.887617
+95,2020-08-31,MEI,Outros créditos,1786700699.54,2164277252.4730277
+96,2020-08-31,MEI,Rural e agroindustrial,268914184.84,325742780.12337536
+97,2020-08-31,MEI,Veículos,4299767151.81,5208420324.673852
+86,2020-08-31,Empresário,Empréstimo sem consignação em folha,27144469475.01,32880805291.192745
+98,2020-08-31,Outros,Cartão de crédito,82264742815.33,99649432947.33215
+100,2020-08-31,Outros,Empréstimo sem consignação em folha,32335695549.22,39169073106.6977
+101,2020-08-31,Outros,Habitacional,145926891082.15,176765056942.39572
+102,2020-08-31,Outros,Outros créditos,36235595616.11,43893123980.9494
+103,2020-08-31,Outros,Rural e agroindustrial,85087344405.93,103068524022.24052
+104,2020-08-31,Outros,Veículos,66248678807.98,80248756038.1084
+105,2020-08-31,Servidor ou empregado público,Cartão de crédito,36003202998.61,43611620729.82995
+106,2020-08-31,Servidor ou empregado público,Empréstimo com consignação em folha,150902909708.97,182792638352.46698
+107,2020-08-31,Servidor ou empregado público,Empréstimo sem consignação em folha,20869378826.36,25279623990.051514
+108,2020-08-31,Servidor ou empregado público,Habitacional,119008642998.79,144158279535.16638
+109,2020-08-31,Servidor ou empregado público,Outros créditos,12678449593.85,15357737342.163696
+110,2020-08-31,Servidor ou empregado público,Rural e agroindustrial,6731845903.78,8154460878.901451
+99,2020-08-31,Outros,Empréstimo com consignação em folha,106400520677.66,128885731456.4398
+85,2020-08-31,Empresário,Empréstimo com consignação em folha,8674544617.49,10507702602.920284
+56,2020-08-31,Aposentado/pensionista,Cartão de crédito,25824133853.51,31281448246.12191
+82,2020-08-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,185139185.94,224263934.5103954
+57,2020-08-31,Aposentado/pensionista,Empréstimo com consignação em folha,104382387925.21,126441114509.83939
+58,2020-08-31,Aposentado/pensionista,Empréstimo sem consignação em folha,16548934627.69,20046157018.125027
+59,2020-08-31,Aposentado/pensionista,Habitacional,20659471120.04,25025357299.483738
+60,2020-08-31,Aposentado/pensionista,Outros créditos,9474197919.92,11476343546.95739
+61,2020-08-31,Aposentado/pensionista,Rural e agroindustrial,6224288914.4,7539643832.749488
+62,2020-08-31,Aposentado/pensionista,Veículos,14315056049.92,17340201514.833878
+63,2020-08-31,Autônomo,Cartão de crédito,15915186905.97,19278481839.9162
 84,2020-08-31,Empresário,Cartão de crédito,35361962940.69,42834869888.97112
+65,2020-08-31,Autônomo,Empréstimo sem consignação em folha,10280395822.67,12452912136.404133
+66,2020-08-31,Autônomo,Habitacional,43644041515.15,52867168116.93559
+67,2020-08-31,Autônomo,Outros créditos,15314687440.210001,18551081143.089264
+68,2020-08-31,Autônomo,Rural e agroindustrial,55133852019.36,66785075864.937035
+64,2020-08-31,Autônomo,Empréstimo com consignação em folha,6751774583.43,8178601009.394164
+70,2020-08-31,Empregado de empresa privada,Cartão de crédito,48511306877.46,58763013855.457726
+69,2020-08-31,Autônomo,Veículos,16332115554.4,19783518408.119083
 80,2020-08-31,Empregado de entidades sem fins lucrativos,Habitacional,833830022.98,1010040098.8421254
 79,2020-08-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,127117234.32,153980428.11920914
 78,2020-08-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,251230984.97,304322657.9734102
 77,2020-08-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,308417314.41,373593953.3791183
-76,2020-08-31,Empregado de empresa privada,Veículos,50261230448.35,60882742010.83298
+81,2020-08-31,Empregado de entidades sem fins lucrativos,Outros créditos,124751835.69,151115158.9393975
 75,2020-08-31,Empregado de empresa privada,Rural e agroindustrial,8284708467.42,10035483886.038725
 74,2020-08-31,Empregado de empresa privada,Outros créditos,23234653119.67,28144742557.58104
 73,2020-08-31,Empregado de empresa privada,Habitacional,237751537926.64,287994651486.72235
 72,2020-08-31,Empregado de empresa privada,Empréstimo sem consignação em folha,19960889543.84,24179147178.921482
 71,2020-08-31,Empregado de empresa privada,Empréstimo com consignação em folha,28094086114.239998,34031100744.362106
-70,2020-08-31,Empregado de empresa privada,Cartão de crédito,48511306877.46,58763013855.457726
-81,2020-08-31,Empregado de entidades sem fins lucrativos,Outros créditos,124751835.69,151115158.9393975
-69,2020-08-31,Autônomo,Veículos,16332115554.4,19783518408.119083
-67,2020-08-31,Autônomo,Outros créditos,15314687440.210001,18551081143.089264
-66,2020-08-31,Autônomo,Habitacional,43644041515.15,52867168116.93559
-65,2020-08-31,Autônomo,Empréstimo sem consignação em folha,10280395822.67,12452912136.404133
-64,2020-08-31,Autônomo,Empréstimo com consignação em folha,6751774583.43,8178601009.394164
-63,2020-08-31,Autônomo,Cartão de crédito,15915186905.97,19278481839.9162
-62,2020-08-31,Aposentado/pensionista,Veículos,14315056049.92,17340201514.833878
-61,2020-08-31,Aposentado/pensionista,Rural e agroindustrial,6224288914.4,7539643832.749488
-60,2020-08-31,Aposentado/pensionista,Outros créditos,9474197919.92,11476343546.95739
-59,2020-08-31,Aposentado/pensionista,Habitacional,20659471120.04,25025357299.483738
-58,2020-08-31,Aposentado/pensionista,Empréstimo sem consignação em folha,16548934627.69,20046157018.125027
-57,2020-08-31,Aposentado/pensionista,Empréstimo com consignação em folha,104382387925.21,126441114509.83939
-68,2020-08-31,Autônomo,Rural e agroindustrial,55133852019.36,66785075864.937035
-82,2020-08-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,185139185.94,224263934.5103954
-111,2020-08-31,Servidor ou empregado público,Veículos,25972430775.43,31461084183.35855
-85,2020-08-31,Empresário,Empréstimo com consignação em folha,8674544617.49,10507702602.920284
-110,2020-08-31,Servidor ou empregado público,Rural e agroindustrial,6731845903.78,8154460878.901451
-109,2020-08-31,Servidor ou empregado público,Outros créditos,12678449593.85,15357737342.163696
-108,2020-08-31,Servidor ou empregado público,Habitacional,119008642998.79,144158279535.16638
-107,2020-08-31,Servidor ou empregado público,Empréstimo sem consignação em folha,20869378826.36,25279623990.051514
-106,2020-08-31,Servidor ou empregado público,Empréstimo com consignação em folha,150902909708.97,182792638352.46698
-105,2020-08-31,Servidor ou empregado público,Cartão de crédito,36003202998.61,43611620729.82995
-104,2020-08-31,Outros,Veículos,66248678807.98,80248756038.1084
-103,2020-08-31,Outros,Rural e agroindustrial,85087344405.93,103068524022.24052
-102,2020-08-31,Outros,Outros créditos,36235595616.11,43893123980.9494
-101,2020-08-31,Outros,Habitacional,145926891082.15,176765056942.39572
-100,2020-08-31,Outros,Empréstimo sem consignação em folha,32335695549.22,39169073106.6977
-99,2020-08-31,Outros,Empréstimo com consignação em folha,106400520677.66,128885731456.4398
-98,2020-08-31,Outros,Cartão de crédito,82264742815.33,99649432947.33215
-97,2020-08-31,MEI,Veículos,4299767151.81,5208420324.673852
-96,2020-08-31,MEI,Rural e agroindustrial,268914184.84,325742780.12337536
-95,2020-08-31,MEI,Outros créditos,1786700699.54,2164277252.4730277
-94,2020-08-31,MEI,Habitacional,9753097266.03,11814181613.887617
-93,2020-08-31,MEI,Empréstimo sem consignação em folha,946651980.87,1146704285.0170467
-92,2020-08-31,MEI,Empréstimo com consignação em folha,487598690.14,590641036.6757797
-91,2020-08-31,MEI,Cartão de crédito,3832927867.45,4642925698.762939
-90,2020-08-31,Empresário,Veículos,29953507187.7,36283466086.29909
-89,2020-08-31,Empresário,Rural e agroindustrial,107864175930.86,130658695317.02315
-88,2020-08-31,Empresário,Outros créditos,45709231488.65,55368786705.22639
-87,2020-08-31,Empresário,Habitacional,102513922944.75,124177794046.99232
-86,2020-08-31,Empresário,Empréstimo sem consignação em folha,27144469475.01,32880805291.192745
-56,2020-08-31,Aposentado/pensionista,Cartão de crédito,25824133853.51,31281448246.12191
-0,2020-09-30,Aposentado/pensionista,Cartão de crédito,26309141046.86,31792630642.144943
-55,2020-09-30,Servidor ou empregado público,Veículos,26205972367.31,31667959003.609547
-53,2020-09-30,Servidor ou empregado público,Outros créditos,12725119370.51,15377355699.421944
-24,2020-09-30,Empregado de entidades sem fins lucrativos,Habitacional,840856851.26,1016112660.1363058
-23,2020-09-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,126199911.62,152503161.1659118
+76,2020-08-31,Empregado de empresa privada,Veículos,50261230448.35,60882742010.83298
+16,2020-09-30,Empregado de empresa privada,Empréstimo sem consignação em folha,20571043197.96,24858568250.156013
+17,2020-09-30,Empregado de empresa privada,Habitacional,240909304113.66,291120888754.97064
+18,2020-09-30,Empregado de empresa privada,Outros créditos,23188151190.98,28021147660.27403
+19,2020-09-30,Empregado de empresa privada,Rural e agroindustrial,8569902671.400001,10356086874.35539
 22,2020-09-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,253725034.1,306607740.6114966
 21,2020-09-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,315534784.55,381300204.44526124
-20,2020-09-30,Empregado de empresa privada,Veículos,50898348986.44,61506850669.83633
-19,2020-09-30,Empregado de empresa privada,Rural e agroindustrial,8569902671.400001,10356086874.35539
-18,2020-09-30,Empregado de empresa privada,Outros créditos,23188151190.98,28021147660.27403
-17,2020-09-30,Empregado de empresa privada,Habitacional,240909304113.66,291120888754.97064
-16,2020-09-30,Empregado de empresa privada,Empréstimo sem consignação em folha,20571043197.96,24858568250.156013
-15,2020-09-30,Empregado de empresa privada,Empréstimo com consignação em folha,28363443425.2,34275101530.324642
-14,2020-09-30,Empregado de empresa privada,Cartão de crédito,49629286599.49,59973283623.37604
+23,2020-09-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,126199911.62,152503161.1659118
+24,2020-09-30,Empregado de entidades sem fins lucrativos,Habitacional,840856851.26,1016112660.1363058
 25,2020-09-30,Empregado de entidades sem fins lucrativos,Outros créditos,123877532.9,149696740.05453348
+20,2020-09-30,Empregado de empresa privada,Veículos,50898348986.44,61506850669.83633
+15,2020-09-30,Empregado de empresa privada,Empréstimo com consignação em folha,28363443425.2,34275101530.324642
+2,2020-09-30,Aposentado/pensionista,Empréstimo sem consignação em folha,16478745444.77,19913332268.74881
 13,2020-09-30,Autônomo,Veículos,16508009988.38,19948696282.50534
+12,2020-09-30,Autônomo,Rural e agroindustrial,56402510102.270004,68158218004.05513
 11,2020-09-30,Autônomo,Outros créditos,15448831223.92,18668757907.379284
 10,2020-09-30,Autônomo,Habitacional,44035442570.55,53213541191.45492
 9,2020-09-30,Autônomo,Empréstimo sem consignação em folha,10331880486.17,12485305375.440662
@@ -5475,12 +5473,14 @@
 5,2020-09-30,Aposentado/pensionista,Rural e agroindustrial,6276860368.77,7585116630.800821
 4,2020-09-30,Aposentado/pensionista,Outros créditos,9514855963.06,11497992302.674608
 3,2020-09-30,Aposentado/pensionista,Habitacional,20579078658.41,24868278503.549366
-2,2020-09-30,Aposentado/pensionista,Empréstimo sem consignação em folha,16478745444.77,19913332268.74881
-1,2020-09-30,Aposentado/pensionista,Empréstimo com consignação em folha,105170359534.57,127090519193.64107
-12,2020-09-30,Autônomo,Rural e agroindustrial,56402510102.270004,68158218004.05513
-54,2020-09-30,Servidor ou empregado público,Rural e agroindustrial,6845674181.23,8272485610.710919
 26,2020-09-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,196601052.18,237577677.83763504
-28,2020-09-30,Empresário,Cartão de crédito,36596059258.09,44223602468.74598
+14,2020-09-30,Empregado de empresa privada,Cartão de crédito,49629286599.49,59973283623.37604
+27,2020-09-30,Empregado de entidades sem fins lucrativos,Veículos,249215596.29999998,301158422.06005585
+41,2020-09-30,MEI,Veículos,4372024931.87,5283265370.375186
+29,2020-09-30,Empresário,Empréstimo com consignação em folha,8743885938.48,10566332649.325235
+1,2020-09-30,Aposentado/pensionista,Empréstimo com consignação em folha,105170359534.57,127090519193.64107
+54,2020-09-30,Servidor ou empregado público,Rural e agroindustrial,6845674181.23,8272485610.710919
+53,2020-09-30,Servidor ou empregado público,Outros créditos,12725119370.51,15377355699.421944
 52,2020-09-30,Servidor ou empregado público,Habitacional,120117976538.88,145153597176.7587
 51,2020-09-30,Servidor ou empregado público,Empréstimo sem consignação em folha,20843563760.62,25187888982.27748
 50,2020-09-30,Servidor ou empregado público,Empréstimo com consignação em folha,153667851582.26,185696113690.10568
@@ -5492,8 +5492,7 @@
 44,2020-09-30,Outros,Empréstimo sem consignação em folha,32892856266.89,39748558426.73765
 43,2020-09-30,Outros,Empréstimo com consignação em folha,107291144298.98,129653329076.57422
 42,2020-09-30,Outros,Cartão de crédito,82905235599.4,100184780986.0866
-27,2020-09-30,Empregado de entidades sem fins lucrativos,Veículos,249215596.29999998,301158422.06005585
-41,2020-09-30,MEI,Veículos,4372024931.87,5283265370.375186
+40,2020-09-30,MEI,Rural e agroindustrial,273702737.63,330749302.2184032
 39,2020-09-30,MEI,Outros créditos,1770173978.75,2139122952.6838439
 38,2020-09-30,MEI,Habitacional,9881387260.17,11940917981.13173
 37,2020-09-30,MEI,Empréstimo sem consignação em folha,928949576.17,1122566134.2476537
@@ -5504,11 +5503,10 @@
 32,2020-09-30,Empresário,Outros créditos,46179956861.48,55805026433.67175
 31,2020-09-30,Empresário,Habitacional,103586380108.31,125176398441.68852
 30,2020-09-30,Empresário,Empréstimo sem consignação em folha,28814840888.6,34820581627.949875
-29,2020-09-30,Empresário,Empréstimo com consignação em folha,8743885938.48,10566332649.325235
-40,2020-09-30,MEI,Rural e agroindustrial,273702737.63,330749302.2184032
+28,2020-09-30,Empresário,Cartão de crédito,36596059258.09,44223602468.74598
+0,2020-09-30,Aposentado/pensionista,Cartão de crédito,26309141046.86,31792630642.144943
+55,2020-09-30,Servidor ou empregado público,Veículos,26205972367.31,31667959003.609547
 392,2020-10-31,Aposentado/pensionista,Cartão de crédito,28173345441.81,33828863354.45221
-393,2020-10-31,Aposentado/pensionista,Empréstimo com consignação em folha,111532537827.61,133921581643.131
-447,2020-10-31,Servidor ou empregado público,Veículos,26513226154.69,31835491689.306248
 422,2020-10-31,Empresário,Empréstimo sem consignação em folha,30615772107.37,36761582796.42102
 423,2020-10-31,Empresário,Habitacional,107462865221.84,129034962879.22513
 424,2020-10-31,Empresário,Outros créditos,47577629765.31,57128364090.93444
@@ -5521,7 +5519,8 @@
 431,2020-10-31,MEI,Outros créditos,1981987065.17,2379851187.2298317
 432,2020-10-31,MEI,Rural e agroindustrial,288318588.63,346195667.72635907
 421,2020-10-31,Empresário,Empréstimo com consignação em folha,8913695695.31,10703031142.773592
-434,2020-10-31,Outros,Cartão de crédito,82622426525.83,99208054035.6305
+433,2020-10-31,MEI,Veículos,4988022311.11,5989318006.979948
+435,2020-10-31,Outros,Empréstimo com consignação em folha,109222012176.44,131147241027.74951
 436,2020-10-31,Outros,Empréstimo sem consignação em folha,33157083159.48,39813036678.621574
 437,2020-10-31,Outros,Habitacional,142443714666.01,171037868722.04178
 438,2020-10-31,Outros,Outros créditos,35882729725.94,43085829589.91253
@@ -5532,12 +5531,10 @@
 443,2020-10-31,Servidor ou empregado público,Empréstimo sem consignação em folha,21100751850.91,25336517188.381863
 444,2020-10-31,Servidor ou empregado público,Habitacional,121278860974.6,145624381888.4496
 445,2020-10-31,Servidor ou empregado público,Outros créditos,13059840368.85,15681472978.82285
+434,2020-10-31,Outros,Cartão de crédito,82622426525.83,99208054035.6305
 446,2020-10-31,Servidor ou empregado público,Rural e agroindustrial,6920571778.35,8309807491.908555
-435,2020-10-31,Outros,Empréstimo com consignação em folha,109222012176.44,131147241027.74951
 420,2020-10-31,Empresário,Cartão de crédito,39280659749.33,47165860152.3698
-433,2020-10-31,MEI,Veículos,4988022311.11,5989318006.979948
 418,2020-10-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,187525715.43,225169631.19733086
-419,2020-10-31,Empregado de entidades sem fins lucrativos,Veículos,246109884.4,295513987.3872483
 394,2020-10-31,Aposentado/pensionista,Empréstimo sem consignação em folha,17115850317.33,20551686443.34826
 395,2020-10-31,Aposentado/pensionista,Habitacional,22040892118.29,26465381231.344204
 396,2020-10-31,Aposentado/pensionista,Outros créditos,10087713028.56,12112720738.363241
@@ -5545,83 +5542,84 @@
 398,2020-10-31,Aposentado/pensionista,Veículos,15140726514.44,18180076249.80217
 399,2020-10-31,Autônomo,Cartão de crédito,16908306501.2,20302480277.526573
 400,2020-10-31,Autônomo,Empréstimo com consignação em folha,7016433084.81,8424911998.894157
+401,2020-10-31,Autônomo,Empréstimo sem consignação em folha,10530014040.460001,12643809264.005505
 402,2020-10-31,Autônomo,Habitacional,44231480397.4,53110508633.74662
 403,2020-10-31,Autônomo,Outros créditos,15683012432.13,18831220653.16984
 404,2020-10-31,Autônomo,Rural e agroindustrial,58746437565.18,70539198586.05391
+419,2020-10-31,Empregado de entidades sem fins lucrativos,Veículos,246109884.4,295513987.3872483
 405,2020-10-31,Autônomo,Veículos,16741516648.26,20102209026.2593
-401,2020-10-31,Autônomo,Empréstimo sem consignação em folha,10530014040.460001,12643809264.005505
+407,2020-10-31,Empregado de empresa privada,Empréstimo com consignação em folha,28917830983.5,34722796938.27932
+408,2020-10-31,Empregado de empresa privada,Empréstimo sem consignação em folha,21602050435.69,25938446460.832985
+409,2020-10-31,Empregado de empresa privada,Habitacional,246641180616.25,296151936016.29486
+410,2020-10-31,Empregado de empresa privada,Outros créditos,23603770188.98,28341991476.380306
+411,2020-10-31,Empregado de empresa privada,Rural e agroindustrial,8563873607.41,10282985762.136042
+412,2020-10-31,Empregado de empresa privada,Veículos,52673818961.909996,63247562406.10412
+413,2020-10-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,320543805.51,384889775.2704105
+414,2020-10-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,255890356.07,307257791.1307509
+415,2020-10-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,125402151.62,150575381.97830495
 416,2020-10-31,Empregado de entidades sem fins lucrativos,Habitacional,827592747.37,993723731.5937576
 417,2020-10-31,Empregado de entidades sem fins lucrativos,Outros créditos,121465102.76,145848009.8534777
 406,2020-10-31,Empregado de empresa privada,Cartão de crédito,52063529794.57,62514763779.4274
-415,2020-10-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,125402151.62,150575381.97830495
-414,2020-10-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,255890356.07,307257791.1307509
-412,2020-10-31,Empregado de empresa privada,Veículos,52673818961.909996,63247562406.10412
-413,2020-10-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,320543805.51,384889775.2704105
-410,2020-10-31,Empregado de empresa privada,Outros créditos,23603770188.98,28341991476.380306
-409,2020-10-31,Empregado de empresa privada,Habitacional,246641180616.25,296151936016.29486
-408,2020-10-31,Empregado de empresa privada,Empréstimo sem consignação em folha,21602050435.69,25938446460.832985
-407,2020-10-31,Empregado de empresa privada,Empréstimo com consignação em folha,28917830983.5,34722796938.27932
-411,2020-10-31,Empregado de empresa privada,Rural e agroindustrial,8563873607.41,10282985762.136042
-371,2020-11-30,MEI,Cartão de crédito,4790084880.38,5702603220.08697
+447,2020-10-31,Servidor ou empregado público,Veículos,26513226154.69,31835491689.306248
+393,2020-10-31,Aposentado/pensionista,Empréstimo com consignação em folha,111532537827.61,133921581643.131
+391,2020-11-30,Servidor ou empregado público,Veículos,26840098076.44,31953176935.356236
+361,2020-11-30,Empregado de entidades sem fins lucrativos,Outros créditos,122424429.1,145746466.09343284
+360,2020-11-30,Empregado de entidades sem fins lucrativos,Habitacional,840263053.29,1000334422.6817827
+359,2020-11-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,125547839.24,149464890.54035065
+358,2020-11-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,262829002.62,312898321.0322898
+357,2020-11-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,342691716.07,407975000.9362843
+356,2020-11-30,Empregado de empresa privada,Veículos,53591404926.06,63800647782.276924
+355,2020-11-30,Empregado de empresa privada,Rural e agroindustrial,8740552934.22,10405641351.40533
+354,2020-11-30,Empregado de empresa privada,Outros créditos,23495865332.76,27971862848.22111
+353,2020-11-30,Empregado de empresa privada,Habitacional,249916090363.53,297525479662.3881
+352,2020-11-30,Empregado de empresa privada,Empréstimo sem consignação em folha,22092249173.55,26300855709.691643
+351,2020-11-30,Empregado de empresa privada,Empréstimo com consignação em folha,29543828289.920002,35171971801.55793
+362,2020-11-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,192645202.78,229344402.2687933
+350,2020-11-30,Empregado de empresa privada,Cartão de crédito,56093647922.55,66779571815.05774
+348,2020-11-30,Autônomo,Rural e agroindustrial,59754224321.71,71137493497.55789
+347,2020-11-30,Autônomo,Outros créditos,15782161471.2,18788686854.84712
+346,2020-11-30,Autônomo,Habitacional,44670592099.13,53180406758.779976
+345,2020-11-30,Autônomo,Empréstimo sem consignação em folha,10793794261.25,12850028224.60998
+344,2020-11-30,Autônomo,Empréstimo com consignação em folha,7255272221.25,8637412439.385746
+343,2020-11-30,Autônomo,Cartão de crédito,18011648056.78,21442893972.166637
+342,2020-11-30,Aposentado/pensionista,Veículos,15208463185.15,18105698186.56958
+341,2020-11-30,Aposentado/pensionista,Rural e agroindustrial,6801194517.87,8096832253.829815
+340,2020-11-30,Aposentado/pensionista,Outros créditos,10174867102.64,12113194515.849337
+339,2020-11-30,Aposentado/pensionista,Habitacional,22017665607.38,26212063862.526535
+338,2020-11-30,Aposentado/pensionista,Empréstimo sem consignação em folha,17124283416.25,20386485039.372055
+349,2020-11-30,Autônomo,Veículos,16989758995.65,20226333515.286114
+363,2020-11-30,Empregado de entidades sem fins lucrativos,Veículos,249791996.9,297377746.2083075
+364,2020-11-30,Empresário,Cartão de crédito,42041951967.6,50051006747.53766
+365,2020-11-30,Empresário,Empréstimo com consignação em folha,9205583263.75,10959260654.787176
+390,2020-11-30,Servidor ou empregado público,Rural e agroindustrial,7014755165.65,8351076524.6782
+389,2020-11-30,Servidor ou empregado público,Outros créditos,13439441832.89,15999675618.76068
+388,2020-11-30,Servidor ou empregado público,Habitacional,122598078361.81,145953195799.54297
+387,2020-11-30,Servidor ou empregado público,Empréstimo sem consignação em folha,21301441411.45,25359397885.198257
+386,2020-11-30,Servidor ou empregado público,Empréstimo com consignação em folha,157822054321.84,187887391904.64374
+385,2020-11-30,Servidor ou empregado público,Cartão de crédito,40942603311.8,48742230527.25782
+384,2020-11-30,Outros,Veículos,67383696536.53,80220391589.40654
+383,2020-11-30,Outros,Rural e agroindustrial,89097171969.48,106070316593.94989
+382,2020-11-30,Outros,Outros créditos,36256498990.31,43163416318.17173
+381,2020-11-30,Outros,Habitacional,144197833936.67,171667737142.80966
+380,2020-11-30,Outros,Empréstimo sem consignação em folha,33875986819.64,40329413015.74131
+379,2020-11-30,Outros,Empréstimo com consignação em folha,112750594279.97,134229751259.99629
+378,2020-11-30,Outros,Cartão de crédito,87157876727.6,103761582705.67549
+377,2020-11-30,MEI,Veículos,5084203558.92,6052751947.137685
+376,2020-11-30,MEI,Rural e agroindustrial,289959217.95,345196882.99226856
+375,2020-11-30,MEI,Outros créditos,2024198920.55,2409811844.818347
 374,2020-11-30,MEI,Habitacional,11399158968.31,13570715814.499512
 373,2020-11-30,MEI,Empréstimo sem consignação em folha,1053873971.05,1254638540.016604
 372,2020-11-30,MEI,Empréstimo com consignação em folha,590202564.17,702637036.0836751
+371,2020-11-30,MEI,Cartão de crédito,4790084880.38,5702603220.08697
 370,2020-11-30,Empresário,Veículos,32270007376.84,38417492085.19233
-365,2020-11-30,Empresário,Empréstimo com consignação em folha,9205583263.75,10959260654.787176
+369,2020-11-30,Empresário,Rural e agroindustrial,114180501647.87,135932058121.82495
 368,2020-11-30,Empresário,Outros créditos,46805517244.11,55722038339.521774
 367,2020-11-30,Empresário,Habitacional,108747551805.61,129464123202.35333
 366,2020-11-30,Empresário,Empréstimo sem consignação em folha,33126679718.35,39437361790.06211
-375,2020-11-30,MEI,Outros créditos,2024198920.55,2409811844.818347
-369,2020-11-30,Empresário,Rural e agroindustrial,114180501647.87,135932058121.82495
-376,2020-11-30,MEI,Rural e agroindustrial,289959217.95,345196882.99226856
-389,2020-11-30,Servidor ou empregado público,Outros créditos,13439441832.89,15999675618.76068
-378,2020-11-30,Outros,Cartão de crédito,87157876727.6,103761582705.67549
-379,2020-11-30,Outros,Empréstimo com consignação em folha,112750594279.97,134229751259.99629
-380,2020-11-30,Outros,Empréstimo sem consignação em folha,33875986819.64,40329413015.74131
-381,2020-11-30,Outros,Habitacional,144197833936.67,171667737142.80966
-382,2020-11-30,Outros,Outros créditos,36256498990.31,43163416318.17173
-383,2020-11-30,Outros,Rural e agroindustrial,89097171969.48,106070316593.94989
-384,2020-11-30,Outros,Veículos,67383696536.53,80220391589.40654
-385,2020-11-30,Servidor ou empregado público,Cartão de crédito,40942603311.8,48742230527.25782
-386,2020-11-30,Servidor ou empregado público,Empréstimo com consignação em folha,157822054321.84,187887391904.64374
-387,2020-11-30,Servidor ou empregado público,Empréstimo sem consignação em folha,21301441411.45,25359397885.198257
-388,2020-11-30,Servidor ou empregado público,Habitacional,122598078361.81,145953195799.54297
-364,2020-11-30,Empresário,Cartão de crédito,42041951967.6,50051006747.53766
-377,2020-11-30,MEI,Veículos,5084203558.92,6052751947.137685
-363,2020-11-30,Empregado de entidades sem fins lucrativos,Veículos,249791996.9,297377746.2083075
 336,2020-11-30,Aposentado/pensionista,Cartão de crédito,29721056667.7,35382962450.587685
-361,2020-11-30,Empregado de entidades sem fins lucrativos,Outros créditos,122424429.1,145746466.09343284
-390,2020-11-30,Servidor ou empregado público,Rural e agroindustrial,7014755165.65,8351076524.6782
 337,2020-11-30,Aposentado/pensionista,Empréstimo com consignação em folha,114108347153.67,135846158088.47606
-338,2020-11-30,Aposentado/pensionista,Empréstimo sem consignação em folha,17124283416.25,20386485039.372055
-339,2020-11-30,Aposentado/pensionista,Habitacional,22017665607.38,26212063862.526535
-340,2020-11-30,Aposentado/pensionista,Outros créditos,10174867102.64,12113194515.849337
-341,2020-11-30,Aposentado/pensionista,Rural e agroindustrial,6801194517.87,8096832253.829815
-342,2020-11-30,Aposentado/pensionista,Veículos,15208463185.15,18105698186.56958
-343,2020-11-30,Autônomo,Cartão de crédito,18011648056.78,21442893972.166637
-344,2020-11-30,Autônomo,Empréstimo com consignação em folha,7255272221.25,8637412439.385746
-345,2020-11-30,Autônomo,Empréstimo sem consignação em folha,10793794261.25,12850028224.60998
-346,2020-11-30,Autônomo,Habitacional,44670592099.13,53180406758.779976
-347,2020-11-30,Autônomo,Outros créditos,15782161471.2,18788686854.84712
-348,2020-11-30,Autônomo,Rural e agroindustrial,59754224321.71,71137493497.55789
-349,2020-11-30,Autônomo,Veículos,16989758995.65,20226333515.286114
-350,2020-11-30,Empregado de empresa privada,Cartão de crédito,56093647922.55,66779571815.05774
-351,2020-11-30,Empregado de empresa privada,Empréstimo com consignação em folha,29543828289.920002,35171971801.55793
-352,2020-11-30,Empregado de empresa privada,Empréstimo sem consignação em folha,22092249173.55,26300855709.691643
-353,2020-11-30,Empregado de empresa privada,Habitacional,249916090363.53,297525479662.3881
-354,2020-11-30,Empregado de empresa privada,Outros créditos,23495865332.76,27971862848.22111
-355,2020-11-30,Empregado de empresa privada,Rural e agroindustrial,8740552934.22,10405641351.40533
-356,2020-11-30,Empregado de empresa privada,Veículos,53591404926.06,63800647782.276924
-357,2020-11-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,342691716.07,407975000.9362843
-358,2020-11-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,262829002.62,312898321.0322898
-359,2020-11-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,125547839.24,149464890.54035065
-360,2020-11-30,Empregado de entidades sem fins lucrativos,Habitacional,840263053.29,1000334422.6817827
-362,2020-11-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,192645202.78,229344402.2687933
-391,2020-11-30,Servidor ou empregado público,Veículos,26840098076.44,31953176935.356236
-506,2020-12-31,Aposentado/pensionista,Empréstimo sem consignação em folha,17112573521.17,20192825526.503407
-504,2020-12-31,Aposentado/pensionista,Cartão de crédito,29785199382.75,35146515727.97838
-529,2020-12-31,Empregado de entidades sem fins lucrativos,Outros créditos,121714824.97,143623413.60097608
-528,2020-12-31,Empregado de entidades sem fins lucrativos,Habitacional,852374726.7,1005801618.2172312
+559,2020-12-31,Servidor ou empregado público,Veículos,27205388714.45,32102340832.13651
+557,2020-12-31,Servidor ou empregado público,Outros créditos,13162880209.76,15532190010.645203
 527,2020-12-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,128848004.46000001,152040560.71871448
 526,2020-12-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,268225115.12,316505459.84471774
 525,2020-12-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,352098958.59000003,415476540.1051911
@@ -5631,11 +5629,10 @@
 521,2020-12-31,Empregado de empresa privada,Habitacional,251953431384.18,297304883713.17444
 520,2020-12-31,Empregado de empresa privada,Empréstimo sem consignação em folha,22160660840.95,26149565251.523003
 519,2020-12-31,Empregado de empresa privada,Empréstimo com consignação em folha,29811159680.989998,35177148862.86763
-530,2020-12-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,193174830.8,227946173.59163404
 518,2020-12-31,Empregado de empresa privada,Cartão de crédito,57309140862.7,67624748614.38533
 516,2020-12-31,Autônomo,Rural e agroindustrial,60851130299.87,71804293826.15672
+528,2020-12-31,Empregado de entidades sem fins lucrativos,Habitacional,852374726.7,1005801618.2172312
 515,2020-12-31,Autônomo,Outros créditos,15746998241.99,18581447593.098183
-514,2020-12-31,Autônomo,Habitacional,45099255389.81,53217091767.935776
 513,2020-12-31,Autônomo,Empréstimo sem consignação em folha,11018820636.31,13002201120.806667
 512,2020-12-31,Autônomo,Empréstimo com consignação em folha,7426289623.2300005,8763016882.624525
 511,2020-12-31,Autônomo,Cartão de crédito,18449915121.52,21770887737.414867
@@ -5643,14 +5640,15 @@
 509,2020-12-31,Aposentado/pensionista,Rural e agroindustrial,6791896535.71,8014433455.61025
 508,2020-12-31,Aposentado/pensionista,Outros créditos,10057471343.5,11867809586.083694
 507,2020-12-31,Aposentado/pensionista,Habitacional,21904679418.77,25847507341.31374
+506,2020-12-31,Aposentado/pensionista,Empréstimo sem consignação em folha,17112573521.17,20192825526.503407
 505,2020-12-31,Aposentado/pensionista,Empréstimo com consignação em folha,114751188146.52,135406326718.48524
+504,2020-12-31,Aposentado/pensionista,Cartão de crédito,29785199382.75,35146515727.97838
+558,2020-12-31,Servidor ou empregado público,Rural e agroindustrial,7131520485.43,8415189493.434364
+514,2020-12-31,Autônomo,Habitacional,45099255389.81,53217091767.935776
+529,2020-12-31,Empregado de entidades sem fins lucrativos,Outros créditos,121714824.97,143623413.60097608
 517,2020-12-31,Autônomo,Veículos,17254073360.57,20359795244.149776
 531,2020-12-31,Empregado de entidades sem fins lucrativos,Veículos,253118747.43,298679955.8826157
-559,2020-12-31,Servidor ou empregado público,Veículos,27205388714.45,32102340832.13651
-533,2020-12-31,Empresário,Empréstimo com consignação em folha,9449815495.21,11150776083.817083
-532,2020-12-31,Empresário,Cartão de crédito,43382076639.4,51190821969.18504
-557,2020-12-31,Servidor ou empregado público,Outros créditos,13162880209.76,15532190010.645203
-556,2020-12-31,Servidor ou empregado público,Habitacional,123777809320.81,146057733781.2972
+530,2020-12-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,193174830.8,227946173.59163404
 555,2020-12-31,Servidor ou empregado público,Empréstimo sem consignação em folha,20920393245.74,24686050302.981285
 554,2020-12-31,Servidor ou empregado público,Empréstimo com consignação em folha,159364892835.93,188050468978.54486
 553,2020-12-31,Servidor ou empregado público,Cartão de crédito,41966121301.11,49519995599.087074
@@ -5660,49 +5658,50 @@
 549,2020-12-31,Outros,Habitacional,147754582530.88998,174350310436.74487
 548,2020-12-31,Outros,Empréstimo sem consignação em folha,34824273326.91,41092619675.680534
 547,2020-12-31,Outros,Empréstimo com consignação em folha,115640453354.09,136455659079.92325
-558,2020-12-31,Servidor ou empregado público,Rural e agroindustrial,7131520485.43,8415189493.434364
-545,2020-12-31,MEI,Veículos,5118156702.4800005,6039421550.629314
 546,2020-12-31,Outros,Cartão de crédito,89257267241.47,105323516778.45493
-534,2020-12-31,Empresário,Empréstimo sem consignação em folha,34786528093.47,41048080324.98801
-535,2020-12-31,Empresário,Habitacional,110396430918.49,130267716046.79959
-536,2020-12-31,Empresário,Outros créditos,46785660914.81,55207049180.89468
+545,2020-12-31,MEI,Veículos,5118156702.4800005,6039421550.629314
+544,2020-12-31,MEI,Rural e agroindustrial,295928449.91,349195376.71927416
+556,2020-12-31,Servidor ou empregado público,Habitacional,123777809320.81,146057733781.2972
+532,2020-12-31,Empresário,Cartão de crédito,43382076639.4,51190821969.18504
+542,2020-12-31,MEI,Habitacional,11425838114.48,13482481477.981274
+541,2020-12-31,MEI,Empréstimo sem consignação em folha,1047441300.77,1235980047.626191
+540,2020-12-31,MEI,Empréstimo com consignação em folha,597842052.63,705453229.8271685
+539,2020-12-31,MEI,Cartão de crédito,4806216935.53,5671332830.3087225
 538,2020-12-31,Empresário,Veículos,32873164890.87,38790313001.38021
 537,2020-12-31,Empresário,Rural e agroindustrial,116819439541.05,137846862006.93997
-540,2020-12-31,MEI,Empréstimo com consignação em folha,597842052.63,705453229.8271685
-541,2020-12-31,MEI,Empréstimo sem consignação em folha,1047441300.77,1235980047.626191
-542,2020-12-31,MEI,Habitacional,11425838114.48,13482481477.981274
+536,2020-12-31,Empresário,Outros créditos,46785660914.81,55207049180.89468
+535,2020-12-31,Empresário,Habitacional,110396430918.49,130267716046.79959
+534,2020-12-31,Empresário,Empréstimo sem consignação em folha,34786528093.47,41048080324.98801
+533,2020-12-31,Empresário,Empréstimo com consignação em folha,9449815495.21,11150776083.817083
 543,2020-12-31,MEI,Outros créditos,2003473176.21,2364097033.341608
-544,2020-12-31,MEI,Rural e agroindustrial,295928449.91,349195376.71927416
-539,2020-12-31,MEI,Cartão de crédito,4806216935.53,5671332830.3087225
-130,2021-01-31,Empregado de empresa privada,Outros créditos,23718472985.15,27614970492.057453
-128,2021-01-31,Empregado de empresa privada,Empréstimo sem consignação em folha,23187201318.12,26996420916.058815
 129,2021-01-31,Empregado de empresa privada,Habitacional,255109173530.75,297018796434.13617
+130,2021-01-31,Empregado de empresa privada,Outros créditos,23718472985.15,27614970492.057453
 131,2021-01-31,Empregado de empresa privada,Rural e agroindustrial,9091750986.01,10585354097.499992
-137,2021-01-31,Empregado de entidades sem fins lucrativos,Outros créditos,123100447.83,143323528.31115487
-133,2021-01-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,345691369.98,402481938.3327701
+132,2021-01-31,Empregado de empresa privada,Veículos,54871299067.91,63885617997.832146
+138,2021-01-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,201962544.31,235141178.99214432
 134,2021-01-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,269932498.56,314277314.0264451
 135,2021-01-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,131693053.49,153327736.92523167
 136,2021-01-31,Empregado de entidades sem fins lucrativos,Habitacional,865781739.35,1008013340.4743816
-132,2021-01-31,Empregado de empresa privada,Veículos,54871299067.91,63885617997.832146
+137,2021-01-31,Empregado de entidades sem fins lucrativos,Outros créditos,123100447.83,143323528.31115487
+128,2021-01-31,Empregado de empresa privada,Empréstimo sem consignação em folha,23187201318.12,26996420916.058815
+133,2021-01-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,345691369.98,402481938.3327701
 127,2021-01-31,Empregado de empresa privada,Empréstimo com consignação em folha,30142265827.96,35094071271.95811
-121,2021-01-31,Autônomo,Empréstimo sem consignação em folha,11364212947.09,13231138673.886385
+120,2021-01-31,Autônomo,Empréstimo com consignação em folha,7479892551.04,8708697739.94532
 125,2021-01-31,Autônomo,Veículos,17367766682.19,20220962991.24723
 124,2021-01-31,Autônomo,Rural e agroindustrial,61861599346.9,72024292694.79889
 123,2021-01-31,Autônomo,Outros créditos,15978616837.19,18603602042.13643
 122,2021-01-31,Autônomo,Habitacional,45411888288.47,52872204541.15494
-120,2021-01-31,Autônomo,Empréstimo com consignação em folha,7479892551.04,8708697739.94532
+121,2021-01-31,Autônomo,Empréstimo sem consignação em folha,11364212947.09,13231138673.886385
 119,2021-01-31,Autônomo,Cartão de crédito,18184040059.079998,21171334679.609398
 118,2021-01-31,Aposentado/pensionista,Veículos,15166215809.84,17657738857.26641
 117,2021-01-31,Aposentado/pensionista,Rural e agroindustrial,6850343639.8,7975725823.157755
 116,2021-01-31,Aposentado/pensionista,Outros créditos,10178165064.38,11850245506.619244
 115,2021-01-31,Aposentado/pensionista,Habitacional,21892194937.85,25488669426.29924
-138,2021-01-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,201962544.31,235141178.99214432
 114,2021-01-31,Aposentado/pensionista,Empréstimo sem consignação em folha,17366115222.58,20219040227.98893
 126,2021-01-31,Empregado de empresa privada,Cartão de crédito,56584237409.61,65879959783.25717
 139,2021-01-31,Empregado de entidades sem fins lucrativos,Veículos,252659530.03,294166722.7348038
-153,2021-01-31,MEI,Veículos,5220862468.53,6078551646.297494
+113,2021-01-31,Aposentado/pensionista,Empréstimo com consignação em folha,115572081575.71,134558393553.2899
 141,2021-01-31,Empresário,Empréstimo com consignação em folha,9486764987.05,11045261444.380997
-167,2021-01-31,Servidor ou empregado público,Veículos,27352659102.17,31846184805.347588
 166,2021-01-31,Servidor ou empregado público,Rural e agroindustrial,7229106061.35,8416711762.731189
 165,2021-01-31,Servidor ou empregado público,Outros créditos,13430137036.73,15636455104.246729
 164,2021-01-31,Servidor ou empregado público,Habitacional,124506837621.44,144960961404.5611
@@ -5716,6 +5715,7 @@
 156,2021-01-31,Outros,Empréstimo sem consignação em folha,36171318580.88,42113583614.56057
 155,2021-01-31,Outros,Empréstimo com consignação em folha,115992150107.91,135047471417.98245
 154,2021-01-31,Outros,Cartão de crédito,88012129887.09,102470861901.47276
+153,2021-01-31,MEI,Veículos,5220862468.53,6078551646.297494
 152,2021-01-31,MEI,Rural e agroindustrial,300260592.86,349587741.88152647
 151,2021-01-31,MEI,Outros créditos,2049288539.46,2385947973.22453
 150,2021-01-31,MEI,Habitacional,11598767241.23,13504225812.148481
@@ -5727,9 +5727,9 @@
 144,2021-01-31,Empresário,Outros créditos,47104740067.51,54843159920.73967
 143,2021-01-31,Empresário,Habitacional,111452384486.2,129761907977.07841
 142,2021-01-31,Empresário,Empréstimo sem consignação em folha,35391501001.16,41205656722.86573
-140,2021-01-31,Empresário,Cartão de crédito,42035405596.82,48941029462.7578
-113,2021-01-31,Aposentado/pensionista,Empréstimo com consignação em folha,115572081575.71,134558393553.2899
+167,2021-01-31,Servidor ou empregado público,Veículos,27352659102.17,31846184805.347588
 112,2021-01-31,Aposentado/pensionista,Cartão de crédito,28765562140.64,33491201149.355732
+140,2021-01-31,Empresário,Cartão de crédito,42035405596.82,48941029462.7578
 225,2021-02-28,Aposentado/pensionista,Empréstimo com consignação em folha,116138001651.73,134880119098.50922
 250,2021-02-28,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,204127162.34,237068793.81499842
 249,2021-02-28,Empregado de entidades sem fins lucrativos,Outros créditos,123441795.15,143362584.12207457
@@ -6067,21 +6067,20 @@
 420,2021-07-31,Empresário,Cartão de crédito,46910146936.42,52634586806.12538
 447,2021-07-31,Servidor ou empregado público,Veículos,27120678197.82,30430211458.917446
 56,2021-08-31,Aposentado/pensionista,Cartão de crédito,30453755715.78,33845121484.467793
-96,2021-08-31,MEI,Rural e agroindustrial,347316905.29,385994521.0980481
-85,2021-08-31,Empresário,Empréstimo com consignação em folha,10513255071.85,11684023423.081001
+97,2021-08-31,MEI,Veículos,5628403193.67,6255188740.304395
 86,2021-08-31,Empresário,Empréstimo sem consignação em folha,41274467423.61,45870840273.239174
 87,2021-08-31,Empresário,Habitacional,123891158992.15,137687823008.57944
-89,2021-08-31,Empresário,Rural e agroindustrial,134258991961.07,149210229953.6757
+88,2021-08-31,Empresário,Outros créditos,47245346489.0,52506643397.92494
 90,2021-08-31,Empresário,Veículos,35577398508.27,39539339116.383286
 91,2021-08-31,MEI,Cartão de crédito,5887820272.47,6543494807.676646
 92,2021-08-31,MEI,Empréstimo com consignação em folha,706121560.38,784756081.2172539
 93,2021-08-31,MEI,Empréstimo sem consignação em folha,1557049706.75,1730444578.79467
 94,2021-08-31,MEI,Habitacional,12832320249.26,14261342404.436401
 95,2021-08-31,MEI,Outros créditos,2262593131.6,2514558142.6347585
-97,2021-08-31,MEI,Veículos,5628403193.67,6255188740.304395
+96,2021-08-31,MEI,Rural e agroindustrial,347316905.29,385994521.0980481
 98,2021-08-31,Outros,Cartão de crédito,106732562341.07,118618425014.49658
+85,2021-08-31,Empresário,Empréstimo com consignação em folha,10513255071.85,11684023423.081001
 99,2021-08-31,Outros,Empréstimo com consignação em folha,129318296854.25,143719333275.16217
-100,2021-08-31,Outros,Empréstimo sem consignação em folha,48365363172.39,53751386445.96625
 101,2021-08-31,Outros,Habitacional,161485334993.28,179468530312.51993
 102,2021-08-31,Outros,Outros créditos,41517033197.3,46140418454.502975
 103,2021-08-31,Outros,Rural e agroindustrial,102475314333.74,113887084901.88998
@@ -6093,10 +6092,10 @@
 109,2021-08-31,Servidor ou empregado público,Outros créditos,14599298245.539999,16225093132.01875
 110,2021-08-31,Servidor ou empregado público,Rural e agroindustrial,8287965982.39,9210923544.243761
 111,2021-08-31,Servidor ou empregado público,Veículos,27177797446.52,30204348680.090824
+100,2021-08-31,Outros,Empréstimo sem consignação em folha,48365363172.39,53751386445.96625
 84,2021-08-31,Empresário,Cartão de crédito,48886643500.39,54330717159.50058
-83,2021-08-31,Empregado de entidades sem fins lucrativos,Veículos,259370006.59,288253753.14602387
-88,2021-08-31,Empresário,Outros créditos,47245346489.0,52506643397.92494
-81,2021-08-31,Empregado de entidades sem fins lucrativos,Outros créditos,123901223.39,137699008.18951675
+89,2021-08-31,Empresário,Rural e agroindustrial,134258991961.07,149210229953.6757
+82,2021-08-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,203762604.1,226453845.4343276
 57,2021-08-31,Aposentado/pensionista,Empréstimo com consignação em folha,125063570814.39,138990795979.26556
 58,2021-08-31,Aposentado/pensionista,Empréstimo sem consignação em folha,18156112845.77,20177998756.074055
 59,2021-08-31,Aposentado/pensionista,Habitacional,21792205910.35,24219011386.768192
@@ -6104,14 +6103,14 @@
 61,2021-08-31,Aposentado/pensionista,Rural e agroindustrial,7205256695.59,8007642488.005443
 62,2021-08-31,Aposentado/pensionista,Veículos,14380675341.38,15982124126.171358
 63,2021-08-31,Autônomo,Cartão de crédito,21208080880.74,23569837512.32798
-82,2021-08-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,203762604.1,226453845.4343276
-65,2021-08-31,Autônomo,Empréstimo sem consignação em folha,13624062973.94,15141254522.709326
+64,2021-08-31,Autônomo,Empréstimo com consignação em folha,8424479514.9,9362639383.0124
+83,2021-08-31,Empregado de entidades sem fins lucrativos,Veículos,259370006.59,288253753.14602387
 66,2021-08-31,Autônomo,Habitacional,49207189504.2,54686959540.29464
 67,2021-08-31,Autônomo,Outros créditos,16704726163.06,18564983958.95971
 68,2021-08-31,Autônomo,Rural e agroindustrial,71175134584.0,79101280615.46796
 69,2021-08-31,Autônomo,Veículos,18637172750.72,20712630053.320023
-64,2021-08-31,Autônomo,Empréstimo com consignação em folha,8424479514.9,9362639383.0124
-80,2021-08-31,Empregado de entidades sem fins lucrativos,Habitacional,970722391.47,1078823169.582707
+65,2021-08-31,Autônomo,Empréstimo sem consignação em folha,13624062973.94,15141254522.709326
+81,2021-08-31,Empregado de entidades sem fins lucrativos,Outros créditos,123901223.39,137699008.18951675
 71,2021-08-31,Empregado de empresa privada,Empréstimo com consignação em folha,33877808741.22,37650481049.863785
 72,2021-08-31,Empregado de empresa privada,Empréstimo sem consignação em folha,31925002758.27,35480208314.199486
 73,2021-08-31,Empregado de empresa privada,Habitacional,280689318428.81,311947208425.6922
@@ -6121,17 +6120,18 @@
 77,2021-08-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,394469506.49,438398090.9833786
 78,2021-08-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,299508108.15,332861680.5272169
 79,2021-08-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,168793419.05,187590451.1365655
+80,2021-08-31,Empregado de entidades sem fins lucrativos,Habitacional,970722391.47,1078823169.582707
 70,2021-08-31,Empregado de empresa privada,Cartão de crédito,66688768297.87,74115307345.2085
-39,2021-09-30,MEI,Outros créditos,2309359425.9900002,2544396451.0525947
-38,2021-09-30,MEI,Habitacional,13016313231.04,14341059610.783392
 37,2021-09-30,MEI,Empréstimo sem consignação em folha,1624553458.3,1789893771.9804027
+39,2021-09-30,MEI,Outros créditos,2309359425.9900002,2544396451.0525947
 36,2021-09-30,MEI,Empréstimo com consignação em folha,718556348.91,791688034.1240699
+38,2021-09-30,MEI,Habitacional,13016313231.04,14341059610.783392
 35,2021-09-30,MEI,Cartão de crédito,6094736521.35,6715033528.562014
-30,2021-09-30,Empresário,Empréstimo sem consignação em folha,42346215034.61,46656037183.72346
+29,2021-09-30,Empresário,Empréstimo com consignação em folha,10651822874.94,11735921232.191746
 33,2021-09-30,Empresário,Rural e agroindustrial,137685829310.68,151698922010.87128
 32,2021-09-30,Empresário,Outros créditos,49318501858.32,54337934445.06614
 31,2021-09-30,Empresário,Habitacional,125767595248.52,138567699512.85147
-29,2021-09-30,Empresário,Empréstimo com consignação em folha,10651822874.94,11735921232.191746
+30,2021-09-30,Empresário,Empréstimo sem consignação em folha,42346215034.61,46656037183.72346
 40,2021-09-30,MEI,Rural e agroindustrial,359855712.55,396480334.58919334
 34,2021-09-30,Empresário,Veículos,36233655947.63,39921367182.7149
 41,2021-09-30,MEI,Veículos,5723246216.6,6305734481.22938
@@ -6146,8 +6146,8 @@
 50,2021-09-30,Servidor ou empregado público,Empréstimo com consignação em folha,187070222357.25,206109453776.0653
 51,2021-09-30,Servidor ou empregado público,Empréstimo sem consignação em folha,25256771848.43,27827301342.943333
 52,2021-09-30,Servidor ou empregado público,Habitacional,134699117208.91,148408234737.797
-28,2021-09-30,Empresário,Cartão de crédito,50384246090.79,55512145705.69049
 53,2021-09-30,Servidor ou empregado público,Outros créditos,15005053218.45,16532205306.461817
+28,2021-09-30,Empresário,Cartão de crédito,50384246090.79,55512145705.69049
 42,2021-09-30,Outros,Cartão de crédito,110549656597.97,121800942177.88336
 27,2021-09-30,Empregado de entidades sem fins lucrativos,Veículos,261281744.58,287873916.9625739
 25,2021-09-30,Empregado de entidades sem fins lucrativos,Outros créditos,126549028.45,139428663.74483886
@@ -6291,8 +6291,7 @@
 531,2021-11-30,Empregado de entidades sem fins lucrativos,Veículos,264026290.60999998,284012150.4783235
 504,2021-11-30,Aposentado/pensionista,Cartão de crédito,33556379384.82,36096479063.999115
 334,2021-12-31,Servidor ou empregado público,Rural e agroindustrial,9452681218.75,10072519985.630798
-319,2021-12-31,MEI,Outros créditos,2399764202.95,2557123459.0106745
-308,2021-12-31,Empresário,Cartão de crédito,58739219598.03,62590914646.3052
+280,2021-12-31,Aposentado/pensionista,Cartão de crédito,34561459048.27,36827750660.38825
 309,2021-12-31,Empresário,Empréstimo com consignação em folha,11018802846.97,11741336592.805098
 310,2021-12-31,Empresário,Empréstimo sem consignação em folha,44134961176.409996,47029014120.632256
 311,2021-12-31,Empresário,Habitacional,131468686597.82,140089456377.14902
@@ -6303,7 +6302,8 @@
 316,2021-12-31,MEI,Empréstimo com consignação em folha,754789003.97,804282631.7195475
 317,2021-12-31,MEI,Empréstimo sem consignação em folha,1883992123.64,2007530760.7426462
 318,2021-12-31,MEI,Habitacional,13504569378.22,14390101793.514862
-307,2021-12-31,Empregado de entidades sem fins lucrativos,Veículos,265387587.35999998,282789794.3199048
+319,2021-12-31,MEI,Outros créditos,2399764202.95,2557123459.0106745
+308,2021-12-31,Empresário,Cartão de crédito,58739219598.03,62590914646.3052
 320,2021-12-31,MEI,Rural e agroindustrial,405578311.75,432173216.921462
 322,2021-12-31,Outros,Cartão de crédito,130483506752.79001,139039675532.0252
 323,2021-12-31,Outros,Empréstimo com consignação em folha,135700254740.37,144598500287.55286
@@ -6317,52 +6317,51 @@
 331,2021-12-31,Servidor ou empregado público,Empréstimo sem consignação em folha,25710955262.05,27396894567.116703
 332,2021-12-31,Servidor ou empregado público,Habitacional,137906780925.61,146949714571.13223
 321,2021-12-31,MEI,Veículos,5927624559.63,6316315494.249211
-306,2021-12-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,228781813.16,243783677.04096562
+307,2021-12-31,Empregado de entidades sem fins lucrativos,Veículos,265387587.35999998,282789794.3199048
 333,2021-12-31,Servidor ou empregado público,Outros créditos,15447570715.97,16460511167.711687
-304,2021-12-31,Empregado de entidades sem fins lucrativos,Habitacional,1015752294.67,1082358015.8632352
 305,2021-12-31,Empregado de entidades sem fins lucrativos,Outros créditos,130907298.11,139491256.07477832
-280,2021-12-31,Aposentado/pensionista,Cartão de crédito,34561459048.27,36827750660.38825
-335,2021-12-31,Servidor ou empregado público,Veículos,26921545683.92,28686866791.559414
+306,2021-12-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,228781813.16,243783677.04096562
 281,2021-12-31,Aposentado/pensionista,Empréstimo com consignação em folha,128592892304.29,137025088202.04468
 282,2021-12-31,Aposentado/pensionista,Empréstimo sem consignação em folha,18670912298.45,19895216280.335594
 283,2021-12-31,Aposentado/pensionista,Habitacional,21618166932.04,23035730650.025074
 284,2021-12-31,Aposentado/pensionista,Outros créditos,10224600306.53,10895055968.705252
 285,2021-12-31,Aposentado/pensionista,Rural e agroindustrial,7778096035.91,8288127564.955515
+286,2021-12-31,Aposentado/pensionista,Veículos,13926441594.21,14839637351.586243
 287,2021-12-31,Autônomo,Cartão de crédito,25405391172.170002,27071293784.546955
 288,2021-12-31,Autônomo,Empréstimo com consignação em folha,8870685781.43,9452361478.39968
 289,2021-12-31,Autônomo,Empréstimo sem consignação em folha,15265905044.88,16266933170.060875
 290,2021-12-31,Autônomo,Habitacional,51386776610.7,54756351391.78706
 291,2021-12-31,Autônomo,Outros créditos,17596922188.3,18750801632.4156
-286,2021-12-31,Aposentado/pensionista,Veículos,13926441594.21,14839637351.586243
+335,2021-12-31,Servidor ou empregado público,Veículos,26921545683.92,28686866791.559414
+293,2021-12-31,Autônomo,Veículos,19669551939.64,20959339518.12945
 292,2021-12-31,Autônomo,Rural e agroindustrial,81361987981.29,86697121276.72572
-302,2021-12-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,311929271.91,332383347.4024863
-301,2021-12-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,470314571.8,501154414.7487219
-300,2021-12-31,Empregado de empresa privada,Veículos,57305183909.44,61062845223.54933
-299,2021-12-31,Empregado de empresa privada,Rural e agroindustrial,12988957544.55,13840679848.641998
-298,2021-12-31,Empregado de empresa privada,Outros créditos,25931869423.19,27632294688.172066
+304,2021-12-31,Empregado de entidades sem fins lucrativos,Habitacional,1015752294.67,1082358015.8632352
 303,2021-12-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,201414841.35,214622176.28542957
+302,2021-12-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,311929271.91,332383347.4024863
+300,2021-12-31,Empregado de empresa privada,Veículos,57305183909.44,61062845223.54933
+301,2021-12-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,470314571.8,501154414.7487219
+298,2021-12-31,Empregado de empresa privada,Outros créditos,25931869423.19,27632294688.172066
+297,2021-12-31,Empregado de empresa privada,Habitacional,294440420045.81,313747702567.8364
 296,2021-12-31,Empregado de empresa privada,Empréstimo sem consignação em folha,38549678398.14,41077488716.60901
 295,2021-12-31,Empregado de empresa privada,Empréstimo com consignação em folha,35745131185.01,38089039492.39698
 294,2021-12-31,Empregado de empresa privada,Cartão de crédito,80083968819.25,85335298820.87767
-293,2021-12-31,Autônomo,Veículos,19669551939.64,20959339518.12945
-297,2021-12-31,Empregado de empresa privada,Habitacional,294440420045.81,313747702567.8364
-126,2022-01-31,Empregado de empresa privada,Cartão de crédito,80448743247.84,85102777787.95702
+299,2021-12-31,Empregado de empresa privada,Rural e agroindustrial,12988957544.55,13840679848.641998
+129,2022-01-31,Empregado de empresa privada,Habitacional,296639144338.11,313799994439.23804
 127,2022-01-31,Empregado de empresa privada,Empréstimo com consignação em folha,35988672288.11,38070650416.293045
 128,2022-01-31,Empregado de empresa privada,Empréstimo sem consignação em folha,40569745096.62,42916742542.95341
-129,2022-01-31,Empregado de empresa privada,Habitacional,296639144338.11,313799994439.23804
 130,2022-01-31,Empregado de empresa privada,Outros créditos,27063399183.9,28629041970.721622
-133,2022-01-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,469654336.12,496824275.81047356
-132,2022-01-31,Empregado de empresa privada,Veículos,57519829147.43,60847404704.06812
-134,2022-01-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,313350906.46,331478547.5264249
 135,2022-01-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,209704117.56,221835695.5925158
-136,2022-01-31,Empregado de entidades sem fins lucrativos,Habitacional,1024798998.61,1084084572.7987096
-125,2022-01-31,Autônomo,Veículos,19795289924.16,20940465837.65874
+132,2022-01-31,Empregado de empresa privada,Veículos,57519829147.43,60847404704.06812
+133,2022-01-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,469654336.12,496824275.81047356
+134,2022-01-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,313350906.46,331478547.5264249
+126,2022-01-31,Empregado de empresa privada,Cartão de crédito,80448743247.84,85102777787.95702
 131,2022-01-31,Empregado de empresa privada,Rural e agroindustrial,13275535573.41,14043537640.351688
-124,2022-01-31,Autônomo,Rural e agroindustrial,82795810484.81,87585625045.19637
-167,2022-01-31,Servidor ou empregado público,Veículos,26955918138.05,28515343046.510826
+125,2022-01-31,Autônomo,Veículos,19795289924.16,20940465837.65874
+120,2022-01-31,Autônomo,Empréstimo com consignação em folha,8889620616.8,9403893428.640778
+123,2022-01-31,Autônomo,Outros créditos,17900252402.56,18935798634.79482
 122,2022-01-31,Autônomo,Habitacional,51797508713.58,54794042716.63276
 121,2022-01-31,Autônomo,Empréstimo sem consignação em folha,15725652865.97,16635396494.63855
-120,2022-01-31,Autônomo,Empréstimo com consignação em folha,8889620616.8,9403893428.640778
+136,2022-01-31,Empregado de entidades sem fins lucrativos,Habitacional,1024798998.61,1084084572.7987096
 119,2022-01-31,Autônomo,Cartão de crédito,25461312990.8,26934273602.886314
 118,2022-01-31,Aposentado/pensionista,Veículos,13826453275.96,14626326443.840216
 117,2022-01-31,Aposentado/pensionista,Rural e agroindustrial,7850237603.25,8304381142.08809
@@ -6371,13 +6370,12 @@
 114,2022-01-31,Aposentado/pensionista,Empréstimo sem consignação em folha,19025565807.2,20126212465.398174
 113,2022-01-31,Aposentado/pensionista,Empréstimo com consignação em folha,128522028966.76,135957147749.5917
 112,2022-01-31,Aposentado/pensionista,Cartão de crédito,33465695607.23,35401717190.379745
+124,2022-01-31,Autônomo,Rural e agroindustrial,82795810484.81,87585625045.19637
 137,2022-01-31,Empregado de entidades sem fins lucrativos,Outros créditos,136501516.43,144398255.97615355
-123,2022-01-31,Autônomo,Outros créditos,17900252402.56,18935798634.79482
-166,2022-01-31,Servidor ou empregado público,Rural e agroindustrial,9650804992.9,10209113028.098503
-151,2022-01-31,MEI,Outros créditos,2471061548.61,2614014755.0082216
+143,2022-01-31,Empresário,Habitacional,133020526153.65,140715887178.2021
 139,2022-01-31,Empregado de entidades sem fins lucrativos,Veículos,266144022.56,281540701.53389037
-138,2022-01-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,229260182.55,242523097.11131456
 164,2022-01-31,Servidor ou empregado público,Habitacional,138728499848.29,146754072454.23492
+167,2022-01-31,Servidor ou empregado público,Veículos,26955918138.05,28515343046.510826
 163,2022-01-31,Servidor ou empregado público,Empréstimo sem consignação em folha,26423038548.14,27951635877.23735
 162,2022-01-31,Servidor ou empregado público,Empréstimo com consignação em folha,194475812924.46,205726419385.51337
 161,2022-01-31,Servidor ou empregado público,Cartão de crédito,54663871988.590004,57826227770.17971
@@ -6387,47 +6385,49 @@
 157,2022-01-31,Outros,Habitacional,171832388732.8,181773052066.8383
 156,2022-01-31,Outros,Empréstimo sem consignação em folha,62318705298.83,65923900299.36117
 155,2022-01-31,Outros,Empréstimo com consignação em folha,135888135196.14,143749390068.0352
+138,2022-01-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,229260182.55,242523097.11131456
 154,2022-01-31,Outros,Cartão de crédito,132950901355.86,140642234521.173
-153,2022-01-31,MEI,Veículos,5978398568.37,6324254479.95414
-165,2022-01-31,Servidor ou empregado público,Outros créditos,15995654295.4,16921017757.613705
-143,2022-01-31,Empresário,Habitacional,133020526153.65,140715887178.2021
-150,2022-01-31,MEI,Habitacional,13612710026.8,14400217949.131968
+152,2022-01-31,MEI,Rural e agroindustrial,413912722.56,437857958.11767083
+151,2022-01-31,MEI,Outros créditos,2471061548.61,2614014755.0082216
 149,2022-01-31,MEI,Empréstimo sem consignação em folha,1956831290.79,2070035799.0128546
 148,2022-01-31,MEI,Empréstimo com consignação em folha,759680228.38,803628435.3946501
 147,2022-01-31,MEI,Cartão de crédito,7195674501.39,7611950956.644726
 146,2022-01-31,Empresário,Veículos,38033372910.96,40233638869.863106
 145,2022-01-31,Empresário,Rural e agroindustrial,154812939513.08,163769011897.34644
 144,2022-01-31,Empresário,Outros créditos,50837024067.9,53777993141.83416
-152,2022-01-31,MEI,Rural e agroindustrial,413912722.56,437857958.11767083
 142,2022-01-31,Empresário,Empréstimo sem consignação em folha,44860522966.4,47455745898.971344
 141,2022-01-31,Empresário,Empréstimo com consignação em folha,11029902985.71,11667993121.083399
 140,2022-01-31,Empresário,Cartão de crédito,57822621315.99,61167713680.89713
-185,2022-02-28,Empregado de empresa privada,Habitacional,298900247155.07,314493547324.05457
-193,2022-02-28,Empregado de entidades sem fins lucrativos,Outros créditos,138608356.34,145839403.2424734
-183,2022-02-28,Empregado de empresa privada,Empréstimo com consignação em folha,36189505025.52,38077472065.3637
-184,2022-02-28,Empregado de empresa privada,Empréstimo sem consignação em folha,42248280207.63,44452326946.2035
-186,2022-02-28,Empregado de empresa privada,Outros créditos,27503991602.54,28938844872.10299
+153,2022-01-31,MEI,Veículos,5978398568.37,6324254479.95414
+150,2022-01-31,MEI,Habitacional,13612710026.8,14400217949.131968
+166,2022-01-31,Servidor ou empregado público,Rural e agroindustrial,9650804992.9,10209113028.098503
+165,2022-01-31,Servidor ou empregado público,Outros créditos,15995654295.4,16921017757.613705
+168,2022-02-28,Aposentado/pensionista,Cartão de crédito,32923362403.37,34640938341.87923
 192,2022-02-28,Empregado de entidades sem fins lucrativos,Habitacional,1033103561.64,1086999448.6311605
-188,2022-02-28,Empregado de empresa privada,Veículos,57782884698.05,60797354824.12878
-189,2022-02-28,Empregado de entidades sem fins lucrativos,Cartão de crédito,470584190.14,495134054.5227637
-190,2022-02-28,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,314498454.96,330905496.6320964
 191,2022-02-28,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,216177397.44,227455136.68617386
-182,2022-02-28,Empregado de empresa privada,Cartão de crédito,80507359604.79,84707340822.86702
+190,2022-02-28,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,314498454.96,330905496.6320964
+189,2022-02-28,Empregado de entidades sem fins lucrativos,Cartão de crédito,470584190.14,495134054.5227637
+188,2022-02-28,Empregado de empresa privada,Veículos,57782884698.05,60797354824.12878
 187,2022-02-28,Empregado de empresa privada,Rural e agroindustrial,13530845188.97,14236734637.30561
+186,2022-02-28,Empregado de empresa privada,Outros créditos,27503991602.54,28938844872.10299
+185,2022-02-28,Empregado de empresa privada,Habitacional,298900247155.07,314493547324.05457
+184,2022-02-28,Empregado de empresa privada,Empréstimo sem consignação em folha,42248280207.63,44452326946.2035
+183,2022-02-28,Empregado de empresa privada,Empréstimo com consignação em folha,36189505025.52,38077472065.3637
+182,2022-02-28,Empregado de empresa privada,Cartão de crédito,80507359604.79,84707340822.86702
 181,2022-02-28,Autônomo,Veículos,19984799859.01,21027385089.31578
-175,2022-02-28,Autônomo,Cartão de crédito,25587048016.54,26921896428.20135
+180,2022-02-28,Autônomo,Rural e agroindustrial,83859308833.69,88234157590.26831
 179,2022-02-28,Autônomo,Outros créditos,18055946597.6,18997905655.21651
 178,2022-02-28,Autônomo,Habitacional,52104266584.020004,54822489391.336395
 177,2022-02-28,Autônomo,Empréstimo sem consignação em folha,16085447286.61,16924607542.514238
 176,2022-02-28,Autônomo,Empréstimo com consignação em folha,8917555313.32,9382774456.153229
+175,2022-02-28,Autônomo,Cartão de crédito,25587048016.54,26921896428.20135
 174,2022-02-28,Aposentado/pensionista,Veículos,13765258301.61,14483376826.581488
 173,2022-02-28,Aposentado/pensionista,Rural e agroindustrial,7938443559.97,8352583509.613247
 172,2022-02-28,Aposentado/pensionista,Outros créditos,10457470716.0,11003025567.2757
 171,2022-02-28,Aposentado/pensionista,Habitacional,21518127113.55,22640704355.78919
 170,2022-02-28,Aposentado/pensionista,Empréstimo sem consignação em folha,19268062792.63,20273256631.24348
 169,2022-02-28,Aposentado/pensionista,Empréstimo com consignação em folha,128453548478.59,135154830121.08626
-168,2022-02-28,Aposentado/pensionista,Cartão de crédito,32923362403.37,34640938341.87923
-180,2022-02-28,Autônomo,Rural e agroindustrial,83859308833.69,88234157590.26831
+193,2022-02-28,Empregado de entidades sem fins lucrativos,Outros créditos,138608356.34,145839403.2424734
 194,2022-02-28,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,229139042.13,241092976.2547617
 223,2022-02-28,Servidor ou empregado público,Veículos,27010518494.99,28419627810.292034
 196,2022-02-28,Empresário,Cartão de crédito,57754729206.92,60767730491.708824
@@ -6484,10 +6484,9 @@
 254,2022-03-31,Empresário,Empréstimo sem consignação em folha,45502284679.55,47397346879.770996
 266,2022-03-31,Outros,Cartão de crédito,141381698980.0,147269911306.63147
 253,2022-03-31,Empresário,Empréstimo com consignação em folha,11166352288.06,11631404368.070478
-238,2022-03-31,Empregado de empresa privada,Cartão de crédito,84519702260.93,88039747332.43837
-250,2022-03-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,226652582.28,236092124.58619863
+240,2022-03-31,Empregado de empresa privada,Empréstimo sem consignação em folha,43786558591.75,45610164871.06898
+251,2022-03-31,Empregado de entidades sem fins lucrativos,Veículos,267452388.15,278591145.57089245
 224,2022-03-31,Aposentado/pensionista,Cartão de crédito,34167878683.61,35590889765.60401
-225,2022-03-31,Aposentado/pensionista,Empréstimo com consignação em folha,129383743892.93001,134772269855.99579
 226,2022-03-31,Aposentado/pensionista,Empréstimo sem consignação em folha,19681950523.01,20501657065.779247
 227,2022-03-31,Aposentado/pensionista,Habitacional,21637296907.74,22538438988.266014
 228,2022-03-31,Aposentado/pensionista,Outros créditos,10730575612.92,11177478628.315117
@@ -6500,8 +6499,8 @@
 235,2022-03-31,Autônomo,Outros créditos,18144612006.11,18900292047.07086
 236,2022-03-31,Autônomo,Rural e agroindustrial,84271469062.55,87781175810.29282
 237,2022-03-31,Autônomo,Veículos,20091858520.71,20928636759.0541
+238,2022-03-31,Empregado de empresa privada,Cartão de crédito,84519702260.93,88039747332.43837
 239,2022-03-31,Empregado de empresa privada,Empréstimo com consignação em folha,36696988256.56,38225330751.8153
-240,2022-03-31,Empregado de empresa privada,Empréstimo sem consignação em folha,43786558591.75,45610164871.06898
 241,2022-03-31,Empregado de empresa privada,Habitacional,301296686867.86,313844979032.8843
 242,2022-03-31,Empregado de empresa privada,Outros créditos,28306091593.04,29484973150.125233
 243,2022-03-31,Empregado de empresa privada,Rural e agroindustrial,13741799801.22,14314113159.762196
@@ -6511,9 +6510,10 @@
 247,2022-03-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,220789629.31,229984993.5351777
 248,2022-03-31,Empregado de entidades sem fins lucrativos,Habitacional,1041864383.46,1085255563.1503453
 249,2022-03-31,Empregado de entidades sem fins lucrativos,Outros créditos,142503868.27,148438816.2851514
+250,2022-03-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,226652582.28,236092124.58619863
 252,2022-03-31,Empresário,Cartão de crédito,60309610226.89,62821362404.960434
+225,2022-03-31,Aposentado/pensionista,Empréstimo com consignação em folha,129383743892.93001,134772269855.99579
 279,2022-03-31,Servidor ou empregado público,Veículos,26943818759.43,28065964885.062874
-251,2022-03-31,Empregado de entidades sem fins lucrativos,Veículos,267452388.15,278591145.57089245
 558,2022-04-30,Servidor ou empregado público,Rural e agroindustrial,9904871360.27,10152903630.155878
 534,2022-04-30,Empresário,Empréstimo sem consignação em folha,46221908945.74,47379372236.001015
 535,2022-04-30,Empresário,Habitacional,137207528452.77,140643402932.07712
@@ -6795,7 +6795,7 @@
 0,2022-08-31,Aposentado/pensionista,Cartão de crédito,37838464953.78,38205168095.9174
 2,2022-08-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20424304176.46,20622241818.133003
 108,2022-09-30,Servidor ou empregado público,Habitacional,148999015524.63,150986486877.625
-111,2022-09-30,Servidor ou empregado público,Veículos,27412931467.75,27778587682.335938
+84,2022-09-30,Empresário,Cartão de crédito,68341682002.28,69253279536.77895
 85,2022-09-30,Empresário,Empréstimo com consignação em folha,11931049223.84,12090195366.24948
 86,2022-09-30,Empresário,Empréstimo sem consignação em folha,48323262739.48,48967838141.806
 87,2022-09-30,Empresário,Habitacional,150674232613.73,152684049389.3636
@@ -6819,12 +6819,13 @@
 105,2022-09-30,Servidor ou empregado público,Cartão de crédito,62324046208.06,63155375569.56695
 106,2022-09-30,Servidor ou empregado público,Empréstimo com consignação em folha,211343447027.07,214162519657.38602
 107,2022-09-30,Servidor ou empregado público,Empréstimo sem consignação em folha,30303885375.16,30708103509.457794
-84,2022-09-30,Empresário,Cartão de crédito,68341682002.28,69253279536.77895
-96,2022-09-30,MEI,Rural e agroindustrial,517983207.32,524892493.1448502
 83,2022-09-30,Empregado de entidades sem fins lucrativos,Veículos,273322252.67,276968049.55936193
-81,2022-09-30,Empregado de entidades sem fins lucrativos,Outros créditos,159024278.9,161145475.45711544
-57,2022-09-30,Aposentado/pensionista,Empréstimo com consignação em folha,137792747624.34,139630740564.02203
+96,2022-09-30,MEI,Rural e agroindustrial,517983207.32,524892493.1448502
+82,2022-09-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,247799377.57,251104729.3703208
+80,2022-09-30,Empregado de entidades sem fins lucrativos,Habitacional,1108164938.56,1122946553.4721963
+111,2022-09-30,Servidor ou empregado público,Veículos,27412931467.75,27778587682.335938
 56,2022-09-30,Aposentado/pensionista,Cartão de crédito,38520861698.6,39034684617.82589
+57,2022-09-30,Aposentado/pensionista,Empréstimo com consignação em folha,137792747624.34,139630740564.02203
 58,2022-09-30,Aposentado/pensionista,Empréstimo sem consignação em folha,20790179222.46,21067495723.39648
 59,2022-09-30,Aposentado/pensionista,Habitacional,23404651594.89,23716842077.54445
 60,2022-09-30,Aposentado/pensionista,Outros créditos,11594819488.39,11749480722.192001
@@ -6847,8 +6848,7 @@
 77,2022-09-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,539587223.51,546784681.4622705
 78,2022-09-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,342771578.31,347343747.3952339
 79,2022-09-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,251978270.92000002,255339364.2350624
-80,2022-09-30,Empregado de entidades sem fins lucrativos,Habitacional,1108164938.56,1122946553.4721963
-82,2022-09-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,247799377.57,251104729.3703208
+81,2022-09-30,Empregado de entidades sem fins lucrativos,Outros créditos,159024278.9,161145475.45711544
 110,2022-09-30,Servidor ou empregado público,Rural e agroindustrial,11617147740.3,11772106806.68081
 475,2022-10-31,Empregado de entidades sem fins lucrativos,Veículos,273326456.46,277777964.52043706
 502,2022-10-31,Servidor ou empregado público,Rural e agroindustrial,12010743273.34,12206355220.992561
@@ -6931,10 +6931,9 @@
 668,2022-11-30,Servidor ou empregado público,Habitacional,151294319507.53,152856389033.66687
 644,2022-11-30,Empresário,Cartão de crédito,71809995080.22,72551412242.15956
 657,2022-11-30,MEI,Veículos,7271116998.42,7346189151.301737
-642,2022-11-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,258281489.07,260948169.7791949
-629,2022-11-30,Autônomo,Veículos,21506904879.49,21728957371.76552
-640,2022-11-30,Empregado de entidades sem fins lucrativos,Habitacional,1140155697.39,1151927470.9485943
-671,2022-11-30,Servidor ou empregado público,Veículos,27684109221.97,27969939539.424397
+643,2022-11-30,Empregado de entidades sem fins lucrativos,Veículos,274642309.31,277477910.69515085
+630,2022-11-30,Empregado de empresa privada,Cartão de crédito,104017534562.37,105091485134.0283
+641,2022-11-30,Empregado de entidades sem fins lucrativos,Outros créditos,164710782.48,166411373.05587658
 616,2022-11-30,Aposentado/pensionista,Cartão de crédito,40468559719.0,40886385742.53787
 617,2022-11-30,Aposentado/pensionista,Empréstimo com consignação em folha,138378179420.86002,139806893584.4798
 618,2022-11-30,Aposentado/pensionista,Empréstimo sem consignação em folha,21008448523.52,21225354599.946568
@@ -6948,8 +6947,8 @@
 626,2022-11-30,Autônomo,Habitacional,57064918294.02,57654096857.82022
 627,2022-11-30,Autônomo,Outros créditos,20741580095.98,20955730834.073277
 628,2022-11-30,Autônomo,Rural e agroindustrial,106860118553.39,107963417971.9998
+629,2022-11-30,Autônomo,Veículos,21506904879.49,21728957371.76552
 670,2022-11-30,Servidor ou empregado público,Rural e agroindustrial,12332627961.13,12459958731.89503
-630,2022-11-30,Empregado de empresa privada,Cartão de crédito,104017534562.37,105091485134.0283
 631,2022-11-30,Empregado de empresa privada,Empréstimo com consignação em folha,40892818491.14,41315024862.2105
 632,2022-11-30,Empregado de empresa privada,Empréstimo sem consignação em folha,53957879842.95,54514979144.97258
 633,2022-11-30,Empregado de empresa privada,Habitacional,337071294094.31,340551456458.33075
@@ -6959,9 +6958,10 @@
 637,2022-11-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,569914919.53,575799124.1133997
 638,2022-11-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,350664702.95,354285213.2781671
 639,2022-11-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,257270364.77,259926605.91701367
-641,2022-11-30,Empregado de entidades sem fins lucrativos,Outros créditos,164710782.48,166411373.05587658
+640,2022-11-30,Empregado de entidades sem fins lucrativos,Habitacional,1140155697.39,1151927470.9485943
+642,2022-11-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,258281489.07,260948169.7791949
 669,2022-11-30,Servidor ou empregado público,Outros créditos,19770982365.37,19975111966.238438
-643,2022-11-30,Empregado de entidades sem fins lucrativos,Veículos,274642309.31,277477910.69515085
+671,2022-11-30,Servidor ou empregado público,Veículos,27684109221.97,27969939539.424397
 390,2022-12-31,Servidor ou empregado público,Rural e agroindustrial,12622111642.82,12700364733.092619
 360,2022-12-31,Empregado de entidades sem fins lucrativos,Habitacional,1151252612.52,1158390013.7063825
 359,2022-12-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,256003572.91,257590713.89464143
@@ -6973,7 +6973,7 @@
 353,2022-12-31,Empregado de empresa privada,Habitacional,340599139490.4,342710746166.3305
 352,2022-12-31,Empregado de empresa privada,Empréstimo sem consignação em folha,53762145515.590004,54095453772.190186
 351,2022-12-31,Empregado de empresa privada,Empréstimo com consignação em folha,41084587674.74,41339299092.21931
-391,2022-12-31,Servidor ou empregado público,Veículos,27853847296.11,28026532318.123898
+350,2022-12-31,Empregado de empresa privada,Cartão de crédito,105576046537.74,106230584552.78313
 349,2022-12-31,Autônomo,Veículos,21717144695.02,21851784106.583885
 348,2022-12-31,Autônomo,Rural e agroindustrial,109660971604.5,110340834859.80812
 347,2022-12-31,Autônomo,Outros créditos,20845796303.68,20975033631.48358
@@ -6990,479 +6990,535 @@
 336,2022-12-31,Aposentado/pensionista,Cartão de crédito,41314127685.59,41570262178.3596
 361,2022-12-31,Empregado de entidades sem fins lucrativos,Outros créditos,167766206.83,168806304.12110826
 362,2022-12-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,257641730.70000002,259239027.74355212
-350,2022-12-31,Empregado de empresa privada,Cartão de crédito,105576046537.74,106230584552.78313
+391,2022-12-31,Servidor ou empregado público,Veículos,27853847296.11,28026532318.123898
 364,2022-12-31,Empresário,Cartão de crédito,73609022834.15,74065375437.559
-363,2022-12-31,Empregado de entidades sem fins lucrativos,Veículos,275614297.93,277323019.19207263
 389,2022-12-31,Servidor ou empregado público,Outros créditos,20334324783.36,20460391149.902573
 388,2022-12-31,Servidor ou empregado público,Habitacional,152213375818.85,153157050488.80338
 387,2022-12-31,Servidor ou empregado público,Empréstimo sem consignação em folha,28847896816.97,29026744630.84413
 386,2022-12-31,Servidor ou empregado público,Empréstimo com consignação em folha,215691796113.43,217029016863.01263
 385,2022-12-31,Servidor ou empregado público,Cartão de crédito,67374444725.26,67792144921.10262
 384,2022-12-31,Outros,Veículos,81632600183.94,82138696422.9965
+383,2022-12-31,Outros,Rural e agroindustrial,146344910437.26,147252202482.47812
 382,2022-12-31,Outros,Outros créditos,56005900327.65,56353119152.68963
 381,2022-12-31,Outros,Habitacional,181433971995.12,182558805096.8087
 380,2022-12-31,Outros,Empréstimo sem consignação em folha,69993725227.97,70427664132.47153
 379,2022-12-31,Outros,Empréstimo com consignação em folha,170289338007.34,171345077911.77454
 378,2022-12-31,Outros,Cartão de crédito,161772205219.53,162775141601.0859
-383,2022-12-31,Outros,Rural e agroindustrial,146344910437.26,147252202482.47812
+363,2022-12-31,Empregado de entidades sem fins lucrativos,Veículos,275614297.93,277323019.19207263
 376,2022-12-31,MEI,Rural e agroindustrial,589022650.48,592674404.1599675
-377,2022-12-31,MEI,Veículos,7353217081.83,7398804696.357711
+365,2022-12-31,Empresário,Empréstimo com consignação em folha,12212364387.97,12288077175.175264
 366,2022-12-31,Empresário,Empréstimo sem consignação em folha,48313417083.34,48612944951.210815
 367,2022-12-31,Empresário,Habitacional,157392278180.75,158368060403.34644
-368,2022-12-31,Empresário,Outros créditos,58411775463.63,58773909951.716194
+377,2022-12-31,MEI,Veículos,7353217081.83,7398804696.357711
 369,2022-12-31,Empresário,Rural e agroindustrial,194486464898.62,195692219317.94266
-370,2022-12-31,Empresário,Veículos,43342654891.49,43611365609.78
-365,2022-12-31,Empresário,Empréstimo com consignação em folha,12212364387.97,12288077175.175264
+368,2022-12-31,Empresário,Outros créditos,58411775463.63,58773909951.716194
+371,2022-12-31,MEI,Cartão de crédito,10138495656.99,10201351115.595161
 372,2022-12-31,MEI,Empréstimo com consignação em folha,987232086.35,993352612.2777768
 373,2022-12-31,MEI,Empréstimo sem consignação em folha,2460498674.6,2475752986.2673078
 374,2022-12-31,MEI,Habitacional,17496402368.1,17604874515.447533
 375,2022-12-31,MEI,Outros créditos,3193348758.5,3213146508.333167
-371,2022-12-31,MEI,Cartão de crédito,10138495656.99,10201351115.595161
-184,2023-01-31,Empregado de empresa privada,Empréstimo sem consignação em folha,55128594209.87,55128594209.87
-185,2023-01-31,Empregado de empresa privada,Habitacional,343735822896.09,343735822896.09
-186,2023-01-31,Empregado de empresa privada,Outros créditos,35013994258.1,35013994258.1
-187,2023-01-31,Empregado de empresa privada,Rural e agroindustrial,18609912654.04,18609912654.04
-188,2023-01-31,Empregado de empresa privada,Veículos,64328713968.770004,64328713968.770004
-191,2023-01-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,260512418.57,260512418.57
-190,2023-01-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,358800583.86,358800583.86
-192,2023-01-31,Empregado de entidades sem fins lucrativos,Habitacional,1163889249.65,1163889249.65
-193,2023-01-31,Empregado de entidades sem fins lucrativos,Outros créditos,171830646.87,171830646.87
-194,2023-01-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,256288114.5,256288114.5
-189,2023-01-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,583435085.5699999,583435085.5699999
-183,2023-01-31,Empregado de empresa privada,Empréstimo com consignação em folha,41776443499.77,41776443499.77
-170,2023-01-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20424208922.72,20424208922.72
-181,2023-01-31,Autônomo,Veículos,21882061710.79,21882061710.79
-180,2023-01-31,Autônomo,Rural e agroindustrial,112479049281.57,112479049281.57
-179,2023-01-31,Autônomo,Outros créditos,21278818100.22,21278818100.22
-178,2023-01-31,Autônomo,Habitacional,58145108745.99,58145108745.99
-177,2023-01-31,Autônomo,Empréstimo sem consignação em folha,18476204317.57,18476204317.57
-176,2023-01-31,Autônomo,Empréstimo com consignação em folha,10864726701.47,10864726701.47
-175,2023-01-31,Autônomo,Cartão de crédito,31932617386.42,31932617386.42
-174,2023-01-31,Aposentado/pensionista,Veículos,14141838032.93,14141838032.93
-173,2023-01-31,Aposentado/pensionista,Rural e agroindustrial,9603159968.13,9603159968.13
-172,2023-01-31,Aposentado/pensionista,Outros créditos,12606359128.35,12606359128.35
-171,2023-01-31,Aposentado/pensionista,Habitacional,23438262606.2,23438262606.2
-182,2023-01-31,Empregado de empresa privada,Cartão de crédito,106541585223.81,106541585223.81
-196,2023-01-31,Empresário,Cartão de crédito,73378830547.09,73378830547.09
-223,2023-01-31,Servidor ou empregado público,Veículos,28149490740.87,28149490740.87
-198,2023-01-31,Empresário,Empréstimo sem consignação em folha,48456953121.32,48456953121.32
-169,2023-01-31,Aposentado/pensionista,Empréstimo com consignação em folha,140369532908.22,140369532908.22
-222,2023-01-31,Servidor ou empregado público,Rural e agroindustrial,12875166365.460001,12875166365.460001
-221,2023-01-31,Servidor ou empregado público,Outros créditos,21056406567.01,21056406567.01
-220,2023-01-31,Servidor ou empregado público,Habitacional,153124524921.88,153124524921.88
-219,2023-01-31,Servidor ou empregado público,Empréstimo sem consignação em folha,29163361255.06,29163361255.06
-218,2023-01-31,Servidor ou empregado público,Empréstimo com consignação em folha,218303070707.27,218303070707.27
-217,2023-01-31,Servidor ou empregado público,Cartão de crédito,68574341048.48,68574341048.48
-216,2023-01-31,Outros,Veículos,81946612754.64,81946612754.64
-215,2023-01-31,Outros,Rural e agroindustrial,147721170556.73,147721170556.73
-214,2023-01-31,Outros,Outros créditos,56765995862.68,56765995862.68
-213,2023-01-31,Outros,Habitacional,182562109060.32,182562109060.32
-212,2023-01-31,Outros,Empréstimo sem consignação em folha,70839578816.91,70839578816.91
-211,2023-01-31,Outros,Empréstimo com consignação em folha,173350746792.47,173350746792.47
-210,2023-01-31,Outros,Cartão de crédito,161822616772.38,161822616772.38
-209,2023-01-31,MEI,Veículos,7463629830.35,7463629830.35
-208,2023-01-31,MEI,Rural e agroindustrial,602837762.95,602837762.95
-207,2023-01-31,MEI,Outros créditos,3291057722.03,3291057722.03
-206,2023-01-31,MEI,Habitacional,17720525800.59,17720525800.59
-205,2023-01-31,MEI,Empréstimo sem consignação em folha,2491558663.62,2491558663.62
-204,2023-01-31,MEI,Empréstimo com consignação em folha,1010634995.63,1010634995.63
-203,2023-01-31,MEI,Cartão de crédito,10213458274.49,10213458274.49
-202,2023-01-31,Empresário,Veículos,43530700093.71,43530700093.71
-201,2023-01-31,Empresário,Rural e agroindustrial,197122480714.63,197122480714.63
-200,2023-01-31,Empresário,Outros créditos,59014924688.38,59014924688.38
-199,2023-01-31,Empresário,Habitacional,159052128958.79,159052128958.79
-197,2023-01-31,Empresário,Empréstimo com consignação em folha,12353879511.67,12353879511.67
-168,2023-01-31,Aposentado/pensionista,Cartão de crédito,41013190278.98,41013190278.98
-195,2023-01-31,Empregado de entidades sem fins lucrativos,Veículos,278441769.93,278441769.93
-56,2023-02-28,Aposentado/pensionista,Cartão de crédito,39969893534.62,39759186287.49739
-86,2023-02-28,Empresário,Empréstimo sem consignação em folha,48366206912.34,48111237248.649635
-87,2023-02-28,Empresário,Habitacional,160411906279.34,159566271022.6803
-88,2023-02-28,Empresário,Outros créditos,60063619106.08,59746984791.727844
-89,2023-02-28,Empresário,Rural e agroindustrial,199670210853.67,198617619597.08017
-90,2023-02-28,Empresário,Veículos,43528841222.28,43299372452.33095
-91,2023-02-28,MEI,Cartão de crédito,10055548663.07,10002539340.559101
-92,2023-02-28,MEI,Empréstimo com consignação em folha,1023071997.55,1017678721.1324564
-93,2023-02-28,MEI,Empréstimo sem consignação em folha,2483317310.66,2470226133.5767317
-94,2023-02-28,MEI,Habitacional,17871320038.03,17777108712.58829
-95,2023-02-28,MEI,Outros créditos,3332796739.03,3315227404.613536
-96,2023-02-28,MEI,Rural e agroindustrial,618867418.04,615604966.2679896
-98,2023-02-28,Outros,Cartão de crédito,159952892680.49,159109677182.38486
-99,2023-02-28,Outros,Empréstimo com consignação em folha,175372490758.81,174447988552.7479
-100,2023-02-28,Outros,Empréstimo sem consignação em folha,71156855991.17,70781742026.28508
-101,2023-02-28,Outros,Habitacional,184559005864.29,183586075575.55487
-102,2023-02-28,Outros,Outros créditos,57223408268.22,56921746548.3376
-103,2023-02-28,Outros,Rural e agroindustrial,149659686033.84,148870732707.70438
-104,2023-02-28,Outros,Veículos,82082561628.18,81649851178.68967
-105,2023-02-28,Servidor ou empregado público,Cartão de crédito,66813792044.08,66461573187.67407
-106,2023-02-28,Servidor ou empregado público,Empréstimo com consignação em folha,219785934285.24,218627299996.42453
-107,2023-02-28,Servidor ou empregado público,Empréstimo sem consignação em folha,29378583177.42,29223709600.37844
-108,2023-02-28,Servidor ou empregado público,Habitacional,153910354968.79,153098993608.24377
-109,2023-02-28,Servidor ou empregado público,Outros créditos,21419877271.87,21306959198.42678
-110,2023-02-28,Servidor ou empregado público,Rural e agroindustrial,13066082933.73,12997203131.404348
-111,2023-02-28,Servidor ou empregado público,Veículos,28155985641.48,28007557169.450134
-85,2023-02-28,Empresário,Empréstimo com consignação em folha,12464086299.48,12398380012.076775
-84,2023-02-28,Empresário,Cartão de crédito,71336545761.86,70960484535.58482
-97,2023-02-28,MEI,Veículos,7491986203.46,7452491082.287252
-82,2023-02-28,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,270087266.15,268663460.8980784
-83,2023-02-28,Empregado de entidades sem fins lucrativos,Veículos,280663385.86,279183827.0177567
-57,2023-02-28,Aposentado/pensionista,Empréstimo com consignação em folha,140687439516.64,139945784724.39984
-58,2023-02-28,Aposentado/pensionista,Empréstimo sem consignação em folha,20363575568.54,20256225946.857777
-59,2023-02-28,Aposentado/pensionista,Habitacional,23393114048.89,23269793763.87104
-60,2023-02-28,Aposentado/pensionista,Outros créditos,12730333737.32,12663223886.891716
-61,2023-02-28,Aposentado/pensionista,Rural e agroindustrial,9679096935.44,9628072134.282274
-62,2023-02-28,Aposentado/pensionista,Veículos,14062083850.66,13987953481.150421
-63,2023-02-28,Autônomo,Cartão de crédito,31218205683.19,31053634262.104904
-65,2023-02-28,Autônomo,Empréstimo sem consignação em folha,18524154422.41,18426501583.27398
-66,2023-02-28,Autônomo,Habitacional,58510283191.97,58201837519.25221
-67,2023-02-28,Autônomo,Outros créditos,21695450214.94,21581079417.681904
-68,2023-02-28,Autônomo,Rural e agroindustrial,113985754690.56,113384861806.98906
-69,2023-02-28,Autônomo,Veículos,21902597657.95,21787134852.0923
-64,2023-02-28,Autônomo,Empréstimo com consignação em folha,10982544978.13,10924648856.471891
-81,2023-02-28,Empregado de entidades sem fins lucrativos,Outros créditos,176592582.05,175661647.95096868
-70,2023-02-28,Empregado de empresa privada,Cartão de crédito,104511474730.68,103960526925.07346
-80,2023-02-28,Empregado de entidades sem fins lucrativos,Habitacional,1170635146.54,1164463969.0036182
-79,2023-02-28,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,263050592.68,261663882.30035976
-78,2023-02-28,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,362407625.55,360497139.77275515
-76,2023-02-28,Empregado de empresa privada,Veículos,64483924511.87,64143987899.18452
-77,2023-02-28,Empregado de entidades sem fins lucrativos,Cartão de crédito,569891820.41,566887550.7956145
-74,2023-02-28,Empregado de empresa privada,Outros créditos,35725420377.22,35537088502.54383
-73,2023-02-28,Empregado de empresa privada,Habitacional,346119744250.86,344295122465.89795
-72,2023-02-28,Empregado de empresa privada,Empréstimo sem consignação em folha,55881176278.02,55586590333.993996
-71,2023-02-28,Empregado de empresa privada,Empréstimo com consignação em folha,42093069444.4,41871169559.23048
-75,2023-02-28,Empregado de empresa privada,Rural e agroindustrial,18918177866.75,18818447874.338932
-149,2023-03-31,MEI,Empréstimo sem consignação em folha,2509373583.95,2475352300.9985957
-152,2023-03-31,MEI,Rural e agroindustrial,637243574.51,628604030.3241389
-151,2023-03-31,MEI,Outros créditos,3320063182.35,3275050829.59961
-150,2023-03-31,MEI,Habitacional,18097100265.31,17851745578.919746
-148,2023-03-31,MEI,Empréstimo com consignação em folha,1035175265.49,1021140690.9504477
-142,2023-03-31,Empresário,Empréstimo sem consignação em folha,48299391670.75,47644563995.460335
-146,2023-03-31,Empresário,Veículos,43880468343.77,43285551014.954575
-145,2023-03-31,Empresário,Rural e agroindustrial,203164517756.73,200410078326.70813
-144,2023-03-31,Empresário,Outros créditos,59501352111.17,58694651845.768
-143,2023-03-31,Empresário,Habitacional,162646119210.99,160441015244.79828
-153,2023-03-31,MEI,Veículos,7575290018.73,7472586664.070275
-147,2023-03-31,MEI,Cartão de crédito,10304352125.27,10164649021.066248
-154,2023-03-31,Outros,Cartão de crédito,162115851532.55,159917936765.62442
-167,2023-03-31,Servidor ou empregado público,Veículos,28380465706.82,27995692446.959473
-156,2023-03-31,Outros,Empréstimo sem consignação em folha,71859661835.31,70885411566.74576
-157,2023-03-31,Outros,Habitacional,186772359008.23,184240159213.8423
-158,2023-03-31,Outros,Outros créditos,56872874044.58,56101809842.53938
-159,2023-03-31,Outros,Rural e agroindustrial,151366217681.17,149314043005.4054
-160,2023-03-31,Outros,Veículos,82512504433.48,81393826338.55017
-161,2023-03-31,Servidor ou empregado público,Cartão de crédito,68075653635.02,67152705737.09356
-162,2023-03-31,Servidor ou empregado público,Empréstimo com consignação em folha,222026666679.88998,219016500278.92572
-163,2023-03-31,Servidor ou empregado público,Empréstimo sem consignação em folha,29898430600.28,29493077258.80826
-164,2023-03-31,Servidor ou empregado público,Habitacional,155732675560.71,153621301848.1956
-165,2023-03-31,Servidor ou empregado público,Outros créditos,21604103540.45,21311202027.434105
-166,2023-03-31,Servidor ou empregado público,Rural e agroindustrial,13314822716.87,13134304617.055876
-141,2023-03-31,Empresário,Empréstimo com consignação em folha,12519750262.62,12350011500.368809
-155,2023-03-31,Outros,Empréstimo com consignação em folha,176124691538.96,173736849408.19852
-140,2023-03-31,Empresário,Cartão de crédito,73741402510.68001,72741640205.02118
-139,2023-03-31,Empregado de entidades sem fins lucrativos,Veículos,283786851.07,279939359.8794126
-138,2023-03-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,265556127.77,261955802.8840892
-113,2023-03-31,Aposentado/pensionista,Empréstimo com consignação em folha,141410157029.43,139492963433.677
-114,2023-03-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20641449399.92,20361599243.270004
-115,2023-03-31,Aposentado/pensionista,Habitacional,23531942547.89,23212904011.364983
-116,2023-03-31,Aposentado/pensionista,Outros créditos,12830309508.64,12656360283.646393
-117,2023-03-31,Aposentado/pensionista,Rural e agroindustrial,9763056271.84,9630691883.365046
-118,2023-03-31,Aposentado/pensionista,Veículos,14112043684.16,13920717117.93161
-119,2023-03-31,Autônomo,Cartão de crédito,32059906240.2,31625248304.62214
-120,2023-03-31,Autônomo,Empréstimo com consignação em folha,11049515095.43,10899709310.455688
-121,2023-03-31,Autônomo,Empréstimo sem consignação em folha,18656917593.8,18403973083.457077
-122,2023-03-31,Autônomo,Habitacional,59125346490.14,58323743988.461266
-123,2023-03-31,Autônomo,Outros créditos,21525809114.54,21233969092.262047
-124,2023-03-31,Autônomo,Rural e agroindustrial,115852252990.37,114281565267.84332
-112,2023-03-31,Aposentado/pensionista,Cartão de crédito,41322820513.62,40762578954.51704
-126,2023-03-31,Empregado de empresa privada,Cartão de crédito,106564643751.63,105119874459.05504
-137,2023-03-31,Empregado de entidades sem fins lucrativos,Outros créditos,175116582.71,172742408.19570476
-136,2023-03-31,Empregado de entidades sem fins lucrativos,Habitacional,1186047806.0,1169967749.9015765
-135,2023-03-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,265123504.1,261529044.5871778
-125,2023-03-31,Autônomo,Veículos,22103130548.28,21803463386.999386
-133,2023-03-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,580914183.14,573038334.7922302
-134,2023-03-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,364735187.73,359790224.9299361
-131,2023-03-31,Empregado de empresa privada,Rural e agroindustrial,19292893298.1,19031326432.94925
-130,2023-03-31,Empregado de empresa privada,Outros créditos,35792569401.68,35307305215.04761
-129,2023-03-31,Empregado de empresa privada,Habitacional,350070147613.32,345324008727.9153
-128,2023-03-31,Empregado de empresa privada,Empréstimo sem consignação em folha,56831767565.95,56061260672.37455
-127,2023-03-31,Empregado de empresa privada,Empréstimo com consignação em folha,42526757181.37,41950193034.71329
-132,2023-03-31,Empregado de empresa privada,Veículos,65261915285.53,64377115150.51598
-240,2023-04-30,Empregado de empresa privada,Empréstimo sem consignação em folha,57333992886.93,56157936781.91872
-241,2023-04-30,Empregado de empresa privada,Habitacional,352780893029.65,345544520642.3811
-242,2023-04-30,Empregado de empresa privada,Outros créditos,35778753728.62,35044846675.692055
-243,2023-04-30,Empregado de empresa privada,Rural e agroindustrial,19310726355.28,18914617581.430645
-249,2023-04-30,Empregado de entidades sem fins lucrativos,Outros créditos,175872778.45,172265210.85551327
-245,2023-04-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,577822655.78,565970143.3745921
-246,2023-04-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,367704935.36,360162435.4869188
-247,2023-04-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,268142732.94,262642489.85191768
-248,2023-04-30,Empregado de entidades sem fins lucrativos,Habitacional,1197573440.03,1173008369.9131458
-239,2023-04-30,Empregado de empresa privada,Empréstimo com consignação em folha,42877298847.51,41997783807.00944
-244,2023-04-30,Empregado de empresa privada,Veículos,65587686527.28,64242327600.227875
-238,2023-04-30,Empregado de empresa privada,Cartão de crédito,106014467920.0,103839859874.42532
-232,2023-04-30,Autônomo,Empréstimo com consignação em folha,11122034639.28,10893895343.915243
-236,2023-04-30,Autônomo,Rural e agroindustrial,114758405849.35,112404438909.23729
-235,2023-04-30,Autônomo,Outros créditos,21563583608.02,21121263391.492496
-234,2023-04-30,Autônomo,Habitacional,59775942763.96,58549796478.3001
-233,2023-04-30,Autônomo,Empréstimo sem consignação em folha,18717533283.84,18333592306.05699
-231,2023-04-30,Autônomo,Cartão de crédito,31835478474.84,31182457344.947163
-230,2023-04-30,Aposentado/pensionista,Veículos,14054262317.68,13765976081.75127
-229,2023-04-30,Aposentado/pensionista,Rural e agroindustrial,9656209675.66,9458137925.0543
-228,2023-04-30,Aposentado/pensionista,Outros créditos,12817520147.92,12554602425.604818
-227,2023-04-30,Aposentado/pensionista,Habitacional,23501184742.59,23019119733.686325
-226,2023-04-30,Aposentado/pensionista,Empréstimo sem consignação em folha,20735914530.09,20310571768.350067
-250,2023-04-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,272780000.23,267184635.79710346
-237,2023-04-30,Autônomo,Veículos,22183523585.54,21728486930.4986
-252,2023-04-30,Empresário,Cartão de crédito,73337530455.19,71833203858.08083
-266,2023-04-30,Outros,Cartão de crédito,161896449081.02,158575569132.9432
-254,2023-04-30,Empresário,Empréstimo sem consignação em folha,48329289521.01,47337941227.78832
-279,2023-04-30,Servidor ou empregado público,Veículos,28471169921.38,27887158735.05138
-278,2023-04-30,Servidor ou empregado público,Rural e agroindustrial,13311318600.64,13038271901.504526
-277,2023-04-30,Servidor ou empregado público,Outros créditos,21702588025.9,21257416499.250183
-276,2023-04-30,Servidor ou empregado público,Habitacional,156593988488.47,153381874576.69125
-275,2023-04-30,Servidor ou empregado público,Empréstimo sem consignação em folha,30320310821.01,29698369371.41985
-274,2023-04-30,Servidor ou empregado público,Empréstimo com consignação em folha,223567120314.15,218981228708.03467
-273,2023-04-30,Servidor ou empregado público,Cartão de crédito,67330669607.29,65949557965.505104
-272,2023-04-30,Outros,Veículos,82946568433.07,81245137688.69766
-271,2023-04-30,Outros,Rural e agroindustrial,150166656688.19,147086382587.70016
-270,2023-04-30,Outros,Outros créditos,56101674443.76,54950896111.24341
-269,2023-04-30,Outros,Habitacional,189329371680.4,185445777459.74622
-268,2023-04-30,Outros,Empréstimo sem consignação em folha,72510076036.37,71022722490.88118
-267,2023-04-30,Outros,Empréstimo com consignação em folha,176956869981.3,173327065099.65466
-225,2023-04-30,Aposentado/pensionista,Empréstimo com consignação em folha,141474210997.44,138572239563.61154
-265,2023-04-30,MEI,Veículos,7606725862.37,7450693883.100215
-264,2023-04-30,MEI,Rural e agroindustrial,645175478.65,631941400.1868745
-263,2023-04-30,MEI,Outros créditos,3316764614.57,3248729909.895879
-262,2023-04-30,MEI,Habitacional,18356884569.28,17980341351.554607
-261,2023-04-30,MEI,Empréstimo sem consignação em folha,2528078388.51,2476221507.922288
-260,2023-04-30,MEI,Empréstimo com consignação em folha,1046820815.84,1025348039.4061407
-259,2023-04-30,MEI,Cartão de crédito,10273284985.32,10062555557.328938
-258,2023-04-30,Empresário,Veículos,44049080187.98,43145529134.46503
-257,2023-04-30,Empresário,Rural e agroindustrial,200635322196.03,196519816129.4128
-256,2023-04-30,Empresário,Outros créditos,59193738100.77,57979534212.875084
-255,2023-04-30,Empresário,Habitacional,164393500777.75,161021400380.08304
-253,2023-04-30,Empresário,Empréstimo com consignação em folha,12625706117.14,12366722955.293518
-224,2023-04-30,Aposentado/pensionista,Cartão de crédito,40687983692.5,39853376695.625854
-251,2023-04-30,Empregado de entidades sem fins lucrativos,Veículos,284642790.36,278804091.9806545
-335,2023-05-31,Servidor ou empregado público,Veículos,28599279434.33,27842795100.89512
-304,2023-05-31,Empregado de entidades sem fins lucrativos,Habitacional,1206361553.39,1174451881.7602232
-303,2023-05-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,274226145.91,266972544.16540056
-302,2023-05-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,368960557.69,359201120.14232385
-301,2023-05-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,591439877.63,575795602.3040044
-300,2023-05-31,Empregado de empresa privada,Veículos,66161018081.82,64410981904.23295
-299,2023-05-31,Empregado de empresa privada,Rural e agroindustrial,19231987227.92,18723278710.55514
-298,2023-05-31,Empregado de empresa privada,Outros créditos,36555229656.98,35588301150.82243
-297,2023-05-31,Empregado de empresa privada,Habitacional,355985232459.62,346569007414.22186
-296,2023-05-31,Empregado de empresa privada,Empréstimo sem consignação em folha,58233593724.42,56693247177.11309
-295,2023-05-31,Empregado de empresa privada,Empréstimo com consignação em folha,43267822239.88,42123337822.31021
-294,2023-05-31,Empregado de empresa privada,Cartão de crédito,108399701475.64,105532402804.57957
-305,2023-05-31,Empregado de entidades sem fins lucrativos,Outros créditos,179971893.48,175211426.7630377
-293,2023-05-31,Autônomo,Veículos,22297208373.98,21707421178.3627
-291,2023-05-31,Autônomo,Outros créditos,21940828252.56,21360467727.262173
-290,2023-05-31,Autônomo,Habitacional,60448130616.37,58849206982.58717
-289,2023-05-31,Autônomo,Empréstimo sem consignação em folha,18937068563.55,18436160989.203506
-288,2023-05-31,Autônomo,Empréstimo com consignação em folha,11152694079.62,10857692299.375946
-287,2023-05-31,Autônomo,Cartão de crédito,32574541094.55,31712906448.703712
-286,2023-05-31,Aposentado/pensionista,Veículos,14043396601.5,13671932364.380268
-285,2023-05-31,Aposentado/pensionista,Rural e agroindustrial,9555965127.19,9303198692.071644
-284,2023-05-31,Aposentado/pensionista,Outros créditos,12938276122.77,12596043612.64664
-283,2023-05-31,Aposentado/pensionista,Habitacional,23451947321.52,22831615932.471992
-282,2023-05-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20748228314.34,20199413449.882698
-281,2023-05-31,Aposentado/pensionista,Empréstimo com consignação em folha,141327319499.27,137589046885.338
-292,2023-05-31,Autônomo,Rural e agroindustrial,113757674313.85,110748651005.27267
-280,2023-05-31,Aposentado/pensionista,Cartão de crédito,41772443228.08,40667513331.37049
-306,2023-05-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,272808205.43,265592109.86667782
-308,2023-05-31,Empresário,Cartão de crédito,75294563778.81,73302934653.2485
-332,2023-05-31,Servidor ou empregado público,Habitacional,157448661132.24,153283960208.90613
-331,2023-05-31,Servidor ou empregado público,Empréstimo sem consignação em folha,30517350876.21,29710131313.605343
-330,2023-05-31,Servidor ou empregado público,Empréstimo com consignação em folha,225321672469.71,219361651148.26108
-329,2023-05-31,Servidor ou empregado público,Cartão de crédito,69176600445.63,67346798593.539055
-328,2023-05-31,Outros,Veículos,83602397748.8,81391016714.54071
-327,2023-05-31,Outros,Rural e agroindustrial,148203793719.74,144283630333.73456
-326,2023-05-31,Outros,Outros créditos,56432567712.659996,54939860406.234436
-325,2023-05-31,Outros,Habitacional,191830613212.65,186756469512.56848
-324,2023-05-31,Outros,Empréstimo sem consignação em folha,73437835105.13,71495318620.89584
-323,2023-05-31,Outros,Empréstimo com consignação em folha,177094307266.29,172409956064.53778
-322,2023-05-31,Outros,Cartão de crédito,164952782261.05,160589588572.07922
-307,2023-05-31,Empregado de entidades sem fins lucrativos,Veículos,287471628.4,279867668.1781711
-321,2023-05-31,MEI,Veículos,7672205695.9,7469266897.208752
-319,2023-05-31,MEI,Outros créditos,3340128334.58,3251778040.210742
-318,2023-05-31,MEI,Habitacional,18684474640.5,18190248470.345768
-317,2023-05-31,MEI,Empréstimo sem consignação em folha,2554118669.47,2486559248.4844384
-316,2023-05-31,MEI,Empréstimo com consignação em folha,1055476904.36,1027558307.8693401
-315,2023-05-31,MEI,Cartão de crédito,10460326478.86,10183638630.06151
-314,2023-05-31,Empresário,Veículos,44176671706.78,43008147159.641945
-313,2023-05-31,Empresário,Rural e agroindustrial,198234114796.42,192990591002.7466
-312,2023-05-31,Empresário,Outros créditos,60123961268.9,58533612292.85651
-311,2023-05-31,Empresário,Habitacional,166051748782.99,161659486146.3653
-310,2023-05-31,Empresário,Empréstimo sem consignação em folha,48554173004.38,47269858436.768555
-309,2023-05-31,Empresário,Empréstimo com consignação em folha,12660114375.33,12325239568.2069
-320,2023-05-31,MEI,Rural e agroindustrial,652343425.84,635088180.5531266
-333,2023-05-31,Servidor ou empregado público,Outros créditos,22036655187.51,21453759927.895622
-334,2023-05-31,Servidor ou empregado público,Rural e agroindustrial,13420325715.6,13065342430.907236
-393,2023-06-30,Aposentado/pensionista,Empréstimo com consignação em folha,141065384679.96,137018999397.27698
-422,2023-06-30,Empresário,Empréstimo sem consignação em folha,48536204689.02,47143969557.938675
-423,2023-06-30,Empresário,Habitacional,167698794918.65,162888444475.68338
-424,2023-06-30,Empresário,Outros créditos,59763743983.86,58049452879.46916
-425,2023-06-30,Empresário,Rural e agroindustrial,196517542970.52,190880542118.26266
-426,2023-06-30,Empresário,Veículos,44397073979.35,43123567603.90712
-427,2023-06-30,MEI,Cartão de crédito,10409596008.23,10111002301.617
-428,2023-06-30,MEI,Empréstimo com consignação em folha,1059166537.68,1028784910.7507429
-429,2023-06-30,MEI,Empréstimo sem consignação em folha,2547580990.67,2474504989.4208107
-430,2023-06-30,MEI,Habitacional,19032270913.62,18486340378.67248
-431,2023-06-30,MEI,Outros créditos,3335869424.93,3240181790.599204
-432,2023-06-30,MEI,Rural e agroindustrial,662055013.4,643064318.6336967
-421,2023-06-30,Empresário,Empréstimo com consignação em folha,12615275441.14,12253412997.012888
-433,2023-06-30,MEI,Veículos,7758292952.2,7535750458.931733
-435,2023-06-30,Outros,Empréstimo com consignação em folha,173323536291.77,168351843144.05176
-436,2023-06-30,Outros,Empréstimo sem consignação em folha,71659695544.51,69604175417.65039
-437,2023-06-30,Outros,Habitacional,193997125861.5,188432421829.04224
-438,2023-06-30,Outros,Outros créditos,55698506481.74,54100824545.760735
-439,2023-06-30,Outros,Rural e agroindustrial,146883022615.05,142669761492.67084
-440,2023-06-30,Outros,Veículos,83817725038.44,81413458323.4484
-441,2023-06-30,Servidor ou empregado público,Cartão de crédito,69000771819.14,67021521500.45851
-442,2023-06-30,Servidor ou empregado público,Empréstimo com consignação em folha,226384120044.78,219890412366.87878
-443,2023-06-30,Servidor ou empregado público,Empréstimo sem consignação em folha,30284338135.83,29415648057.06522
-444,2023-06-30,Servidor ou empregado público,Habitacional,158288971737.82,153748537051.42218
-445,2023-06-30,Servidor ou empregado público,Outros créditos,22130226993.45,21495433241.517944
-434,2023-06-30,Outros,Cartão de crédito,163452452824.31,158763906438.33975
-392,2023-06-30,Aposentado/pensionista,Cartão de crédito,41536592616.11,40345137622.13014
-420,2023-06-30,Empresário,Cartão de crédito,74993661946.58,72842508772.58482
-418,2023-06-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,275640131.25,267733541.17521134
-394,2023-06-30,Aposentado/pensionista,Empréstimo sem consignação em folha,20448965819.77,19862398147.43188
-395,2023-06-30,Aposentado/pensionista,Habitacional,23429512531.35,22757449467.102314
-396,2023-06-30,Aposentado/pensionista,Outros créditos,12796749969.7,12429682025.561579
-397,2023-06-30,Aposentado/pensionista,Rural e agroindustrial,9437453443.08,9166745127.182924
-398,2023-06-30,Aposentado/pensionista,Veículos,14137540462.76,13732012658.815517
-399,2023-06-30,Autônomo,Cartão de crédito,32395015725.9,31465781986.787045
-400,2023-06-30,Autônomo,Empréstimo com consignação em folha,11097430840.55,10779106958.821888
-401,2023-06-30,Autônomo,Empréstimo sem consignação em folha,19003857810.85,18458742290.593327
-402,2023-06-30,Autônomo,Habitacional,61192750612.29,59437469215.324875
-403,2023-06-30,Autônomo,Outros créditos,21874883823.99,21247414454.614876
-404,2023-06-30,Autônomo,Rural e agroindustrial,112983712752.52,109742835243.82506
-419,2023-06-30,Empregado de entidades sem fins lucrativos,Veículos,287944439.23,279684906.6467652
-405,2023-06-30,Autônomo,Veículos,22442655290.85,21798899699.928448
-407,2023-06-30,Empregado de empresa privada,Empréstimo com consignação em folha,43526236246.06,42277709386.290535
-408,2023-06-30,Empregado de empresa privada,Empréstimo sem consignação em folha,57089125205.32,55451554113.3321
-409,2023-06-30,Empregado de empresa privada,Habitacional,359007892740.08997,348709942914.5796
-410,2023-06-30,Empregado de empresa privada,Outros créditos,36493848490.59,35447041920.886116
-411,2023-06-30,Empregado de empresa privada,Rural e agroindustrial,19173644691.57,18623658925.243416
-412,2023-06-30,Empregado de empresa privada,Veículos,66941359887.11,65021182700.73276
-413,2023-06-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,587523146.09,570670358.1649696
-414,2023-06-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,368508358.16,357937892.55366236
-415,2023-06-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,268624356.37,260919010.05380923
-416,2023-06-30,Empregado de entidades sem fins lucrativos,Habitacional,1214328948.16,1179496570.2855957
-417,2023-06-30,Empregado de entidades sem fins lucrativos,Outros créditos,193077211.35,187538894.57440972
-406,2023-06-30,Empregado de empresa privada,Cartão de crédito,107832744422.74,104739619691.86844
-446,2023-06-30,Servidor ou empregado público,Rural e agroindustrial,13501409106.18,13114128390.739607
-447,2023-06-30,Servidor ou empregado público,Veículos,28952239481.5,28121759941.785545
-336,2023-07-31,Aposentado/pensionista,Cartão de crédito,41679550294.06,40516394231.679054
-366,2023-07-31,Empresário,Empréstimo sem consignação em folha,48357320448.83,47007807077.31527
-367,2023-07-31,Empresário,Habitacional,169447624143.63,164718829569.5964
-368,2023-07-31,Empresário,Outros créditos,59959538224.03,58286240410.33497
-369,2023-07-31,Empresário,Rural e agroindustrial,198281429213.87,192747966284.9156
-370,2023-07-31,Empresário,Veículos,44614915444.04,43369841804.68396
-371,2023-07-31,MEI,Cartão de crédito,10500597792.18,10207556387.116213
-372,2023-07-31,MEI,Empréstimo com consignação em folha,1053100851.48,1023711843.4159646
-373,2023-07-31,MEI,Empréstimo sem consignação em folha,2555147501.86,2483840703.05585
-374,2023-07-31,MEI,Habitacional,19369238892.02,18828699287.29762
-375,2023-07-31,MEI,Outros créditos,3315923306.07,3223385448.3284
-376,2023-07-31,MEI,Rural e agroindustrial,673680270.64,654879796.8975319
-377,2023-07-31,MEI,Veículos,7836938187.37,7618231841.000344
-378,2023-07-31,Outros,Cartão de crédito,165291613237.09,160678800943.26715
-379,2023-07-31,Outros,Empréstimo com consignação em folha,171777098949.21,166983295450.5801
-380,2023-07-31,Outros,Empréstimo sem consignação em folha,72276438916.03,70259411920.7923
-381,2023-07-31,Outros,Habitacional,196226808775.07,190750684377.8997
-382,2023-07-31,Outros,Outros créditos,55469842201.32,53921838857.22022
-383,2023-07-31,Outros,Rural e agroindustrial,148032144787.62,143900994489.16025
-384,2023-07-31,Outros,Veículos,84396228920.64,82040973534.76021
-385,2023-07-31,Servidor ou empregado público,Cartão de crédito,70278100024.52,68316840905.37387
-386,2023-07-31,Servidor ou empregado público,Empréstimo com consignação em folha,227224179506.43,220883007875.55212
-387,2023-07-31,Servidor ou empregado público,Empréstimo sem consignação em folha,30055790740.69,29217020289.400627
-388,2023-07-31,Servidor ou empregado público,Habitacional,159155057395.67,154713498680.13022
-389,2023-07-31,Servidor ou empregado público,Outros créditos,22229781918.48,21609412806.49437
-390,2023-07-31,Servidor ou empregado público,Rural e agroindustrial,13621676301.03,13241534594.664423
-365,2023-07-31,Empresário,Empréstimo com consignação em folha,12446733147.82,12099380716.817692
-364,2023-07-31,Empresário,Cartão de crédito,75984775782.28,73864259798.39204
-391,2023-07-31,Servidor ou empregado público,Veículos,29277946811.86,28460883741.64892
-362,2023-07-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,272611174.84,265003383.04640356
-363,2023-07-31,Empregado de entidades sem fins lucrativos,Veículos,290050741.3,281956261.49489367
-337,2023-07-31,Aposentado/pensionista,Empréstimo com consignação em folha,138612495231.68,134744220190.0115
-338,2023-07-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20099518533.66,19538598929.959366
-339,2023-07-31,Aposentado/pensionista,Habitacional,23388201691.34,22735504423.89018
-340,2023-07-31,Aposentado/pensionista,Outros créditos,12623689216.73,12271398452.111431
-341,2023-07-31,Aposentado/pensionista,Rural e agroindustrial,9473148538.55,9208780279.422693
-342,2023-07-31,Aposentado/pensionista,Veículos,14187652262.34,13791715798.93134
-344,2023-07-31,Autônomo,Empréstimo com consignação em folha,10987521751.02,10680891702.349277
-345,2023-07-31,Autônomo,Empréstimo sem consignação em folha,19087189308.3,18554520894.146645
-346,2023-07-31,Autônomo,Habitacional,61896650555.18,60169293522.14135
-347,2023-07-31,Autônomo,Outros créditos,22005460730.43,21391351775.95471
-348,2023-07-31,Autônomo,Rural e agroindustrial,114057795799.8,110874771613.83002
-343,2023-07-31,Autônomo,Cartão de crédito,32809462198.25,31893844717.01264
-350,2023-07-31,Empregado de empresa privada,Cartão de crédito,109243609552.02,106194935422.13338
-349,2023-07-31,Autônomo,Veículos,22598732140.85,21968066692.05558
-360,2023-07-31,Empregado de entidades sem fins lucrativos,Habitacional,1225739996.19,1191533127.415929
-359,2023-07-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,268551148.35,261056660.1883275
-358,2023-07-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,365937613.79,355725350.19958127
-356,2023-07-31,Empregado de empresa privada,Veículos,67711516366.41,65821883196.21188
-357,2023-07-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,592998997.7,576450105.6343657
-361,2023-07-31,Empregado de entidades sem fins lucrativos,Outros créditos,198121718.04,192592712.1893683
-354,2023-07-31,Empregado de empresa privada,Outros créditos,36655790140.36,35632832737.453476
-353,2023-07-31,Empregado de empresa privada,Habitacional,362177149230.17,352069829362.0149
-352,2023-07-31,Empregado de empresa privada,Empréstimo sem consignação em folha,57497205652.36,55892624440.406815
-351,2023-07-31,Empregado de empresa privada,Empréstimo com consignação em folha,43404109323.68,42192825791.686646
-355,2023-07-31,Empregado de empresa privada,Rural e agroindustrial,19520501227.75,18975740327.41447
-18,2023-08-31,Empregado de empresa privada,Outros créditos,36910081415.02,35837033474.83133
-16,2023-08-31,Empregado de empresa privada,Empréstimo sem consignação em folha,58439225986.53,56740283890.846954
-17,2023-08-31,Empregado de empresa privada,Habitacional,365409219574.77,354786062015.67847
-19,2023-08-31,Empregado de empresa privada,Rural e agroindustrial,20749493465.81,20146265286.14023
-25,2023-08-31,Empregado de entidades sem fins lucrativos,Outros créditos,200881205.42,195041197.6108915
-21,2023-08-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,600418048.06,582962726.2340041
-22,2023-08-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,371911167.9,361098986.0421226
-23,2023-08-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,270164826.17,262310608.59259915
-24,2023-08-31,Empregado de entidades sem fins lucrativos,Habitacional,1237365322.85,1201392703.4451356
-15,2023-08-31,Empregado de empresa privada,Empréstimo com consignação em folha,44306652897.14,43018572220.93257
-20,2023-08-31,Empregado de empresa privada,Veículos,68784190937.11,66784500565.99708
-14,2023-08-31,Empregado de empresa privada,Cartão de crédito,109815268004.88,106622724325.31091
-1,2023-08-31,Aposentado/pensionista,Empréstimo com consignação em folha,141282093452.25,137174747882.89597
-12,2023-08-31,Autônomo,Rural e agroindustrial,119731962749.44,116251121443.28265
-11,2023-08-31,Autônomo,Outros créditos,22162002911.04,21517710331.276974
-10,2023-08-31,Autônomo,Habitacional,62508260806.1,60691023944.75115
-9,2023-08-31,Autônomo,Empréstimo sem consignação em folha,19279449493.38,18718958354.543762
-8,2023-08-31,Autônomo,Empréstimo com consignação em folha,11179491255.81,10854481675.648996
-7,2023-08-31,Autônomo,Cartão de crédito,33194953170.52,32229911242.71242
-6,2023-08-31,Aposentado/pensionista,Veículos,14300645078.55,13884897479.069963
-5,2023-08-31,Aposentado/pensionista,Rural e agroindustrial,9768644659.86,9484651137.525688
-4,2023-08-31,Aposentado/pensionista,Outros créditos,12471995802.47,12109410598.297676
-3,2023-08-31,Aposentado/pensionista,Habitacional,23337299849.26,22658839098.89646
-2,2023-08-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20631202767.64,20031413528.908546
-26,2023-08-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,288612565.67,280222036.3828245
-13,2023-08-31,Autônomo,Veículos,22915982162.69,22249769937.88932
-55,2023-08-31,Servidor ou empregado público,Veículos,29674304402.86,28811614590.340034
-39,2023-08-31,MEI,Outros créditos,3319061231.61,3222569658.538317
-28,2023-08-31,Empresário,Cartão de crédito,76810576688.55,74577543654.19826
-54,2023-08-31,Servidor ou empregado público,Rural e agroindustrial,14268286447.31,13853479576.250717
-53,2023-08-31,Servidor ou empregado público,Outros créditos,21517550739.11,20891993638.899673
-52,2023-08-31,Servidor ou empregado público,Habitacional,160054935680.33002,155401827031.8371
-51,2023-08-31,Servidor ou empregado público,Empréstimo sem consignação em folha,31392256695.5,30479622664.536514
-50,2023-08-31,Servidor ou empregado público,Empréstimo com consignação em folha,229695384985.45,223017692867.7301
-49,2023-08-31,Servidor ou empregado público,Cartão de crédito,70530844203.56,68480375220.806694
-48,2023-08-31,Outros,Veículos,85711464532.07,83219665355.78142
-47,2023-08-31,Outros,Rural e agroindustrial,155411924519.69,150893797246.77786
-46,2023-08-31,Outros,Outros créditos,55240742432.08,53634786481.59774
-45,2023-08-31,Outros,Habitacional,198854529932.63998,193073441526.40924
-44,2023-08-31,Outros,Empréstimo sem consignação em folha,73524741991.29,71387234569.95573
-43,2023-08-31,Outros,Empréstimo com consignação em folha,173974829124.34,168917042067.8048
-42,2023-08-31,Outros,Cartão de crédito,167186482346.45,162326045749.41116
-41,2023-08-31,MEI,Veículos,7983863637.84,7751757175.245064
-40,2023-08-31,MEI,Rural e agroindustrial,717637634.2,696774510.7481289
-38,2023-08-31,MEI,Habitacional,19696078571.24,19123475213.82604
-37,2023-08-31,MEI,Empréstimo sem consignação em folha,2586750478.79,2511548605.3008204
-36,2023-08-31,MEI,Empréstimo com consignação em folha,1082315197.16,1050850186.831553
-35,2023-08-31,MEI,Cartão de crédito,10622081897.69,10313277292.989418
-34,2023-08-31,Empresário,Veículos,45169021131.54,43855869731.50506
-33,2023-08-31,Empresário,Rural e agroindustrial,206769837208.49,200758635406.6043
-32,2023-08-31,Empresário,Outros créditos,60772339590.38,59005569339.05873
-31,2023-08-31,Empresário,Habitacional,171090275224.74,166116347767.03705
-30,2023-08-31,Empresário,Empréstimo sem consignação em folha,48923073892.74,47500784868.82742
-29,2023-08-31,Empresário,Empréstimo com consignação em folha,12698554840.99,12329383124.398983
-27,2023-08-31,Empregado de entidades sem fins lucrativos,Veículos,292138979.07,283645930.0784495
-0,2023-08-31,Aposentado/pensionista,Cartão de crédito,42132532816.67,40907658044.77471
+370,2022-12-31,Empresário,Veículos,43342654891.49,43611365609.78
+240,2023-01-31,Empregado de empresa privada,Empréstimo sem consignação em folha,55128594209.87,55128594209.87
+241,2023-01-31,Empregado de empresa privada,Habitacional,343735822896.09,343735822896.09
+242,2023-01-31,Empregado de empresa privada,Outros créditos,35013994258.1,35013994258.1
+243,2023-01-31,Empregado de empresa privada,Rural e agroindustrial,18609912654.04,18609912654.04
+249,2023-01-31,Empregado de entidades sem fins lucrativos,Outros créditos,171830646.87,171830646.87
+245,2023-01-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,583435085.5699999,583435085.5699999
+246,2023-01-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,358800583.86,358800583.86
+247,2023-01-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,260512418.57,260512418.57
+248,2023-01-31,Empregado de entidades sem fins lucrativos,Habitacional,1163889249.65,1163889249.65
+239,2023-01-31,Empregado de empresa privada,Empréstimo com consignação em folha,41776443499.77,41776443499.77
+244,2023-01-31,Empregado de empresa privada,Veículos,64328713968.770004,64328713968.770004
+238,2023-01-31,Empregado de empresa privada,Cartão de crédito,106541585223.81,106541585223.81
+230,2023-01-31,Aposentado/pensionista,Veículos,14141838032.93,14141838032.93
+235,2023-01-31,Autônomo,Outros créditos,21278818100.22,21278818100.22
+234,2023-01-31,Autônomo,Habitacional,58145108745.99,58145108745.99
+233,2023-01-31,Autônomo,Empréstimo sem consignação em folha,18476204317.57,18476204317.57
+232,2023-01-31,Autônomo,Empréstimo com consignação em folha,10864726701.47,10864726701.47
+231,2023-01-31,Autônomo,Cartão de crédito,31932617386.42,31932617386.42
+229,2023-01-31,Aposentado/pensionista,Rural e agroindustrial,9603159968.13,9603159968.13
+228,2023-01-31,Aposentado/pensionista,Outros créditos,12606359128.35,12606359128.35
+227,2023-01-31,Aposentado/pensionista,Habitacional,23438262606.2,23438262606.2
+226,2023-01-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20424208922.72,20424208922.72
+225,2023-01-31,Aposentado/pensionista,Empréstimo com consignação em folha,140369532908.22,140369532908.22
+224,2023-01-31,Aposentado/pensionista,Cartão de crédito,41013190278.98,41013190278.98
+250,2023-01-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,256288114.5,256288114.5
+236,2023-01-31,Autônomo,Rural e agroindustrial,112479049281.57,112479049281.57
+251,2023-01-31,Empregado de entidades sem fins lucrativos,Veículos,278441769.93,278441769.93
+237,2023-01-31,Autônomo,Veículos,21882061710.79,21882061710.79
+253,2023-01-31,Empresário,Empréstimo com consignação em folha,12353879511.67,12353879511.67
+279,2023-01-31,Servidor ou empregado público,Veículos,28149490740.87,28149490740.87
+252,2023-01-31,Empresário,Cartão de crédito,73378830547.09,73378830547.09
+277,2023-01-31,Servidor ou empregado público,Outros créditos,21056406567.01,21056406567.01
+276,2023-01-31,Servidor ou empregado público,Habitacional,153124524921.88,153124524921.88
+275,2023-01-31,Servidor ou empregado público,Empréstimo sem consignação em folha,29163361255.06,29163361255.06
+274,2023-01-31,Servidor ou empregado público,Empréstimo com consignação em folha,218303070707.27,218303070707.27
+273,2023-01-31,Servidor ou empregado público,Cartão de crédito,68574341048.48,68574341048.48
+272,2023-01-31,Outros,Veículos,81946612754.64,81946612754.64
+271,2023-01-31,Outros,Rural e agroindustrial,147721170556.73,147721170556.73
+270,2023-01-31,Outros,Outros créditos,56765995862.68,56765995862.68
+269,2023-01-31,Outros,Habitacional,182562109060.32,182562109060.32
+268,2023-01-31,Outros,Empréstimo sem consignação em folha,70839578816.91,70839578816.91
+267,2023-01-31,Outros,Empréstimo com consignação em folha,173350746792.47,173350746792.47
+278,2023-01-31,Servidor ou empregado público,Rural e agroindustrial,12875166365.460001,12875166365.460001
+255,2023-01-31,Empresário,Habitacional,159052128958.79,159052128958.79
+266,2023-01-31,Outros,Cartão de crédito,161822616772.38,161822616772.38
+254,2023-01-31,Empresário,Empréstimo sem consignação em folha,48456953121.32,48456953121.32
+256,2023-01-31,Empresário,Outros créditos,59014924688.38,59014924688.38
+257,2023-01-31,Empresário,Rural e agroindustrial,197122480714.63,197122480714.63
+259,2023-01-31,MEI,Cartão de crédito,10213458274.49,10213458274.49
+258,2023-01-31,Empresário,Veículos,43530700093.71,43530700093.71
+261,2023-01-31,MEI,Empréstimo sem consignação em folha,2491558663.62,2491558663.62
+262,2023-01-31,MEI,Habitacional,17720525800.59,17720525800.59
+263,2023-01-31,MEI,Outros créditos,3291057722.03,3291057722.03
+264,2023-01-31,MEI,Rural e agroindustrial,602837762.95,602837762.95
+265,2023-01-31,MEI,Veículos,7463629830.35,7463629830.35
+260,2023-01-31,MEI,Empréstimo com consignação em folha,1010634995.63,1010634995.63
+129,2023-02-28,Empregado de empresa privada,Habitacional,346119744250.86,344295122465.89795
+127,2023-02-28,Empregado de empresa privada,Empréstimo com consignação em folha,42093069444.4,41871169559.23048
+128,2023-02-28,Empregado de empresa privada,Empréstimo sem consignação em folha,55881176278.02,55586590333.993996
+130,2023-02-28,Empregado de empresa privada,Outros créditos,35725420377.22,35537088502.54383
+113,2023-02-28,Aposentado/pensionista,Empréstimo com consignação em folha,140687439516.64,139945784724.39984
+132,2023-02-28,Empregado de empresa privada,Veículos,64483924511.87,64143987899.18452
+133,2023-02-28,Empregado de entidades sem fins lucrativos,Cartão de crédito,569891820.41,566887550.7956145
+134,2023-02-28,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,362407625.55,360497139.77275515
+135,2023-02-28,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,263050592.68,261663882.30035976
+131,2023-02-28,Empregado de empresa privada,Rural e agroindustrial,18918177866.75,18818447874.338932
+136,2023-02-28,Empregado de entidades sem fins lucrativos,Habitacional,1170635146.54,1164463969.0036182
+121,2023-02-28,Autônomo,Empréstimo sem consignação em folha,18524154422.41,18426501583.27398
+125,2023-02-28,Autônomo,Veículos,21902597657.95,21787134852.0923
+124,2023-02-28,Autônomo,Rural e agroindustrial,113985754690.56,113384861806.98906
+123,2023-02-28,Autônomo,Outros créditos,21695450214.94,21581079417.681904
+122,2023-02-28,Autônomo,Habitacional,58510283191.97,58201837519.25221
+120,2023-02-28,Autônomo,Empréstimo com consignação em folha,10982544978.13,10924648856.471891
+119,2023-02-28,Autônomo,Cartão de crédito,31218205683.19,31053634262.104904
+118,2023-02-28,Aposentado/pensionista,Veículos,14062083850.66,13987953481.150421
+117,2023-02-28,Aposentado/pensionista,Rural e agroindustrial,9679096935.44,9628072134.282274
+116,2023-02-28,Aposentado/pensionista,Outros créditos,12730333737.32,12663223886.891716
+115,2023-02-28,Aposentado/pensionista,Habitacional,23393114048.89,23269793763.87104
+114,2023-02-28,Aposentado/pensionista,Empréstimo sem consignação em folha,20363575568.54,20256225946.857777
+137,2023-02-28,Empregado de entidades sem fins lucrativos,Outros créditos,176592582.05,175661647.95096868
+126,2023-02-28,Empregado de empresa privada,Cartão de crédito,104511474730.68,103960526925.07346
+138,2023-02-28,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,270087266.15,268663460.8980784
+151,2023-02-28,MEI,Outros créditos,3332796739.03,3315227404.613536
+140,2023-02-28,Empresário,Cartão de crédito,71336545761.86,70960484535.58482
+112,2023-02-28,Aposentado/pensionista,Cartão de crédito,39969893534.62,39759186287.49739
+164,2023-02-28,Servidor ou empregado público,Habitacional,153910354968.79,153098993608.24377
+163,2023-02-28,Servidor ou empregado público,Empréstimo sem consignação em folha,29378583177.42,29223709600.37844
+162,2023-02-28,Servidor ou empregado público,Empréstimo com consignação em folha,219785934285.24,218627299996.42453
+161,2023-02-28,Servidor ou empregado público,Cartão de crédito,66813792044.08,66461573187.67407
+160,2023-02-28,Outros,Veículos,82082561628.18,81649851178.68967
+159,2023-02-28,Outros,Rural e agroindustrial,149659686033.84,148870732707.70438
+158,2023-02-28,Outros,Outros créditos,57223408268.22,56921746548.3376
+157,2023-02-28,Outros,Habitacional,184559005864.29,183586075575.55487
+156,2023-02-28,Outros,Empréstimo sem consignação em folha,71156855991.17,70781742026.28508
+155,2023-02-28,Outros,Empréstimo com consignação em folha,175372490758.81,174447988552.7479
+139,2023-02-28,Empregado de entidades sem fins lucrativos,Veículos,280663385.86,279183827.0177567
+154,2023-02-28,Outros,Cartão de crédito,159952892680.49,159109677182.38486
+152,2023-02-28,MEI,Rural e agroindustrial,618867418.04,615604966.2679896
+150,2023-02-28,MEI,Habitacional,17871320038.03,17777108712.58829
+149,2023-02-28,MEI,Empréstimo sem consignação em folha,2483317310.66,2470226133.5767317
+148,2023-02-28,MEI,Empréstimo com consignação em folha,1023071997.55,1017678721.1324564
+147,2023-02-28,MEI,Cartão de crédito,10055548663.07,10002539340.559101
+146,2023-02-28,Empresário,Veículos,43528841222.28,43299372452.33095
+145,2023-02-28,Empresário,Rural e agroindustrial,199670210853.67,198617619597.08017
+144,2023-02-28,Empresário,Outros créditos,60063619106.08,59746984791.727844
+143,2023-02-28,Empresário,Habitacional,160411906279.34,159566271022.6803
+142,2023-02-28,Empresário,Empréstimo sem consignação em folha,48366206912.34,48111237248.649635
+141,2023-02-28,Empresário,Empréstimo com consignação em folha,12464086299.48,12398380012.076775
+153,2023-02-28,MEI,Veículos,7491986203.46,7452491082.287252
+167,2023-02-28,Servidor ou empregado público,Veículos,28155985641.48,28007557169.450134
+166,2023-02-28,Servidor ou empregado público,Rural e agroindustrial,13066082933.73,12997203131.404348
+165,2023-02-28,Servidor ou empregado público,Outros créditos,21419877271.87,21306959198.42678
+169,2023-03-31,Aposentado/pensionista,Empréstimo com consignação em folha,141410157029.43,139492963433.677
+199,2023-03-31,Empresário,Habitacional,162646119210.99,160441015244.79828
+200,2023-03-31,Empresário,Outros créditos,59501352111.17,58694651845.768
+201,2023-03-31,Empresário,Rural e agroindustrial,203164517756.73,200410078326.70813
+202,2023-03-31,Empresário,Veículos,43880468343.77,43285551014.954575
+203,2023-03-31,MEI,Cartão de crédito,10304352125.27,10164649021.066248
+204,2023-03-31,MEI,Empréstimo com consignação em folha,1035175265.49,1021140690.9504477
+205,2023-03-31,MEI,Empréstimo sem consignação em folha,2509373583.95,2475352300.9985957
+206,2023-03-31,MEI,Habitacional,18097100265.31,17851745578.919746
+207,2023-03-31,MEI,Outros créditos,3320063182.35,3275050829.59961
+208,2023-03-31,MEI,Rural e agroindustrial,637243574.51,628604030.3241389
+210,2023-03-31,Outros,Cartão de crédito,162115851532.55,159917936765.62442
+211,2023-03-31,Outros,Empréstimo com consignação em folha,176124691538.96,173736849408.19852
+212,2023-03-31,Outros,Empréstimo sem consignação em folha,71859661835.31,70885411566.74576
+213,2023-03-31,Outros,Habitacional,186772359008.23,184240159213.8423
+214,2023-03-31,Outros,Outros créditos,56872874044.58,56101809842.53938
+215,2023-03-31,Outros,Rural e agroindustrial,151366217681.17,149314043005.4054
+216,2023-03-31,Outros,Veículos,82512504433.48,81393826338.55017
+217,2023-03-31,Servidor ou empregado público,Cartão de crédito,68075653635.02,67152705737.09356
+218,2023-03-31,Servidor ou empregado público,Empréstimo com consignação em folha,222026666679.88998,219016500278.92572
+219,2023-03-31,Servidor ou empregado público,Empréstimo sem consignação em folha,29898430600.28,29493077258.80826
+220,2023-03-31,Servidor ou empregado público,Habitacional,155732675560.71,153621301848.1956
+221,2023-03-31,Servidor ou empregado público,Outros créditos,21604103540.45,21311202027.434105
+222,2023-03-31,Servidor ou empregado público,Rural e agroindustrial,13314822716.87,13134304617.055876
+198,2023-03-31,Empresário,Empréstimo sem consignação em folha,48299391670.75,47644563995.460335
+197,2023-03-31,Empresário,Empréstimo com consignação em folha,12519750262.62,12350011500.368809
+196,2023-03-31,Empresário,Cartão de crédito,73741402510.68001,72741640205.02118
+195,2023-03-31,Empregado de entidades sem fins lucrativos,Veículos,283786851.07,279939359.8794126
+170,2023-03-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20641449399.92,20361599243.270004
+171,2023-03-31,Aposentado/pensionista,Habitacional,23531942547.89,23212904011.364983
+172,2023-03-31,Aposentado/pensionista,Outros créditos,12830309508.64,12656360283.646393
+173,2023-03-31,Aposentado/pensionista,Rural e agroindustrial,9763056271.84,9630691883.365046
+174,2023-03-31,Aposentado/pensionista,Veículos,14112043684.16,13920717117.93161
+175,2023-03-31,Autônomo,Cartão de crédito,32059906240.2,31625248304.62214
+176,2023-03-31,Autônomo,Empréstimo com consignação em folha,11049515095.43,10899709310.455688
+177,2023-03-31,Autônomo,Empréstimo sem consignação em folha,18656917593.8,18403973083.457077
+178,2023-03-31,Autônomo,Habitacional,59125346490.14,58323743988.461266
+179,2023-03-31,Autônomo,Outros créditos,21525809114.54,21233969092.262047
+180,2023-03-31,Autônomo,Rural e agroindustrial,115852252990.37,114281565267.84332
+181,2023-03-31,Autônomo,Veículos,22103130548.28,21803463386.999386
+182,2023-03-31,Empregado de empresa privada,Cartão de crédito,106564643751.63,105119874459.05504
+183,2023-03-31,Empregado de empresa privada,Empréstimo com consignação em folha,42526757181.37,41950193034.71329
+184,2023-03-31,Empregado de empresa privada,Empréstimo sem consignação em folha,56831767565.95,56061260672.37455
+185,2023-03-31,Empregado de empresa privada,Habitacional,350070147613.32,345324008727.9153
+186,2023-03-31,Empregado de empresa privada,Outros créditos,35792569401.68,35307305215.04761
+187,2023-03-31,Empregado de empresa privada,Rural e agroindustrial,19292893298.1,19031326432.94925
+188,2023-03-31,Empregado de empresa privada,Veículos,65261915285.53,64377115150.51598
+189,2023-03-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,580914183.14,573038334.7922302
+190,2023-03-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,364735187.73,359790224.9299361
+191,2023-03-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,265123504.1,261529044.5871778
+192,2023-03-31,Empregado de entidades sem fins lucrativos,Habitacional,1186047806.0,1169967749.9015765
+193,2023-03-31,Empregado de entidades sem fins lucrativos,Outros créditos,175116582.71,172742408.19570476
+194,2023-03-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,265556127.77,261955802.8840892
+168,2023-03-31,Aposentado/pensionista,Cartão de crédito,41322820513.62,40762578954.51704
+209,2023-03-31,MEI,Veículos,7575290018.73,7472586664.070275
+223,2023-03-31,Servidor ou empregado público,Veículos,28380465706.82,27995692446.959473
+335,2023-04-30,Servidor ou empregado público,Veículos,28471169921.38,27887158735.05138
+303,2023-04-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,268142732.94,262642489.85191768
+302,2023-04-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,367704935.36,360162435.4869188
+301,2023-04-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,577822655.78,565970143.3745921
+300,2023-04-30,Empregado de empresa privada,Veículos,65587686527.28,64242327600.227875
+299,2023-04-30,Empregado de empresa privada,Rural e agroindustrial,19310726355.28,18914617581.430645
+298,2023-04-30,Empregado de empresa privada,Outros créditos,35778753728.62,35044846675.692055
+297,2023-04-30,Empregado de empresa privada,Habitacional,352780893029.65,345544520642.3811
+296,2023-04-30,Empregado de empresa privada,Empréstimo sem consignação em folha,57333992886.93,56157936781.91872
+295,2023-04-30,Empregado de empresa privada,Empréstimo com consignação em folha,42877298847.51,41997783807.00944
+294,2023-04-30,Empregado de empresa privada,Cartão de crédito,106014467920.0,103839859874.42532
+293,2023-04-30,Autônomo,Veículos,22183523585.54,21728486930.4986
+304,2023-04-30,Empregado de entidades sem fins lucrativos,Habitacional,1197573440.03,1173008369.9131458
+292,2023-04-30,Autônomo,Rural e agroindustrial,114758405849.35,112404438909.23729
+290,2023-04-30,Autônomo,Habitacional,59775942763.96,58549796478.3001
+289,2023-04-30,Autônomo,Empréstimo sem consignação em folha,18717533283.84,18333592306.05699
+288,2023-04-30,Autônomo,Empréstimo com consignação em folha,11122034639.28,10893895343.915243
+287,2023-04-30,Autônomo,Cartão de crédito,31835478474.84,31182457344.947163
+286,2023-04-30,Aposentado/pensionista,Veículos,14054262317.68,13765976081.75127
+285,2023-04-30,Aposentado/pensionista,Rural e agroindustrial,9656209675.66,9458137925.0543
+284,2023-04-30,Aposentado/pensionista,Outros créditos,12817520147.92,12554602425.604818
+283,2023-04-30,Aposentado/pensionista,Habitacional,23501184742.59,23019119733.686325
+282,2023-04-30,Aposentado/pensionista,Empréstimo sem consignação em folha,20735914530.09,20310571768.350067
+281,2023-04-30,Aposentado/pensionista,Empréstimo com consignação em folha,141474210997.44,138572239563.61154
+280,2023-04-30,Aposentado/pensionista,Cartão de crédito,40687983692.5,39853376695.625854
+291,2023-04-30,Autônomo,Outros créditos,21563583608.02,21121263391.492496
+334,2023-04-30,Servidor ou empregado público,Rural e agroindustrial,13311318600.64,13038271901.504526
+305,2023-04-30,Empregado de entidades sem fins lucrativos,Outros créditos,175872778.45,172265210.85551327
+307,2023-04-30,Empregado de entidades sem fins lucrativos,Veículos,284642790.36,278804091.9806545
+331,2023-04-30,Servidor ou empregado público,Empréstimo sem consignação em folha,30320310821.01,29698369371.41985
+330,2023-04-30,Servidor ou empregado público,Empréstimo com consignação em folha,223567120314.15,218981228708.03467
+329,2023-04-30,Servidor ou empregado público,Cartão de crédito,67330669607.29,65949557965.505104
+328,2023-04-30,Outros,Veículos,82946568433.07,81245137688.69766
+327,2023-04-30,Outros,Rural e agroindustrial,150166656688.19,147086382587.70016
+326,2023-04-30,Outros,Outros créditos,56101674443.76,54950896111.24341
+325,2023-04-30,Outros,Habitacional,189329371680.4,185445777459.74622
+324,2023-04-30,Outros,Empréstimo sem consignação em folha,72510076036.37,71022722490.88118
+323,2023-04-30,Outros,Empréstimo com consignação em folha,176956869981.3,173327065099.65466
+322,2023-04-30,Outros,Cartão de crédito,161896449081.02,158575569132.9432
+321,2023-04-30,MEI,Veículos,7606725862.37,7450693883.100215
+306,2023-04-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,272780000.23,267184635.79710346
+320,2023-04-30,MEI,Rural e agroindustrial,645175478.65,631941400.1868745
+318,2023-04-30,MEI,Habitacional,18356884569.28,17980341351.554607
+317,2023-04-30,MEI,Empréstimo sem consignação em folha,2528078388.51,2476221507.922288
+316,2023-04-30,MEI,Empréstimo com consignação em folha,1046820815.84,1025348039.4061407
+315,2023-04-30,MEI,Cartão de crédito,10273284985.32,10062555557.328938
+314,2023-04-30,Empresário,Veículos,44049080187.98,43145529134.46503
+313,2023-04-30,Empresário,Rural e agroindustrial,200635322196.03,196519816129.4128
+312,2023-04-30,Empresário,Outros créditos,59193738100.77,57979534212.875084
+311,2023-04-30,Empresário,Habitacional,164393500777.75,161021400380.08304
+310,2023-04-30,Empresário,Empréstimo sem consignação em folha,48329289521.01,47337941227.78832
+309,2023-04-30,Empresário,Empréstimo com consignação em folha,12625706117.14,12366722955.293518
+308,2023-04-30,Empresário,Cartão de crédito,73337530455.19,71833203858.08083
+319,2023-04-30,MEI,Outros créditos,3316764614.57,3248729909.895879
+332,2023-04-30,Servidor ou empregado público,Habitacional,156593988488.47,153381874576.69125
+333,2023-04-30,Servidor ou empregado público,Outros créditos,21702588025.9,21257416499.250183
+390,2023-05-31,Servidor ou empregado público,Rural e agroindustrial,13433010963.97,13077692139.646606
+360,2023-05-31,Empregado de entidades sem fins lucrativos,Habitacional,1207222091.1200001,1175289657.2625043
+359,2023-05-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,274232183.99,266978422.53113452
+358,2023-05-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,369027000.9,359265805.8518405
+357,2023-05-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,591607712.88,575958998.1156783
+356,2023-05-31,Empregado de empresa privada,Veículos,66456012568.25,64698173442.06257
+355,2023-05-31,Empregado de empresa privada,Rural e agroindustrial,19240694650.39,18731755811.53406
+354,2023-05-31,Empregado de empresa privada,Outros créditos,36669489707.37,35699538889.47007
+353,2023-05-31,Empregado de empresa privada,Habitacional,356888897477.03,347448769436.80597
+352,2023-05-31,Empregado de empresa privada,Empréstimo sem consignação em folha,58503085762.729996,56955610836.35203
+351,2023-05-31,Empregado de empresa privada,Empréstimo com consignação em folha,43434478858.67,42285586178.94566
+350,2023-05-31,Empregado de empresa privada,Cartão de crédito,108756456453.98,105879721197.1969
+349,2023-05-31,Autônomo,Veículos,22309820761.68,21719699953.681866
+348,2023-05-31,Autônomo,Rural e agroindustrial,113925927232.59,110912453437.8606
+347,2023-05-31,Autônomo,Outros créditos,21955457496.96,21374710011.06675
+346,2023-05-31,Autônomo,Habitacional,60435187541.58,58836606267.23765
+345,2023-05-31,Autônomo,Empréstimo sem consignação em folha,18944624447.11,18443517010.821125
+344,2023-05-31,Autônomo,Empréstimo com consignação em folha,11139064135.36,10844422883.05589
+343,2023-05-31,Autônomo,Cartão de crédito,32580849999.26,31719048475.517883
+342,2023-05-31,Aposentado/pensionista,Veículos,14128563268.41,13754846273.51026
+341,2023-05-31,Aposentado/pensionista,Rural e agroindustrial,9664175550.25,9408546823.095676
+340,2023-05-31,Aposentado/pensionista,Outros créditos,13002153257.93,12658231122.998987
+339,2023-05-31,Aposentado/pensionista,Habitacional,23533841107.64,22911343532.33028
+338,2023-05-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20844523151.97,20293161176.623943
+337,2023-05-31,Aposentado/pensionista,Empréstimo com consignação em folha,142943221250.11,139162206148.1483
+391,2023-05-31,Servidor ou empregado público,Veículos,28632588380.47,27875222986.51833
+361,2023-05-31,Empregado de entidades sem fins lucrativos,Outros créditos,179604996.2,174854234.3444814
+362,2023-05-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,271954890.56,264761366.17131612
+336,2023-05-31,Aposentado/pensionista,Cartão de crédito,41996158630.51,40885311200.19707
+364,2023-05-31,Empresário,Cartão de crédito,75278488692.21,73287284771.45828
+389,2023-05-31,Servidor ou empregado público,Outros créditos,22060678773.62,21477148062.103176
+388,2023-05-31,Servidor ou empregado público,Habitacional,157523794484.17,153357106195.9522
+387,2023-05-31,Servidor ou empregado público,Empréstimo sem consignação em folha,30552115480.05,29743976353.08277
+386,2023-05-31,Servidor ou empregado público,Empréstimo com consignação em folha,225588134655.32,219621065097.94162
+385,2023-05-31,Servidor ou empregado público,Cartão de crédito,69243136712.61,67411574898.56997
+384,2023-05-31,Outros,Veículos,83158531615.79,80958891359.00504
+383,2023-05-31,Outros,Rural e agroindustrial,147895887112.04,143983868215.3187
+363,2023-05-31,Empregado de entidades sem fins lucrativos,Veículos,288048063.16,280428855.56572634
+381,2023-05-31,Outros,Habitacional,190747396614.12,185701905257.82867
+380,2023-05-31,Outros,Empréstimo sem consignação em folha,73031486903.66,71099718803.80515
+379,2023-05-31,Outros,Empréstimo com consignação em folha,176208473352.22,171547553491.7908
+378,2023-05-31,Outros,Cartão de crédito,164290656582.59,159944976890.90964
+382,2023-05-31,Outros,Outros créditos,56211618597.83,54724755653.47095
+376,2023-05-31,MEI,Rural e agroindustrial,651259206.49,634032640.0708638
+377,2023-05-31,MEI,Veículos,7692899942.68,7489413756.998907
+366,2023-05-31,Empresário,Empréstimo sem consignação em folha,48547198892.53,47263068798.31993
+367,2023-05-31,Empresário,Habitacional,166057167384.74,161664761419.77225
+368,2023-05-31,Empresário,Outros créditos,60120185688.909996,58529936581.365585
+369,2023-05-31,Empresário,Rural e agroindustrial,198245870854.93,193002036099.78265
+365,2023-05-31,Empresário,Empréstimo com consignação em folha,12631688619.34,12297565706.652626
+371,2023-05-31,MEI,Cartão de crédito,10485642643.2,10208285152.295671
+372,2023-05-31,MEI,Empréstimo com consignação em folha,1058274228.49,1030281639.5099578
+373,2023-05-31,MEI,Empréstimo sem consignação em folha,2560838310.4900002,2493101147.1536355
+374,2023-05-31,MEI,Habitacional,18713663018.88,18218664782.03739
+375,2023-05-31,MEI,Outros créditos,3348483155.19,3259911866.0605545
+370,2023-05-31,Empresário,Veículos,44175760780.26,43007260328.19199
+487,2023-06-30,MEI,Outros créditos,3339949493.38,3244144824.4629674
+486,2023-06-30,MEI,Habitacional,19046860770.72,18500511733.507168
+485,2023-06-30,MEI,Empréstimo sem consignação em folha,2551083905.0,2477907424.522518
+484,2023-06-30,MEI,Empréstimo com consignação em folha,1058643673.1899999,1028277044.3496218
+481,2023-06-30,Empresário,Rural e agroindustrial,196515720530.02,190878771953.4959
+482,2023-06-30,Empresário,Veículos,44400969046.73,43127350943.35786
+480,2023-06-30,Empresário,Outros créditos,59761875111.51,58047637614.725235
+479,2023-06-30,Empresário,Habitacional,167695771131.04,162885507423.80737
+478,2023-06-30,Empresário,Empréstimo sem consignação em folha,48533349426.57,47141196197.1684
+483,2023-06-30,MEI,Cartão de crédito,10422413224.9,10123451863.266485
+488,2023-06-30,MEI,Rural e agroindustrial,661848709.53,642863932.4801176
+501,2023-06-30,Servidor ou empregado público,Outros créditos,22143515328.16,21508340407.437855
+490,2023-06-30,Outros,Cartão de crédito,163085477292.35,158407457403.6845
+491,2023-06-30,Outros,Empréstimo com consignação em folha,172546108569.34,167596715520.98013
+492,2023-06-30,Outros,Empréstimo sem consignação em folha,71443694173.61,69394369930.80963
+493,2023-06-30,Outros,Habitacional,193392529091.2,187845167594.46674
+494,2023-06-30,Outros,Outros créditos,55578388123.42,53984151718.45027
+495,2023-06-30,Outros,Rural e agroindustrial,146738517999.23,142529401914.64352
+496,2023-06-30,Outros,Veículos,83571415299.74,81174213848.16449
+497,2023-06-30,Servidor ou empregado público,Cartão de crédito,69037351730.89,67057052136.96014
+498,2023-06-30,Servidor ou empregado público,Empréstimo com consignação em folha,226509731759.01,220012420976.11642
+499,2023-06-30,Servidor ou empregado público,Empréstimo sem consignação em folha,30303495371.54,29434255777.691772
+500,2023-06-30,Servidor ou empregado público,Habitacional,158327966643.1,153786413408.6531
+477,2023-06-30,Empresário,Empréstimo com consignação em folha,12571793674.619999,12211178481.762297
+489,2023-06-30,MEI,Veículos,7769346012.06,7546486467.667905
+476,2023-06-30,Empresário,Cartão de crédito,74984659037.83,72833764107.46808
+448,2023-06-30,Aposentado/pensionista,Cartão de crédito,41663887295.96,40468780922.01704
+474,2023-06-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,275535292.57,267631709.73680195
+449,2023-06-30,Aposentado/pensionista,Empréstimo com consignação em folha,141751723606.06,137685651057.5335
+450,2023-06-30,Aposentado/pensionista,Empréstimo sem consignação em folha,20501022264.81,19912961381.124844
+451,2023-06-30,Aposentado/pensionista,Habitacional,23475873526.23,22802480621.583847
+452,2023-06-30,Aposentado/pensionista,Outros créditos,12833607870.81,12465482677.446756
+453,2023-06-30,Aposentado/pensionista,Rural e agroindustrial,9497851021.69,9225410233.480516
+454,2023-06-30,Aposentado/pensionista,Veículos,14184372150.11,13777501004.204723
+455,2023-06-30,Autônomo,Cartão de crédito,32399317833.85,31469960691.066235
+456,2023-06-30,Autônomo,Empréstimo com consignação em folha,11068088030.43,10750605831.551949
+457,2023-06-30,Autônomo,Empréstimo sem consignação em folha,19006304980.14,18461119264.138126
+458,2023-06-30,Autônomo,Habitacional,61182951322.67,59427951013.09842
+459,2023-06-30,Autônomo,Outros créditos,21882283780.65,21254602147.46693
+475,2023-06-30,Empregado de entidades sem fins lucrativos,Veículos,288444587.26,280170708.1974191
+460,2023-06-30,Autônomo,Rural e agroindustrial,113058485416.91,109815463094.23804
+462,2023-06-30,Empregado de empresa privada,Cartão de crédito,108027462327.45,104928752217.38934
+464,2023-06-30,Empregado de empresa privada,Empréstimo sem consignação em folha,57231317049.3,55589667260.145515
+465,2023-06-30,Empregado de empresa privada,Habitacional,359524641122.72,349211868645.6068
+466,2023-06-30,Empregado de empresa privada,Outros créditos,36555055991.54,35506493717.33359
+467,2023-06-30,Empregado de empresa privada,Rural e agroindustrial,19180726384.31,18630537483.40618
+468,2023-06-30,Empregado de empresa privada,Veículos,67101584127.07,65176810993.870125
+469,2023-06-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,587851936.91,570989717.7957509
+470,2023-06-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,367858489.73,357306665.252787
+471,2023-06-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,268768116.09,261058646.1029556
+472,2023-06-30,Empregado de entidades sem fins lucrativos,Habitacional,1215054655.8,1180201461.3892024
+473,2023-06-30,Empregado de entidades sem fins lucrativos,Outros créditos,192842840.86,187311246.876848
+461,2023-06-30,Autônomo,Veículos,22447992573.25,21804083885.23094
+463,2023-06-30,Empregado de empresa privada,Empréstimo com consignação em folha,43567394575.659996,42317687111.16932
+503,2023-06-30,Servidor ou empregado público,Veículos,28971992867.45,28140946712.40059
+502,2023-06-30,Servidor ou empregado público,Rural e agroindustrial,13505795369.31,13118388836.252367
+419,2023-07-31,Empregado de entidades sem fins lucrativos,Veículos,290434417.24,282329230.14576864
+418,2023-07-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,272506968.62,264902084.9215168
+417,2023-07-31,Empregado de entidades sem fins lucrativos,Outros créditos,197816005.29,192295531.0006736
+416,2023-07-31,Empregado de entidades sem fins lucrativos,Habitacional,1225829095.29,1191619740.0169725
+415,2023-07-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,268692906.23,261194462.01466691
+414,2023-07-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,365381333.66,355184594.2439312
+413,2023-07-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,593378982.66,576819486.309849
+412,2023-07-31,Empregado de empresa privada,Veículos,67856292253.7,65962618805.960495
+411,2023-07-31,Empregado de empresa privada,Rural e agroindustrial,19522329949.41,18977518014.726204
+410,2023-07-31,Empregado de empresa privada,Outros créditos,36708920329.24,35684480215.966995
+409,2023-07-31,Empregado de empresa privada,Habitacional,362644103384.4,352523752172.3002
+408,2023-07-31,Empregado de empresa privada,Empréstimo sem consignação em folha,57623319845.38,56015219149.960014
+407,2023-07-31,Empregado de empresa privada,Empréstimo com consignação em folha,43442310604.98,42229960985.38202
+405,2023-07-31,Autônomo,Veículos,22602389572.15,21971622054.9945
+403,2023-07-31,Autônomo,Outros créditos,22011129178.67,21396862034.149754
+402,2023-07-31,Autônomo,Habitacional,61888164138.79,60161043937.16154
+401,2023-07-31,Autônomo,Empréstimo sem consignação em folha,19089492761.56,18556760064.66835
+400,2023-07-31,Autônomo,Empréstimo com consignação em folha,10962727590.99,10656789475.829765
+399,2023-07-31,Autônomo,Cartão de crédito,32812777365.36,31897067367.368153
+398,2023-07-31,Aposentado/pensionista,Veículos,14228553511.98,13831475612.63592
+397,2023-07-31,Aposentado/pensionista,Rural e agroindustrial,9523706540.32,9257927353.151346
+396,2023-07-31,Aposentado/pensionista,Outros créditos,12656055213.05,12302861206.804085
+395,2023-07-31,Aposentado/pensionista,Habitacional,23429400217.18,22775553217.673237
+394,2023-07-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20144084875.86,19581921554.059185
+406,2023-07-31,Empregado de empresa privada,Cartão de crédito,109418331459.5,106364781345.00024
+420,2023-07-31,Empresário,Cartão de crédito,75978041941.7,73857713879.88507
+421,2023-07-31,Empresário,Empréstimo com consignação em folha,12407715339.83,12061451783.337713
+422,2023-07-31,Empresário,Empréstimo sem consignação em folha,48355412156.09,47005952039.52292
+447,2023-07-31,Servidor ou empregado público,Veículos,29295054517.46,28477514020.517063
+446,2023-07-31,Servidor ou empregado público,Rural e agroindustrial,13625424416.36,13245178110.903553
+445,2023-07-31,Servidor ou empregado público,Outros créditos,22240640598.53,21619968452.09605
+444,2023-07-31,Servidor ou empregado público,Habitacional,159188123146.45,154745641661.1537
+443,2023-07-31,Servidor ou empregado público,Empréstimo sem consignação em folha,30072187903.99,29232959855.155464
+442,2023-07-31,Servidor ou empregado público,Empréstimo com consignação em folha,227336819976.66,220992504875.06586
+441,2023-07-31,Servidor ou empregado público,Cartão de crédito,70310158850.75,68348005062.207985
+440,2023-07-31,Outros,Veículos,84176967258.71,81827830833.55609
+439,2023-07-31,Outros,Rural e agroindustrial,147906798293.71,143779146054.4486
+438,2023-07-31,Outros,Outros créditos,55365403415.69,53820314656.93954
+437,2023-07-31,Outros,Habitacional,195682560953.57,190221624943.7155
+436,2023-07-31,Outros,Empréstimo sem consignação em folha,72078380190.1,70066880442.78479
+435,2023-07-31,Outros,Empréstimo com consignação em folha,171092561861.4,166317861818.97327
+434,2023-07-31,Outros,Cartão de crédito,164963380184.47,160359727928.65942
+433,2023-07-31,MEI,Veículos,7847662919.2300005,7628657276.519757
+432,2023-07-31,MEI,Rural e agroindustrial,673282439.89,654493068.4565876
+431,2023-07-31,MEI,Outros créditos,3319648321.36,3227006509.1830363
+430,2023-07-31,MEI,Habitacional,19383731322.95,18842787276.270447
+429,2023-07-31,MEI,Empréstimo sem consignação em folha,2558018162.32,2486631251.660191
+428,2023-07-31,MEI,Empréstimo com consignação em folha,1052567447.76,1023193325.4556774
+427,2023-07-31,MEI,Cartão de crédito,10512020575.99,10218660393.968588
+426,2023-07-31,Empresário,Veículos,44618039156.840004,43372878343.66719
+425,2023-07-31,Empresário,Rural e agroindustrial,198282307001.74,192748819576.25732
+424,2023-07-31,Empresário,Outros créditos,59958524551.57,58285255026.55032
+423,2023-07-31,Empresário,Habitacional,169444558420.63998,164715849402.0948
+393,2023-07-31,Aposentado/pensionista,Empréstimo com consignação em folha,139214554333.11002,135329477558.00633
+392,2023-07-31,Aposentado/pensionista,Cartão de crédito,41792673821.53,40626360807.69813
+404,2023-07-31,Autônomo,Rural e agroindustrial,114126631704.05,110941686506.48625
+54,2023-08-31,Servidor ou empregado público,Rural e agroindustrial,14264079744.12,13849395170.113989
+24,2023-08-31,Empregado de entidades sem fins lucrativos,Habitacional,1237542250.29,1201564487.2599313
+23,2023-08-31,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,270377074.0,262516685.96487972
+22,2023-08-31,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,371537097.93,360735791.0145613
+21,2023-08-31,Empregado de entidades sem fins lucrativos,Cartão de crédito,600556755.86,583097401.5281583
+20,2023-08-31,Empregado de empresa privada,Veículos,68885195931.11,66882569148.1387
+19,2023-08-31,Empregado de empresa privada,Rural e agroindustrial,20749411400.63,20146185606.754814
+18,2023-08-31,Empregado de empresa privada,Outros créditos,36945149015.96,35871081592.32634
+17,2023-08-31,Empregado de empresa privada,Habitacional,365741761310.04,355108936115.15955
+16,2023-08-31,Empregado de empresa privada,Empréstimo sem consignação em folha,58519594956.21,56818316378.07923
+15,2023-08-31,Empregado de empresa privada,Empréstimo com consignação em folha,44334557816.04,43045665889.50207
+55,2023-08-31,Servidor ou empregado público,Veículos,29687712137.55,28824632536.074272
+13,2023-08-31,Autônomo,Veículos,22917980518.5,22251710197.60461
+12,2023-08-31,Autônomo,Rural e agroindustrial,119780002194.55,116297764288.1781
+11,2023-08-31,Autônomo,Outros créditos,22166248436.03,21521832430.58838
+10,2023-08-31,Autônomo,Habitacional,62503005390.53,60685921314.34542
+9,2023-08-31,Autônomo,Empréstimo sem consignação em folha,19280484811.6,18719963574.047073
+8,2023-08-31,Autônomo,Empréstimo com consignação em folha,11162307461.98,10837797448.166916
+7,2023-08-31,Autônomo,Cartão de crédito,33198535007.68,32233388948.89142
+6,2023-08-31,Aposentado/pensionista,Veículos,14328260783.51,13911710341.711874
+5,2023-08-31,Aposentado/pensionista,Rural e agroindustrial,9803080679.460001,9518086034.980099
+4,2023-08-31,Aposentado/pensionista,Outros créditos,12493399366.43,12130191918.975098
+3,2023-08-31,Aposentado/pensionista,Habitacional,23365938963.76,22686645618.5702
+2,2023-08-31,Aposentado/pensionista,Empréstimo sem consignação em folha,20662814958.23,20062106691.561
+1,2023-08-31,Aposentado/pensionista,Empréstimo com consignação em folha,141701773345.61,137582226864.5309
+0,2023-08-31,Aposentado/pensionista,Cartão de crédito,42211523782.03,40984352588.9559
+25,2023-08-31,Empregado de entidades sem fins lucrativos,Outros créditos,200562041.97,194731312.8638766
+26,2023-08-31,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,288527137.3,280139091.5818915
+14,2023-08-31,Empregado de empresa privada,Cartão de crédito,109937454270.21,106741358397.97958
+28,2023-08-31,Empresário,Cartão de crédito,76804762765.19,74571898752.91154
+27,2023-08-31,Empregado de entidades sem fins lucrativos,Veículos,292485829.13,283982696.5317987
+52,2023-08-31,Servidor ou empregado público,Habitacional,160078093229.86002,155424311346.30853
+51,2023-08-31,Servidor ou empregado público,Empréstimo sem consignação em folha,31403118160.78,30490168365.87075
+50,2023-08-31,Servidor ou empregado público,Empréstimo com consignação em folha,229774263456.28,223094278187.8163
+49,2023-08-31,Servidor ou empregado público,Cartão de crédito,70553183189.41,68502064768.83827
+48,2023-08-31,Outros,Veículos,85558204508.85,83070860899.87325
+47,2023-08-31,Outros,Rural e agroindustrial,155331240365.75,150815458738.30576
+46,2023-08-31,Outros,Outros créditos,55160821408.67,53557188917.965126
+45,2023-08-31,Outros,Habitacional,198472316145.59,192702339438.4177
+44,2023-08-31,Outros,Empréstimo sem consignação em folha,73388656214.06,71255105071.26395
+43,2023-08-31,Outros,Empréstimo com consignação em folha,173499362028.99,168455397726.77377
+42,2023-08-31,Outros,Cartão de crédito,166955234607.21,162101520832.24988
+53,2023-08-31,Servidor ou empregado público,Outros créditos,21523800185.91,20898061402.111908
+40,2023-08-31,MEI,Rural e agroindustrial,716710449.36,695874280.9768958
+41,2023-08-31,MEI,Veículos,7992194730.12,7759846066.4496975
+30,2023-08-31,Empresário,Empréstimo sem consignação em folha,48697771391.24,47282032349.76814
+31,2023-08-31,Empresário,Habitacional,171083503580.13,166109772987.32202
+32,2023-08-31,Empresário,Outros créditos,60767638164.11,59001004592.4053
+33,2023-08-31,Empresário,Rural e agroindustrial,206773347279.3,200762043432.82083
+34,2023-08-31,Empresário,Veículos,45170476187.0,43857282485.669464
+29,2023-08-31,Empresário,Empréstimo com consignação em folha,12671261698.42,12302883446.630285
+36,2023-08-31,MEI,Empréstimo com consignação em folha,1081949714.73,1050495329.6874816
+37,2023-08-31,MEI,Empréstimo sem consignação em folha,2588908917.05,2513644293.557566
+38,2023-08-31,MEI,Habitacional,19705804091.73,19132917994.497295
+39,2023-08-31,MEI,Outros créditos,3321481087.84,3224919164.8356266
+35,2023-08-31,MEI,Cartão de crédito,10630330071.32,10321285676.150671
+94,2023-09-30,MEI,Habitacional,20009519855.22,19383211895.877663
+93,2023-09-30,MEI,Empréstimo sem consignação em folha,2591358883.7799997,2510248057.2250843
+92,2023-09-30,MEI,Empréstimo com consignação em folha,1103337666.18,1068802646.4908365
+85,2023-09-30,Empresário,Empréstimo com consignação em folha,12812488519.43,12411451233.340004
+91,2023-09-30,MEI,Cartão de crédito,10613995959.93,10281772588.343332
+89,2023-09-30,Empresário,Rural e agroindustrial,211310130705.85,204696018138.01556
+88,2023-09-30,Empresário,Outros créditos,61448070745.65,59524715459.13163
+87,2023-09-30,Empresário,Habitacional,172918686920.15,167506245706.1314
+86,2023-09-30,Empresário,Empréstimo sem consignação em folha,48870718449.63,47341040568.039215
+95,2023-09-30,MEI,Outros créditos,3305946172.73,3202468407.340343
+90,2023-09-30,Empresário,Veículos,45680082392.97,44250273012.57813
+96,2023-09-30,MEI,Rural e agroindustrial,760693820.03,736883723.7580982
+103,2023-09-30,Outros,Rural e agroindustrial,160089783266.75,155078893140.7084
+98,2023-09-30,Outros,Cartão de crédito,165412181503.08,160234697655.5337
+99,2023-09-30,Outros,Empréstimo com consignação em folha,176311990287.65,170793336984.44058
+100,2023-09-30,Outros,Empréstimo sem consignação em folha,73802702395.34,71492640971.29654
+101,2023-09-30,Outros,Habitacional,201585309489.61,195275588680.0477
+102,2023-09-30,Outros,Outros créditos,54789158948.64,53074230925.204506
+104,2023-09-30,Outros,Veículos,86600942215.61,83890289496.87259
+105,2023-09-30,Servidor ou empregado público,Cartão de crédito,69647293003.55,67467297967.667534
+106,2023-09-30,Servidor ou empregado público,Empréstimo com consignação em folha,231433553155.34,224189567420.1074
+107,2023-09-30,Servidor ou empregado público,Empréstimo sem consignação em folha,30680699324.49,29720378121.175156
+108,2023-09-30,Servidor ou empregado público,Habitacional,161176391878.4,156131490360.42642
+109,2023-09-30,Servidor ou empregado público,Outros créditos,22727563277.14,22016179201.963604
+84,2023-09-30,Empresário,Cartão de crédito,76536871472.15,74141229191.2252
+97,2023-09-30,MEI,Veículos,8098802317.15,7845305762.056602
+83,2023-09-30,Empregado de entidades sem fins lucrativos,Veículos,296187020.06,286916218.48856336
+111,2023-09-30,Servidor ou empregado público,Veículos,29996252479.94,29057354804.505386
+81,2023-09-30,Empregado de entidades sem fins lucrativos,Outros créditos,199945490.77,193687097.10488704
+56,2023-09-30,Aposentado/pensionista,Cartão de crédito,41385777403.67,40090381912.97176
+57,2023-09-30,Aposentado/pensionista,Empréstimo com consignação em folha,142025253803.46,137579792466.6395
+58,2023-09-30,Aposentado/pensionista,Empréstimo sem consignação em folha,20394407144.11,19756052020.506565
+59,2023-09-30,Aposentado/pensionista,Habitacional,23345470852.14,22614745961.433765
+60,2023-09-30,Aposentado/pensionista,Outros créditos,12941413737.68,12536341027.904968
+61,2023-09-30,Aposentado/pensionista,Rural e agroindustrial,9896938770.6,9587159646.962833
+62,2023-09-30,Aposentado/pensionista,Veículos,14413917565.33,13962754750.740252
+63,2023-09-30,Autônomo,Cartão de crédito,32972858063.93,31940791147.92566
+64,2023-09-30,Autônomo,Empréstimo com consignação em folha,11323147075.38,10968726919.90264
+65,2023-09-30,Autônomo,Empréstimo sem consignação em folha,19421960593.45,18814043532.284855
+66,2023-09-30,Autônomo,Habitacional,63191627212.74,61213697738.49486
+67,2023-09-30,Autônomo,Outros créditos,22335682757.79,21636564738.478813
+68,2023-09-30,Autônomo,Rural e agroindustrial,122797904198.42,118954268501.68614
+69,2023-09-30,Autônomo,Veículos,23177535051.14,22452066634.831245
+70,2023-09-30,Empregado de empresa privada,Cartão de crédito,109234703908.18,105815603150.68486
+71,2023-09-30,Empregado de empresa privada,Empréstimo com consignação em folha,44779081835.97,43377474222.75216
+72,2023-09-30,Empregado de empresa privada,Empréstimo sem consignação em folha,58885114718.52,57041981234.96594
+73,2023-09-30,Empregado de empresa privada,Habitacional,369440860686.8,357877177338.6429
+74,2023-09-30,Empregado de empresa privada,Outros créditos,37249279808.98,36083358757.753586
+75,2023-09-30,Empregado de empresa privada,Rural e agroindustrial,21387087318.39,20717660809.829235
+76,2023-09-30,Empregado de empresa privada,Veículos,69773439837.54,67589496342.786674
+77,2023-09-30,Empregado de entidades sem fins lucrativos,Cartão de crédito,595235018.98,576603865.7707336
+78,2023-09-30,Empregado de entidades sem fins lucrativos,Empréstimo com consignação em folha,376420836.25,364638676.1826173
+79,2023-09-30,Empregado de entidades sem fins lucrativos,Empréstimo sem consignação em folha,271245214.23,262755103.63089696
+80,2023-09-30,Empregado de entidades sem fins lucrativos,Habitacional,1250395522.58,1211257518.58069
+82,2023-09-30,Empregado de entidades sem fins lucrativos,Rural e agroindustrial,294336897.09,285124005.2910245
+110,2023-09-30,Servidor ou empregado público,Rural e agroindustrial,14752017146.66,14290271646.410152

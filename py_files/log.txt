@@ -394,3 +394,107 @@ dtypes: float64(1), int32(1), object(4)
 memory usage: 416.4+ KB
 
 Git add, commit e push realizados com sucesso.
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/seaborn/matrix.py:260: FutureWarning: Format strings passed to MaskedConstant are ignored, but in future may error or produce different behavior
+  annotation = ("{:" + self.fmt + "}").format(val)
+/Users/brunamoura/monitor/py_files/df_corr_porte_pf.py:146: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  series_bacen_limpo['data'] = pd.to_datetime(series_bacen_limpo['data'])
+/Users/brunamoura/monitor/py_files/df_corr_porte_pf.py:152: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  series_bacen_limpo['data'] = series_bacen_limpo['data'].dt.strftime('%Y')
+/Users/brunamoura/monitor/py_files/df_corr_porte_pf.py:159: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  series_bacen_limpo[col] = series_bacen_limpo[col].astype(float)
+/Users/brunamoura/monitor/py_files/df_corr_porte_pf.py:159: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  series_bacen_limpo[col] = series_bacen_limpo[col].astype(float)
+/Users/brunamoura/monitor/py_files/df_corr_porte_pf.py:159: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  series_bacen_limpo[col] = series_bacen_limpo[col].astype(float)
+/Users/brunamoura/monitor/py_files/df_corr_porte_pf.py:159: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  series_bacen_limpo[col] = series_bacen_limpo[col].astype(float)
+/Users/brunamoura/monitor/py_files/df_corr_porte_pf.py:159: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  series_bacen_limpo[col] = series_bacen_limpo[col].astype(float)
+/Users/brunamoura/monitor/py_files/pf_juros_inflacao_modalidade_endividamentolp.py:14: UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+  import dash_core_components as dcc
+/Users/brunamoura/monitor/py_files/pf_juros_inflacao_modalidade_endividamentolp.py:15: UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+  import dash_html_components as html
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/py_files/PJ_agro.py:77: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_total_2022['perc'] = df_total_2022['valor_deflacionado']/soma_valor_deflacionado * 100
+/Users/brunamoura/monitor/py_files/PJ_agro.py:96: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_acumulado_corte['cnae_secao'] = df_acumulado_corte['cnae_secao'].str.replace("PJ - ", "")
+/Users/brunamoura/monitor/py_files/PJ_agro.py:97: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_acumulado_corte['cnae_subclasse'] = df_acumulado_corte['cnae_subclasse'].str.replace("PJ - ", "")
+/Users/brunamoura/monitor/py_files/PJ_agro.py:98: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_acumulado_corte['cnae_subclasse'] = df_acumulado_corte['cnae_subclasse'].str.replace("-", "Indisponível")
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
+/Users/brunamoura/monitor/venv/lib/python3.11/site-packages/deflatebr/deflate.py:90: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  df['deflated'] = df[['nom_values', 'VALVALOR']].apply(lambda x: ((real_indx/x[1]) * x[0])[0], axis=1)
